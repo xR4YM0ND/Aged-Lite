@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "skill": "luck",
+    "level": 14,
+    "item": [
+        "betterarcheology:diamond_brush",
+        "immersive_armors:divine_helmet",
+        "immersive_armors:divine_chestplate",
+        "immersive_armors:divine_leggings",
+        "immersive_armors:divine_boots"
+    ]
+}

@@ -1,0 +1,310 @@
+{
+    "bakery:brick_stove": {
+        "property": "lit",
+        "max_count": 3,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "bakery:stone_bricks_stove": {
+        "property": "lit",
+        "max_count": 3,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "bakery:cobblestone_stove": {
+        "property": "lit",
+        "max_count": 3,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "bakery:deepslate_stove": {
+        "property": "lit",
+        "max_count": 3,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "bakery:granite_stove": {
+        "property": "lit",
+        "max_count": 3,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "bakery:mud_stove": {
+        "property": "lit",
+        "max_count": 3,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "bakery:sandstone_stove": {
+        "property": "lit",
+        "max_count": 3,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "bakery:end_stove": {
+        "property": "lit",
+        "max_count": 3,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "bakery:red_nether_bricks_stove": {
+        "property": "lit",
+        "max_count": 3,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "bakery:quartz_stove": {
+        "property": "lit",
+        "max_count": 3,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "brewery:brew_oven": {
+        "property": "heat",
+        "max_count": 1,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "candlelight:cooking_pot": {
+        "property": "lit",
+        "max_count": 1,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "candlelight:cooking_pan": {
+        "property": "lit",
+        "max_count": 1,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "candlelight:cobblestone_stove": {
+        "property": "lit",
+        "max_count": 2,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "candlelight:sandstone_stove": {
+        "property": "lit",
+        "max_count": 2,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "candlelight:stone_bricks_stove": {
+        "property": "lit",
+        "max_count": 2,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "candlelight:deepslate_stove": {
+        "property": "lit",
+        "max_count": 2,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "candlelight:granite_stove": {
+        "property": "lit",
+        "max_count": 2,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "candlelight:end_stove": {
+        "property": "lit",
+        "max_count": 2,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "candlelight:mud_stove": {
+        "property": "lit",
+        "max_count": 2,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "candlelight:quartz_stove": {
+        "property": "lit",
+        "max_count": 2,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "candlelight:red_nether_bricks_stove": {
+        "property": "lit",
+        "max_count": 2,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "candlelight:basalt_stove": {
+        "property": "lit",
+        "max_count": 2,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "candlelight:bamboo_stove": {
+        "property": "lit",
+        "max_count": 2,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "herbalbrews:copper_tea_kettle": {
+        "property": "lit",
+        "max_count": 2,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "herbalbrews:tea_kettle": {
+        "property": "lit",
+        "max_count": 2,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "herbalbrews:cauldron": {
+        "max_count": 2,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "meadow:stove_tiles_wood": {
+        "property": "lit",
+        "max_count": 3,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "meadow:stove_tiles_lid": {
+        "property": "lit",
+        "max_count": 3,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "meadow:frame": {
+        "max_count": 2,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "meadow:cooking_pot": {
+        "property": "lit",
+        "max_count": 2,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "meadow:fondue": {
+        "max_count": 2,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "minecraft:magma_block": {
+        "max_count": 2,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "minecraft:furnace": {
+        "property": "lit",
+        "max_count": 2,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "minecraft:blast_furnace": {
+        "property": "lit",
+        "max_count": 2,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "minecraft:smoker": {
+        "property": "lit",
+        "max_count": 2,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "minecraft:campfire": {
+        "property": "lit",
+        "max_count": 2,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "minecraft:soul_campfire": {
+        "property": "lit",
+        "max_count": 2,
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 0
+    },
+    "vinery:stackable_log": {
+        "property": "fired",
+        "max_count": 3,
+        "0": 4,
+        "1": 3,
+        "2": 2,
+        "3": 1
+    }
+}

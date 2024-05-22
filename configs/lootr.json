@@ -1,0 +1,11 @@
+{
+    "breaking": {
+        "blast_resistant": true
+    },
+    "notifications": {
+        "disable_notifications": true
+    },
+    "vanilla": {
+        "vanilla_textures": true
+    }
+}

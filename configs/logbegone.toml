@@ -5,5 +5,10 @@ phrases = [
     "[Antique Atlas] No fallback could be found for",
     "was corrected from null to its default",
     "has been sitting for 100 ticks, forgetting",
+    "Hanging entity at invalid position:",
+    "Received passengers for unknown entity",
+    "Missing sound for event:",
+    "Unable to play empty soundEvent:",
+    "Empty height range: [-55 absolute--60 absolute]"
 ]
 regex = []

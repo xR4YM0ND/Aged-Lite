@@ -1,6 +1,6 @@
 {
-    "inventoryRecipeBookX": 76,
-    "inventoryRecipeBookY": 56,
+    "inventoryRecipeBookX": 0,
+    "inventoryRecipeBookY": 0,
     "printErrorMessage": true,
     "recipeList": [
         "minecraft:coal_from_blasting_coal_ore",

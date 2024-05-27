@@ -65,7 +65,7 @@
         "center": true,
         "object_center": true,
         "pos": [
-            -130,
+            -150,
             20
         ],
         "size": [
@@ -86,6 +86,7 @@
     "commands": [
         "/item replace entity @s hotbar.0 with minecraft:bread 4",
         "/item replace entity @s hotbar.1 with minecraft:apple 4",
+        "/item replace entity @s hotbar.4 with lavender:dynamic_book{BookId:'aged_lite:aged_lite_guide_book'}",
         "/item replace entity @s hotbar.7 with minecraft:potion{Potion:'minecraft:purified_water'}",
         "/item replace entity @s hotbar.8 with minecraft:campfire"
     ],

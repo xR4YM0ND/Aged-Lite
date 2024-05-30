@@ -15,6 +15,10 @@
         "structure": "minecraft:mansion",
         "factor": 2
     },
+    {
+        "structure": "formationsoverworld:witch_tower",
+        "factor": 8
+    }
     // add the structures you want to modify in the format:
     // {
     //     "structure": "namespace:structure_name",

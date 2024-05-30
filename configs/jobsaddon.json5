@@ -2,12 +2,10 @@
 	"employedJobs": 3,
 	"jobChangeTime": 24000,
 	"jobMaxLevel": 150,
-	// XP equation: lvl^exponent * multiplicator + base
 	"jobXPBaseCost": 100,
 	"jobXPCostMultiplicator": 1.6,
 	"jobXPExponent": 1,
 	"jobXPMaxCost": 0,
-	// Default xp per job execution
 	"brewerXP": 1,
 	"builderXP": 1,
 	"farmerXP": 1,
@@ -18,7 +16,6 @@
 	"warriorXP": 1,
 	"xpMultiplicator": 1,
 	"levelZXPMultiplicator": 1,
-	// Numismatic Overhaul compat lvl * multiplicator
 	"moneyMultiplicator": 1,
 	"allowMaxLvlProgress": true
 }

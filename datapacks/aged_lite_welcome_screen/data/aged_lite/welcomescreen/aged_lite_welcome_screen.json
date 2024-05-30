@@ -20,7 +20,7 @@
             20
         ],
         "text": "Join our Discord",
-        "link": "https://discord.gg/cV4cJyGXqF"
+        "link": "https://discord.gg/2peBqWRwVp"
     },
     "text_1": {
         "center": true,
@@ -31,8 +31,8 @@
         ],
         "text": [
             "Before you start your journey we want you",
-            "to know that you can access all guide books",
-            "via the inventory."
+            "to know that you can get the guide book",
+            "via a command /get-lavender-book."
         ]
     },
     "text_2": {

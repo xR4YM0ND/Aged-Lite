@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","extendeddrawersaddon:addon","seasons:seasonal_lush_caves","aged_lite_guide_book"]
+resourcePacks:["vanilla","fabric","extendeddrawersaddon:addon","seasons:seasonal_lush_caves","aged_lite_guide_book","tales_of_aged"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us

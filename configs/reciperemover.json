@@ -94,7 +94,8 @@
         "meadow:redstone_from_blasting_alpine_redstone_ore",
         "meadow:redstone_from_smelting_alpine_redstone_ore",
         "earlystage:steel_ingot_from_blasting",
-        "adventurez:netherite_scrap_from_warthog_piece"
+        "adventurez:netherite_scrap_from_warthog_piece",
+        "agedadditon:netherite_scrap_from_blasting_ancient_debris"
     ],
     "advancementList": []
 }

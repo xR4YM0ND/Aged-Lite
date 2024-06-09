@@ -1,3 +1,12 @@
+# Aged Lite 1.0.2
+
+## Fixed:
+
+- Ancient Debris wrong loot_table
+- Time and Wind config not loading
+
+---
+
 # Aged Lite 1.0.1
 
 ## Fixed:

@@ -26,8 +26,7 @@
             "minecraft:efficiency",
             "minecraft:multishot",
             "minecraft:piercing",
-            "minecraft:quick_charge",
-            "passableleaves:leaf_walker"
+            "minecraft:quick_charge"
         ]
     },
     "3": {

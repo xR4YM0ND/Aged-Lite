@@ -13,11 +13,7 @@
             "minecraft:snow_golem",
             "minecraft:villager",
             "minecraft:trader_llama",
-            "minecraft:wandering_trader",
-            "minecraft:cod",
-            "minecraft:salmon",
-            "minecraft:tadpole",
-            "minecraft:tropical_fish"
+            "minecraft:wandering_trader"
         ]
     },
     "2": {

@@ -19,7 +19,7 @@ Each food has its own 5 nutrient values which consist of:
 
 ;;;;;
 
-Currently the stomach has a max of 120 per nutrient
+Currently the stomach has a max of 300 per nutrient
 
 {gray}*// may changes in future updates*{}
 

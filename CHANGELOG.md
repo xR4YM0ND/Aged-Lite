@@ -9,16 +9,20 @@
 
 - Ancient Debris wrong loot_table
 - Time and Wind config not loading
+- Instant sleep & no hunger / hydration depletion
 - Misc
 
 ## Added:
 
-- Distant Horizons `2.1.2 a`
+- Distant Horizons `2.1.2 a` `// off by default`
 - Fishing Real `1.7.2`
+- Leaf Me Alone `1.0.1`
+- Noisium `2.0.3`
 
 ## Removed:
 
-- Nvidium `// not compatible with new sodium versions`
+- Nvidium `// incompatible with new Sodium versions`
+- Passable Leaves `// incompatible with Distant Horizons`
 
 ## Updated:
 
@@ -44,7 +48,9 @@
 - ModernFix ``
 - Neruina ``
 - NutritionZ ``
+- Raise Sound Limit Simplified ``
 - Sodium ``
+- Sparse Structures ``
 
 ---
 

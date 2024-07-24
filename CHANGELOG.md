@@ -10,6 +10,7 @@
 - Ancient Debris wrong loot_table
 - Time and Wind config not loading
 - Instant sleep & no hunger / hydration depletion
+- Missing count_roleester_shiraz dehydration compat
 - Misc
 
 ## Added:
@@ -26,31 +27,35 @@
 
 ## Updated:
 
-- [EMF] Entity Model Features ``
-- [ETF] Entity Texture Features ``
-- [Let's Do] API ``
-- [Let's Do] Bakery ``
-- [Let's Do] Brewery ``
-- [Let's Do] Candlelight ``
-- [Let's Do] HerbalBrews ``
-- [Let's Do] Meadow ``
-- [Let's Do] NetherVinery ``
-- [Let's Do] Vinery ``
-- Antique Atlas 4 ``
-- BadOptimizations ``
-- Balm ``
-- DungeonZ ``
-- EMI ``
-- Entity Culling ``
-- ImmediatelyFast ``
-- Indium ``
-- Iris Shaders ``
-- ModernFix ``
-- Neruina ``
-- NutritionZ ``
-- Raise Sound Limit Simplified ``
-- Sodium ``
-- Sparse Structures ``
+- **Fabric Loader** `0.16.0`
+- [EMF] Entity Model Features `2.1.3`
+- [ETF] Entity Texture Features `6.1.3`
+- [Let's Do] API `1.2.15`
+- [Let's Do] Bakery `1.1.14`
+- [Let's Do] Brewery `1.1.9`
+- [Let's Do] Candlelight `1.2.13`
+- [Let's Do] HerbalBrews `1.0.8.1`
+- [Let's Do] Meadow `1.3.18`
+- [Let's Do] NetherVinery `1.2.14`
+- [Let's Do] Vinery `1.4.26`
+- Aged Addition `1.0.6`
+- Antique Atlas 4 `2.9.12`
+- BadOptimizations `2.1.4`
+- Balm `7.3.6`
+- DungeonZ `1.0.6`
+- EMI `1.1.10`
+- Entity Culling `1.6.6`
+- Formations Nether `1.0.5`
+- Formations Overworld `1.0.4`
+- ImmediatelyFast `1.2.18`
+- Indium `1.0.34`
+- Iris Shaders `1.7.2`
+- ModernFix `5.18.10`
+- Neruina `2.1.0`
+- NutritionZ `1.0.9`
+- Raise Sound Limit Simplified `1.1.4`
+- Sodium `0.5.11`
+- Sparse Structures `2.2`
 
 ---
 

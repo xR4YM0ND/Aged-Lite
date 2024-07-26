@@ -1,0 +1,6 @@
+[submodule "datapacks/datapacks"]
+	path = datapacks/datapacks
+	url = https://github.com/xR4YM0ND/Tales-of-Aged
+[submodule "datapacks/tales_of_aged"]
+	path = datapacks/tales_of_aged
+	url = https://github.com/xR4YM0ND/Tales-of-Aged

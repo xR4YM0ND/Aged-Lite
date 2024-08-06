@@ -1,3 +1,39 @@
+# Aged Lite 1.0.3
+
+## Fixed:
+
+- Disabled trinket slot arrangement `// crashes server side`
+- Added barks & wheat to crafting rock items
+- Fixed conflicting recipes -> changed the recipes
+
+## Changed:
+
+- New backslot & beltslot slot position
+- New recipebook position
+- Removed wheat to bread recipe
+
+## Added:
+
+- [Let's Do Addon] EMI Compat `1.2`
+- Kiwi Library `11.8.19`
+- Passable Foliage `8.2.1`
+
+## Removed:
+
+- Leaf Me Alone `// Passable Foliage works with DH`
+- Spyglass Improvements `// strong client side lag / stutter`
+
+## Updated:
+
+- [Let's Do] Bakery `1.1.15`
+- [Let's Do] Meadow `1.3.19`
+- [Let's Do] Vinery `1.4.27`
+- Antique Atlas 4 `2.9.13`
+- ModernFix `5.19.0`
+- Neruina `2.1.1`
+
+---
+
 # Aged Lite 1.0.2
 
 ## Changed:

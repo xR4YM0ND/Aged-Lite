@@ -52,9 +52,6 @@
         "minecraft:redstone_from_blasting_redstone_ore",
         "minecraft:redstone_from_smelting_deepslate_redstone_ore",
         "minecraft:redstone_from_smelting_redstone_ore",
-        "minecraft:spectral_arrow",
-        "minecraft:arrow",
-        "minecraft:tipped_arrow",
         "minecraft:baked_potato",
         "minecraft:dried_kelp_from_smelting",
         "minecraft:cooked_beef",
@@ -96,7 +93,11 @@
         "meadow:redstone_from_smelting_alpine_redstone_ore",
         "earlystage:steel_ingot_from_blasting",
         "adventurez:netherite_scrap_from_warthog_piece",
-        "agedadditon:netherite_scrap_from_blasting_ancient_debris"
+        "chalk:crafting_table/chalk",
+        "chalk:crafting_table/glow_chalk",
+        "charmony:variant_wood/chest_minecart",
+        "charmony:variant_wood/bamboo_variant_chest_raft",
+        "vinery:dirt_slab"
     ],
     "advancementList": []
 }

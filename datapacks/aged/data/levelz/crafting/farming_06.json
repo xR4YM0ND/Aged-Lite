@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "skill": "farming",
+    "level": 6,
+    "item": [
+        "vinery:apple_press",
+        "nethervinery:warped_apple_press",
+        "nethervinery:crimson_apple_press"
+    ]
+}

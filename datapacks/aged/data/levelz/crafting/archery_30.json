@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "skill": "archery",
+    "level": 30,
+    "item": [
+        "immersive_aircraft:heavy_crossbow",
+        "amarite:amarite_disc"
+    ]
+}

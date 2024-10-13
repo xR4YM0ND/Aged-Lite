@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "skill": "farming",
+    "level": 7,
+    "item": [
+        "minecraft:stone_axe",
+        "minecraft:stone_hoe",
+        "farm_and_charm:mincer"
+    ]
+}

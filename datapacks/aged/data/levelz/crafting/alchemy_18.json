@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "skill": "alchemy",
+    "level": 17,
+    "item": [
+        "endermanoverhaul:corrupted_shield",
+        "endermanoverhaul:corrupted_blade"
+    ]
+}

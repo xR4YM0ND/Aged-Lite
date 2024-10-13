@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "skill": "alchemy",
+    "level": 15,
+    "item": [
+        "chipped:alchemy_bench"
+    ]
+}

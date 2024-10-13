@@ -1,0 +1,9 @@
+{
+    "replace": true,
+    "level": 27,
+    "block": [
+        "minecraft:ancient_debris",
+        "minecraft:netherite_block",
+        "brewery:netherite_brewingstation"
+    ]
+}

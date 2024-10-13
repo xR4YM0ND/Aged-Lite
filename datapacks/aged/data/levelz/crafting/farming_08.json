@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "skill": "farming",
+    "level": 8,
+    "item": [
+        "minecraft:golden_axe",
+        "minecraft:golden_hoe",
+        "meadow:woodcutter"
+    ]
+}

@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "skill": "alchemy",
-    "level": 1,
-    "item": [
-        "brewery:silo_wood",
-        "minecraft:brewing_stand"
-    ]
-}

@@ -1,3 +1,27 @@
+# Aged Lite 1.1.2
+
+This version is compatible with `Aged 3.1.2`
+
+## Updated:
+
+- [ETF] Entity Texture Features `6.2.8`
+- Fabric Languaged Kotlin `1.13.0 + k 2.1.0`
+- Forge Config API Port `8.0.1`
+- Formations (Structure Library) `1.0.3`
+- Fzzy Config `0.5.8`
+- ImmediatelyFast `1.3.2`
+- Immersive Aircraft `1.1.5`
+- Kiwi Library `11.8.27`
+- Luki's Grand Capitals `1.1.1`
+- ModernFix `5.19.5`
+- Moonlight Lib `2.13.33`
+- Neruina `2.2.4`
+- Puzzles Lib `8.1.25`
+- SeasonHUD-Fabric `1.11.5`
+- Villages&Pillages `1.0.2`
+
+---
+
 # Aged Lite 1.1.1
 
 This version is compatible with `Aged 3.1.1`

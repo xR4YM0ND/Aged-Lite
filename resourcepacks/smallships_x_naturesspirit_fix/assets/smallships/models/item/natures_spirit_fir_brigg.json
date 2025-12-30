@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "smallships:item/ship/natures_spirit_fir_brigg"
+  }
+}

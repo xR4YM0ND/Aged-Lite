@@ -1,0 +1,69 @@
+{
+    "type": "minecraft:ore",
+    "config": {
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "bloomingnature:travertin",
+                    "probability": 0.7
+                },
+                "state": {
+                    "Name": "agedaddition:travertin_carbon_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:tuff",
+                    "probability": 0.7
+                },
+                "state": {
+                    "Name": "agedaddition:tuff_carbon_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "hearth_and_timber:groutless_rubblestone",
+                    "probability": 0.7
+                },
+                "state": {
+                    "Name": "agedaddition:groutless_rubblestone_carbon_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:smooth_basalt",
+                    "probability": 0.7
+                },
+                "state": {
+                    "Name": "agedaddition:smooth_basalt_carbon_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:deepslate",
+                    "probability": 0.7
+                },
+                "state": {
+                    "Name": "stal-alloys:deepslate_carbon_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:blackstone",
+                    "probability": 0.7
+                },
+                "state": {
+                    "Name": "agedaddition:blackstone_carbon_ore"
+                }
+            }
+        ]
+    }
+}

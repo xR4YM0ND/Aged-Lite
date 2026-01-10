@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_mirrored",
+  "textures": {
+    "end": "natures_spirit:block/chert_top_copper_ore",
+    "side": "natures_spirit:block/chert_copper_ore"
+  }
+}

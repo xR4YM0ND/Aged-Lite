@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "natures_spirit:block/chert_top_emerald_ore",
+    "side": "natures_spirit:block/chert_emerald_ore"
+  }
+}

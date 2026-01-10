@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "supported_formats": {
+      "min_inclusive": 1,
+      "max_inclusive": 999
+    },
+    "pack_format": 45,
+    "description": "This datapack adds pillar block textures for default natures spirit ores."
+  }
+}

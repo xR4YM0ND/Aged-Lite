@@ -1,0 +1,62 @@
+{
+  "variants": {
+    "axis=x": [
+      {
+        "model": "natures_spirit:block/chert_redstone_ore",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "natures_spirit:block/chert_top_redstone_ore",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "natures_spirit:block/chert_redstone_ore",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "natures_spirit:block/chert_top_redstone_ore",
+        "x": 90,
+        "y": 90
+      }
+    ],
+    "axis=y": [
+      {
+        "model": "natures_spirit:block/chert_redstone_ore"
+      },
+      {
+        "model": "natures_spirit:block/chert_top_redstone_ore"
+      },
+      {
+        "model": "natures_spirit:block/chert_redstone_ore",
+        "y": 180
+      },
+      {
+        "model": "natures_spirit:block/chert_top_redstone_ore",
+        "y": 180
+      }
+    ],
+    "axis=z": [
+      {
+        "model": "natures_spirit:block/chert_redstone_ore",
+        "x": 90
+      },
+      {
+        "model": "natures_spirit:block/chert_top_redstone_ore",
+        "x": 90
+      },
+      {
+        "model": "natures_spirit:block/chert_redstone_ore",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "natures_spirit:block/chert_top_redstone_ore",
+        "x": 90,
+        "y": 180
+      }
+    ]
+  }
+}

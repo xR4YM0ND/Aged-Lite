@@ -7,6 +7,16 @@
             {
                 "target": {
                     "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:stone",
+                    "probability": 0.7
+                },
+                "state": {
+                    "Name": "minecraft:iron_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
                     "block": "natures_spirit:chert",
                     "probability": 0.7
                 },

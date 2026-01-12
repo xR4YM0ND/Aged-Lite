@@ -7,6 +7,36 @@
             {
                 "target": {
                     "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:stone",
+                    "probability": 0.7
+                },
+                "state": {
+                    "Name": "minecraft:redstone_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "natures_spirit:chert",
+                    "probability": 0.7
+                },
+                "state": {
+                    "Name": "natures_spirit:chert_redstone_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "meadow:limestone",
+                    "probability": 0.7
+                },
+                "state": {
+                    "Name": "meadow:alpine_redstone_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
                     "block": "bloomingnature:laterit",
                     "probability": 0.7
                 },
@@ -32,6 +62,16 @@
                 },
                 "state": {
                     "Name": "agedaddition:travertin_redstone_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:deepslate",
+                    "probability": 0.7
+                },
+                "state": {
+                    "Name": "minecraft:deepslate_redstone_ore"
                 }
             }
         ]

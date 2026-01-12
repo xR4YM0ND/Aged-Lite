@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "stal-alloys:carbon_ore"
+              "name": "meadow:alpine_lapis_ore"
             },
             {
               "type": "minecraft:item",
@@ -40,12 +40,13 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "stal-alloys:raw_carbon"
+              "name": "minecraft:lapis_lazuli"
             }
           ]
         }
       ],
       "rolls": 1.0
     }
-  ]
+  ],
+  "random_sequence": "minecraft:blocks/lapis_ore"
 }

@@ -7,6 +7,36 @@
             {
                 "target": {
                     "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:stone",
+                    "probability": 0.7
+                },
+                "state": {
+                    "Name": "minecraft:lapis_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "natures_spirit:chert",
+                    "probability": 0.7
+                },
+                "state": {
+                    "Name": "natures_spirit:chert_lapis_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "meadow:limestone",
+                    "probability": 0.7
+                },
+                "state": {
+                    "Name": "meadow:alpine_lapis_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
                     "block": "natures_spirit:travertine",
                     "probability": 0.7
                 },

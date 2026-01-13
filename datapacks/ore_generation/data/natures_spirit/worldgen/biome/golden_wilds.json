@@ -1,0 +1,236 @@
+{
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "has_precipitation": true,
+  "downfall": 0.3,
+  "effects": {
+    "sky_color": 9814505,
+    "fog_color": 13950967,
+    "water_color": 5929949,
+    "water_fog_color": 1644857,
+    "grass_color": 15259000,
+    "foliage_color": 10399058,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "natures_spirit:music.overworld.maple"
+    }
+  },
+  "features": [
+    [
+      "natures_spirit:granite_cliff"
+    ],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "agedaddition:ore_carbon_large",
+      "agedaddition:ore_carbon_medium",
+      "agedaddition:ore_carbon_small",
+      "agedaddition:ore_chromium_large",
+      "agedaddition:ore_chromium_medium",
+      "agedaddition:ore_chromium_small",
+      "agedaddition:ore_coal_large",
+      "agedaddition:ore_coal_medium",
+      "agedaddition:ore_coal_small",
+      "agedaddition:ore_copper_large",
+      "agedaddition:ore_copper_medium",
+      "agedaddition:ore_copper_small",
+      "agedaddition:ore_diamond_large",
+      "agedaddition:ore_diamond_medium",
+      "agedaddition:ore_diamond_small",
+      "agedaddition:ore_emerald_large",
+      "agedaddition:ore_emerald_medium",
+      "agedaddition:ore_emerald_small",
+      "agedaddition:ore_gold_large",
+      "agedaddition:ore_gold_medium",
+      "agedaddition:ore_gold_small",
+      "agedaddition:ore_iron_large",
+      "agedaddition:ore_iron_medium",
+      "agedaddition:ore_iron_small",
+      "agedaddition:ore_lapis_large",
+      "agedaddition:ore_lapis_medium",
+      "agedaddition:ore_lapis_small",
+      "agedaddition:ore_nickel_large",
+      "agedaddition:ore_nickel_medium",
+      "agedaddition:ore_nickel_small",
+      "agedaddition:ore_quartz_large",
+      "agedaddition:ore_quartz_medium",
+      "agedaddition:ore_quartz_small",
+      "agedaddition:ore_redstone_large",
+      "agedaddition:ore_redstone_medium",
+      "agedaddition:ore_redstone_small",
+      "agedaddition:ore_salt_large",
+      "agedaddition:ore_salt_medium",
+      "agedaddition:ore_salt_small",
+      "agedaddition:ore_tin_large",
+      "agedaddition:ore_tin_medium",
+      "agedaddition:ore_tin_small",
+      "agedaddition:ore_zinc_large",
+      "agedaddition:ore_zinc_medium",
+      "agedaddition:ore_zinc_small",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "natures_spirit:pumpkin_patch_feature_placed",
+      "natures_spirit:pumpkin_feature_placed",
+      "minecraft:glow_lichen",
+      "natures_spirit:maple_placed",
+      "natures_spirit:patch_tall_grass_2",
+      "natures_spirit:patch_grass_field",
+      "natures_spirit:flower_golden_placed",
+      "minecraft:forest_flowers",
+      "natures_spirit:patch_savanna_grass",
+      "minecraft:patch_sugar_cane"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "precipitation": "rain",
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "maxCount": 8,
+        "minCount": 8,
+        "weight": 10
+      }
+    ],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "minecraft:sheep",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 12
+      },
+      {
+        "type": "minecraft:pig",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:chicken",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:cow",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 8
+      },
+      {
+        "type": "minecraft:wolf",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 5
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:zombie",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 95
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:skeleton",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:creeper",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:slime",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:witch",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "maxCount": 6,
+        "minCount": 4,
+        "weight": 10
+      }
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.45
+}

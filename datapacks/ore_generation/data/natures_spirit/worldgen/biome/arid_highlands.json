@@ -1,0 +1,222 @@
+{
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "downfall": 0.0,
+  "effects": {
+    "fog_color": 12638463,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "natures_spirit:music.overworld.arid"
+    },
+    "sky_color": 7254527,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 14932871,
+    "foliage_color": 10399058
+  },
+  "features": [
+    [
+      "natures_spirit:kaolin_layers2",
+      "natures_spirit:chert_fixer"
+    ],
+    [
+      "natures_spirit:terracotta_on_yellow_terracotta",
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower",
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [
+      "minecraft:desert_well"
+    ],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "agedaddition:ore_carbon_large",
+      "agedaddition:ore_carbon_medium",
+      "agedaddition:ore_carbon_small",
+      "agedaddition:ore_chromium_large",
+      "agedaddition:ore_chromium_medium",
+      "agedaddition:ore_chromium_small",
+      "agedaddition:ore_coal_large",
+      "agedaddition:ore_coal_medium",
+      "agedaddition:ore_coal_small",
+      "agedaddition:ore_copper_large",
+      "agedaddition:ore_copper_medium",
+      "agedaddition:ore_copper_small",
+      "agedaddition:ore_diamond_large",
+      "agedaddition:ore_diamond_medium",
+      "agedaddition:ore_diamond_small",
+      "agedaddition:ore_emerald_large",
+      "agedaddition:ore_emerald_medium",
+      "agedaddition:ore_emerald_small",
+      "agedaddition:ore_gold_large",
+      "agedaddition:ore_gold_medium",
+      "agedaddition:ore_gold_small",
+      "agedaddition:ore_iron_large",
+      "agedaddition:ore_iron_medium",
+      "agedaddition:ore_iron_small",
+      "agedaddition:ore_lapis_large",
+      "agedaddition:ore_lapis_medium",
+      "agedaddition:ore_lapis_small",
+      "agedaddition:ore_nickel_large",
+      "agedaddition:ore_nickel_medium",
+      "agedaddition:ore_nickel_small",
+      "agedaddition:ore_quartz_large",
+      "agedaddition:ore_quartz_medium",
+      "agedaddition:ore_quartz_small",
+      "agedaddition:ore_redstone_large",
+      "agedaddition:ore_redstone_medium",
+      "agedaddition:ore_redstone_small",
+      "agedaddition:ore_salt_large",
+      "agedaddition:ore_salt_medium",
+      "agedaddition:ore_salt_small",
+      "agedaddition:ore_tin_large",
+      "agedaddition:ore_tin_medium",
+      "agedaddition:ore_tin_small",
+      "agedaddition:ore_zinc_large",
+      "agedaddition:ore_zinc_medium",
+      "agedaddition:ore_zinc_small",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel",
+      "natures_spirit:terracotta_on_sandy_soil"
+    ],
+    [],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "minecraft:glow_lichen",
+      "natures_spirit:rooted_desert_turnip_placed",
+      "natures_spirit:patch_drylands_grass",
+      "natures_spirit:sparse_saxaul_placed",
+      "minecraft:patch_dead_bush_2",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane_desert"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "maxCount": 8,
+        "minCount": 8,
+        "weight": 10
+      }
+    ],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "minecraft:rabbit",
+        "maxCount": 3,
+        "minCount": 2,
+        "weight": 4
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:zombie",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 19
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "minecraft:skeleton",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:creeper",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:slime",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:witch",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:husk",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 80
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "maxCount": 6,
+        "minCount": 4,
+        "weight": 10
+      }
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 2.0
+}

@@ -7,16 +7,6 @@
             {
                 "target": {
                     "predicate_type": "minecraft:random_block_match",
-                    "block": "bloomingnature:travertin",
-                    "probability": 0.7
-                },
-                "state": {
-                    "Name": "agedaddition:travertin_carbon_ore"
-                }
-            },
-            {
-                "target": {
-                    "predicate_type": "minecraft:random_block_match",
                     "block": "minecraft:tuff",
                     "probability": 0.7
                 },

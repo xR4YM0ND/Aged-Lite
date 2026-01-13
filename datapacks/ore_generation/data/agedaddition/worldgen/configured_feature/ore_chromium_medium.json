@@ -17,31 +17,11 @@
             {
                 "target": {
                     "predicate_type": "minecraft:random_block_match",
-                    "block": "bloomingnature:laterit",
-                    "probability": 0.7
-                },
-                "state": {
-                    "Name": "agedaddition:laterit_chromium_ore"
-                }
-            },
-            {
-                "target": {
-                    "predicate_type": "minecraft:random_block_match",
                     "block": "minecraft:granite",
                     "probability": 0.7
                 },
                 "state": {
                     "Name": "agedaddition:granite_chromium_ore"
-                }
-            },
-            {
-                "target": {
-                    "predicate_type": "minecraft:random_block_match",
-                    "block": "bloomingnature:travertin",
-                    "probability": 0.7
-                },
-                "state": {
-                    "Name": "agedaddition:travertin_chromium_ore"
                 }
             },
             {

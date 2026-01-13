@@ -13,10 +13,10 @@
             "height": {
                 "type": "minecraft:biased_to_bottom",
                 "min_inclusive": {
-                    "absolute": -54
+                    "absolute": -63
                 },
                 "max_inclusive": {
-                    "absolute": -35
+                    "absolute": -46
                 },
                 "inner": 4
             }

@@ -47,16 +47,6 @@
             {
                 "target": {
                     "predicate_type": "minecraft:random_block_match",
-                    "block": "bloomingnature:marlstone",
-                    "probability": 0.7
-                },
-                "state": {
-                    "Name": "agedaddition:marlstone_lapis_ore"
-                }
-            },
-            {
-                "target": {
-                    "predicate_type": "minecraft:random_block_match",
                     "block": "alpinewhispers:alpine_gneiss",
                     "probability": 0.7
                 },

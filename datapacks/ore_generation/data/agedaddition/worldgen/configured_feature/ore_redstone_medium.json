@@ -37,16 +37,6 @@
             {
                 "target": {
                     "predicate_type": "minecraft:random_block_match",
-                    "block": "bloomingnature:laterit",
-                    "probability": 0.7
-                },
-                "state": {
-                    "Name": "agedaddition:laterit_redstone_ore"
-                }
-            },
-            {
-                "target": {
-                    "predicate_type": "minecraft:random_block_match",
                     "block": "minecraft:granite",
                     "probability": 0.7
                 },
@@ -57,11 +47,11 @@
             {
                 "target": {
                     "predicate_type": "minecraft:random_block_match",
-                    "block": "bloomingnature:travertin",
+                    "block": "minecraft:tuff",
                     "probability": 0.7
                 },
                 "state": {
-                    "Name": "agedaddition:travertin_redstone_ore"
+                    "Name": "agedaddition:tuff_redstone_ore"
                 }
             },
             {

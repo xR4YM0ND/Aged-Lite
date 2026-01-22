@@ -1,0 +1,27 @@
+{
+    "feature": "agedaddition:ore_sparse_redstone_medium",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": 3
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": {
+                    "absolute": 135
+                },
+                "max_inclusive": {
+                    "absolute": 155
+                }
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

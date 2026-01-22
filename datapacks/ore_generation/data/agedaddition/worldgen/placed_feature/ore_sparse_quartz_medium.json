@@ -1,0 +1,27 @@
+{
+    "feature": "agedaddition:ore_sparse_quartz_medium",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": 3
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": {
+                    "absolute": 210
+                },
+                "max_inclusive": {
+                    "absolute": 290
+                }
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

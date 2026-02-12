@@ -6,12 +6,9 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.21,
+  "downfall": 0.9,
   "effects": {
-    "sky_color": 7321324,
-    "fog_color": 12772607,
-    "water_color": 4632530,
-    "water_fog_color": 533311,
+    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -22,19 +19,32 @@
       "max_delay": 24000,
       "min_delay": 12000,
       "replace_current_music": false,
-      "sound": "minecraft:music.overworld.forest"
-    }
+      "sound": "minecraft:music.overworld.frozen_peaks"
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:white_ash"
+      },
+      "probability": 0.2
+    },
+    "sky_color": 16777215,
+    "fog_color": 13224393,
+    "water_color": 10217203,
+    "water_fog_color": 270131,
+    "foliage_color": 11012890
   },
   "features": [
     [
-      "natures_spirit:kaolin_cliff"
-    ],
+      "wythers:terrain/extended/base_frozen_peaks",
+      "wythers:terrain/extended/replace_stone_to_andesite"
+	],
     [
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
     ],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "wythers:terrain/local/cave_ice"
     ],
     [
       "minecraft:monster_room",
@@ -102,25 +112,21 @@
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
-    [],
+    [
+      "minecraft:ore_infested"
+    ],
     [
       "minecraft:spring_water",
-      "minecraft:spring_lava"
+      "minecraft:spring_lava",
+      "minecraft:spring_lava_frozen"
     ],
     [
-      "minecraft:glow_lichen",
-      "natures_spirit:patch_tall_grass_2",
-      "natures_spirit:olive_placed",
-      "natures_spirit:dense_cypress_placed",
-      "natures_spirit:patch_grass_field",
-      "natures_spirit:flower_cypress_placed",
-      "minecraft:forest_flowers",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin",
-      "minecraft:patch_berry_common"
+      "minecraft:glow_lichen"
     ],
     [
-      "minecraft:freeze_top_layer"
+      "minecraft:freeze_top_layer",
+      "wythers:terrain/extended/base_frozen_peaks_snow",
+      "wythers:terrain/local/snowy_slopes"
     ]
   ],
   "has_precipitation": true,
@@ -137,33 +143,9 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "minecraft:sheep",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 12
-      },
-      {
-        "type": "minecraft:pig",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:chicken",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:cow",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 8
-      },
-      {
-        "type": "minecraft:wolf",
-        "maxCount": 4,
-        "minCount": 4,
+        "type": "minecraft:goat",
+        "maxCount": 3,
+        "minCount": 1,
         "weight": 5
       }
     ],
@@ -229,5 +211,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.94
+  "temperature": -0.7
 }

@@ -1,0 +1,13 @@
+{
+  "type": "stal-alloys:alloy_smelter",
+  "cookingtime": 400,
+  "experience": 5,
+  "ingredients": [
+    {
+      "item": "earlystage:clay_bucket"
+    }
+  ],
+  "result": {
+    "id": "earlystage:brick_bucket"
+  }
+}

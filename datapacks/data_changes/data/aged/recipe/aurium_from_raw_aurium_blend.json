@@ -1,0 +1,15 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "armorandtools:raw_aurium_blend",
+      "count": 1
+    }
+  ],
+  "output": {
+    "item": "armorandtools:aurium_ingot",
+    "count": 1
+  },
+  "min_forge_tier": 1,
+  "fuel_per_tick": 30
+}

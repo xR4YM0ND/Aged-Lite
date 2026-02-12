@@ -1,0 +1,273 @@
+{
+  "temperature": 2,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 6269917,
+    "fog_color": 12638463,
+    "water_color": 6388580,
+    "water_fog_color": 2302743,
+    "grass_color": 14074721,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    }
+  },
+  "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "minecraft:sheep",
+        "weight": 12,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:pig",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:cow",
+        "weight": 8,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:horse",
+        "weight": 1,
+        "minCount": 2,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:donkey",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:armadillo",
+        "maxCount": 3,
+        "minCount": 2,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:wolf",
+        "maxCount": 8,
+        "minCount": 4,
+        "weight": 2
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 95,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "wythers:terrain/local/stone_cliffs_surface",
+      "wythers:terrain/local/stone_cliffs",
+      "wythers:terrain/extended/scree",
+      "wythers:terrain/extended/base_savanna"
+    ],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface",
+      "wythers:terrain/extended/base_mangrove_swamp_savanna"
+    ],
+    [
+      "minecraft:amethyst_geode",
+      "wythers:terrain/extended/mangrove_swamp_savanna_filler"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "agedaddition:ore_carbon_large",
+      "agedaddition:ore_carbon_medium",
+      "agedaddition:ore_carbon_small",
+      "agedaddition:ore_chromium_large",
+      "agedaddition:ore_chromium_medium",
+      "agedaddition:ore_chromium_small",
+      "agedaddition:ore_coal_large",
+      "agedaddition:ore_coal_medium",
+      "agedaddition:ore_coal_small",
+      "agedaddition:ore_copper_large",
+      "agedaddition:ore_copper_medium",
+      "agedaddition:ore_copper_small",
+      "agedaddition:ore_diamond_large",
+      "agedaddition:ore_diamond_medium",
+      "agedaddition:ore_diamond_small",
+      "agedaddition:ore_emerald_large",
+      "agedaddition:ore_emerald_medium",
+      "agedaddition:ore_emerald_small",
+      "agedaddition:ore_gold_large",
+      "agedaddition:ore_gold_medium",
+      "agedaddition:ore_gold_small",
+      "agedaddition:ore_iron_large",
+      "agedaddition:ore_iron_medium",
+      "agedaddition:ore_iron_small",
+      "agedaddition:ore_lapis_large",
+      "agedaddition:ore_lapis_medium",
+      "agedaddition:ore_lapis_small",
+      "agedaddition:ore_nickel_large",
+      "agedaddition:ore_nickel_medium",
+      "agedaddition:ore_nickel_small",
+      "agedaddition:ore_quartz_large",
+      "agedaddition:ore_quartz_medium",
+      "agedaddition:ore_quartz_small",
+      "agedaddition:ore_redstone_large",
+      "agedaddition:ore_redstone_medium",
+      "agedaddition:ore_redstone_small",
+      "agedaddition:ore_salt_large",
+      "agedaddition:ore_salt_medium",
+      "agedaddition:ore_salt_small",
+      "agedaddition:ore_tin_large",
+      "agedaddition:ore_tin_medium",
+      "agedaddition:ore_tin_small",
+      "agedaddition:ore_zinc_large",
+      "agedaddition:ore_zinc_medium",
+      "agedaddition:ore_zinc_small",
+      "minecraft:underwater_magma",
+      "wythers:terrain/local/disk_packed_mud_shore",
+      "minecraft:disk_clay",
+      "wythers:terrain/local/savanna_packed_mud",
+      "wythers:terrain/local/red_sand_spread",
+      "wythers:terrain/local/replace_packed_mud_to_moss",
+      "wythers:terrain/extended/coastal_sand",
+      "wythers:terrain/extended/badlands_edge"
+    ],
+    [],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava",
+      "wythers:terrain/local/thermal_savanna_mud",
+      "wythers:terrain/local/thermal_savanna_dirt",
+      "wythers:terrain/local/thermal_savanna_brown",
+      "wythers:terrain/local/thermal_savanna_gray",
+      "wythers:terrain/local/thermal_savanna_soul",
+      "wythers:terrain/local/thermal_savanna_dripstone",
+      "wythers:terrain/feature/thermal_savanna_block_spikes"
+    ],
+    [
+      "minecraft:glow_lichen",
+      "wythers:vegetation/local/patch/tall_grass_savanna",
+      "wythers:vegetation/local/trees/savanna_mossy",
+      "wythers:vegetation/local/trees/savanna_woodland",
+      "wythers:vegetation/local/trees/savanna",
+      "wythers:vegetation/local/trees/savanna_sparse",
+      "wythers:vegetation/local/trees/savanna_rare",
+      "wythers:vegetation/local/trees/savanna_baobabs",
+      "wythers:vegetation/extended/trees/savanna_oaks",
+      "wythers:vegetation/local/patch/fern_cane",
+      "wythers:vegetation/local/patch/grass_savanna",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "wythers:vegetation/local/patch/floating_vegetation",
+      "wythers:vegetation/local/patch/floating_vegetation_plants",
+      "wythers:vegetation/local/patch/savanna_water_plants",
+      "wythers:terrain/feature/thermal_savanna_dripstone_spikes"
+    ],
+    [
+      "minecraft:freeze_top_layer",
+      "wythers:terrain/local/replace_basalt_to_tuff",
+      "wythers:decor/dense_steam",
+      "wythers:vegetation/local/other/baobab_interior"
+    ]
+  ]
+}

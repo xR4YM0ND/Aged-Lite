@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "agedaddition:stainless_steel_upgrade_template"
+  },
+  "base": {
+    "item": "earlystage:steel_boots"
+  },
+  "addition": {
+    "item": "agedaddition:stainless_steel_sheet"
+  },
+  "result": {
+    "id": "stal-alloys:stainless_steel_boots"
+  }
+}

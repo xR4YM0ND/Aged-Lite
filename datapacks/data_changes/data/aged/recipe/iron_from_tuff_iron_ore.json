@@ -1,0 +1,15 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "agedaddition:tuff_iron_ore",
+      "count": 1
+    }
+  ],
+  "output": {
+    "item": "minecraft:iron_ingot",
+    "count": 1
+  },
+  "min_forge_tier": 1,
+  "fuel_per_tick": 20
+}

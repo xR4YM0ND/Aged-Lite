@@ -1,0 +1,16 @@
+{
+  "type": "stal-alloys:alloy_smelter",
+  "cookingtime": 30,
+  "experience": 1,
+  "ingredients": [
+    {
+      "item": "lilis_pottery:red_clay_ball"
+    },
+    {
+      "item": "lilis_pottery:red_clay_ball"
+    }
+  ],
+  "result": {
+    "id": "lilis_pottery:red_brick"
+  }
+}

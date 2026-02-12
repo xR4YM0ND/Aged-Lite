@@ -1,0 +1,19 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "minecraft:raw_copper",
+      "count": 2
+    },
+    {
+      "item": "minecraft:raw_gold",
+      "count": 1
+    }
+  ],
+  "output": {
+    "item": "rosegoldequipment:rose_gold_ingot",
+    "count": 1
+  },
+  "min_forge_tier": 1,
+  "fuel_per_tick": 16
+}

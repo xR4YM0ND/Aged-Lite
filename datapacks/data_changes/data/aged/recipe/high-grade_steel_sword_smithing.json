@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "earth-and-water:steel_upgrade_smithing_template"
+  },
+  "base": {
+    "tag": "aged:recipes/high-grade_steel_sword"
+  },
+  "addition": {
+    "item": "agedaddition:high-grade_steel_sheet"
+  },
+  "result": {
+    "id": "earlystage:steel_sword"
+  }
+}

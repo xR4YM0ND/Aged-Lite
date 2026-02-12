@@ -6,28 +6,31 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.21,
+  "downfall": 0.5,
   "effects": {
-    "sky_color": 7321324,
-    "fog_color": 12772607,
-    "water_color": 4632530,
-    "water_fog_color": 533311,
+    "additions_sound": {
+      "sound": "minecraft:ambient.soul_sand_valley.additions",
+      "tick_chance": 0.05
+    },
+    "ambient_sound": "minecraft:ambient.underwater.loop",
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "music": {
-      "max_delay": 24000,
-      "min_delay": 12000,
-      "replace_current_music": false,
-      "sound": "minecraft:music.overworld.forest"
-    }
+    "sky_color": 6855345,
+    "fog_color": 12774399,
+    "water_color": 3239574,
+    "water_fog_color": 331305
   },
   "features": [
     [
-      "natures_spirit:kaolin_cliff"
+      "wythers:terrain/carver/ocean",
+      "wythers:terrain/extended/ocean_beach_gravel",
+      "wythers:terrain/extended/cold_ocean_gravel",
+      "wythers:terrain/extended/dover_cliffs",
+      "wythers:terrain/local/ocean_rock"
     ],
     [
       "minecraft:lake_lava_underground",
@@ -98,9 +101,8 @@
       "agedaddition:ore_zinc_medium",
       "agedaddition:ore_zinc_small",
       "minecraft:underwater_magma",
-      "minecraft:disk_sand",
-      "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel",
+      "wythers:terrain/local/beach_mossy_stone"
     ],
     [],
     [
@@ -109,15 +111,16 @@
     ],
     [
       "minecraft:glow_lichen",
-      "natures_spirit:patch_tall_grass_2",
-      "natures_spirit:olive_placed",
-      "natures_spirit:dense_cypress_placed",
-      "natures_spirit:patch_grass_field",
-      "natures_spirit:flower_cypress_placed",
-      "minecraft:forest_flowers",
+      "minecraft:trees_water",
+      "minecraft:flower_default",
+      "minecraft:patch_grass_badlands",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "minecraft:patch_berry_common"
+      "minecraft:seagrass_cold",
+      "minecraft:seagrass_simple",
+      "minecraft:kelp_cold"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -135,38 +138,7 @@
       }
     ],
     "axolotls": [],
-    "creature": [
-      {
-        "type": "minecraft:sheep",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 12
-      },
-      {
-        "type": "minecraft:pig",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:chicken",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:cow",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 8
-      },
-      {
-        "type": "minecraft:wolf",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 5
-      }
-    ],
+    "creature": [],
     "misc": [],
     "monster": [
       {
@@ -216,6 +188,12 @@
         "maxCount": 1,
         "minCount": 1,
         "weight": 5
+      },
+      {
+        "type": "minecraft:drowned",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
       }
     ],
     "underground_water_creature": [
@@ -226,8 +204,28 @@
         "weight": 10
       }
     ],
-    "water_ambient": [],
-    "water_creature": []
+    "water_ambient": [
+      {
+        "type": "minecraft:cod",
+        "maxCount": 6,
+        "minCount": 3,
+        "weight": 15
+      },
+      {
+        "type": "minecraft:salmon",
+        "maxCount": 5,
+        "minCount": 1,
+        "weight": 15
+      }
+    ],
+    "water_creature": [
+      {
+        "type": "minecraft:squid",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 3
+      }
+    ]
   },
-  "temperature": 0.94
+  "temperature": 0.5
 }

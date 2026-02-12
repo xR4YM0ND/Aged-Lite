@@ -6,35 +6,40 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.21,
+  "downfall": 0.0,
   "effects": {
-    "sky_color": 7321324,
-    "fog_color": 12772607,
-    "water_color": 4632530,
-    "water_fog_color": 533311,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "music": {
-      "max_delay": 24000,
-      "min_delay": 12000,
-      "replace_current_music": false,
-      "sound": "minecraft:music.overworld.forest"
-    }
+    "sky_color": 6269917,
+    "fog_color": 12638463,
+    "water_color": 4562649,
+    "water_fog_color": 331305,
+    "foliage_color": 16695614
   },
   "features": [
     [
-      "natures_spirit:kaolin_cliff"
+      "wythers:road/harvest_fields_1",
+      "wythers:road/harvest_fields_1b",
+      "wythers:road/harvest_fields_2",
+      "wythers:road/harvest_fields_2b",
+      "wythers:road/harvest_fields_3",
+      "wythers:road/harvest_fields_4",
+      "wythers:farm/harvest_fields_1",
+      "wythers:farm/harvest_fields_2",
+      "wythers:farm/harvest_fields_3",
+      "wythers:terrain/extended/replace_stone_to_granite"
     ],
     [
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
     ],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "minecraft:large_dripstone"
     ],
     [
       "minecraft:monster_room",
@@ -102,22 +107,38 @@
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
-    [],
+    [
+      "wythers:terrain/feature/dripstone_cluster",
+      "wythers:terrain/feature/pointed_dripstone",
+      "wythers:vegetation/local/patch/flower_bluebells",
+      "wythers:vegetation/local/patch/flower_bluebells_2",
+      "wythers:vegetation/extended/trees/ancient_spring_woods",
+      "wythers:vegetation/extended/trees/ancient_spring_woods_2",
+      "wythers:vegetation/extended/trees/ancient_beech_woods",
+      "wythers:vegetation/extended/trees/ancient_beech_woods_2"
+    ],
     [
       "minecraft:spring_water",
-      "minecraft:spring_lava"
+      "wythers:terrain/feature/spring_lava"
     ],
     [
       "minecraft:glow_lichen",
-      "natures_spirit:patch_tall_grass_2",
-      "natures_spirit:olive_placed",
-      "natures_spirit:dense_cypress_placed",
-      "natures_spirit:patch_grass_field",
-      "natures_spirit:flower_cypress_placed",
-      "minecraft:forest_flowers",
+      "wythers:farm/harvest_fields_scarecrow",
+      "wythers:farm/harvest_fields_hay",
+      "wythers:farm/harvest_fields_hay_2",
+      "wythers:farm/harvest_fields_pumpkin",
+      "wythers:farm/harvest_fields_wheat",
+      "wythers:farm/harvest_fields_wheat_2",
+      "minecraft:patch_tall_grass_2",
+      "wythers:vegetation/local/patch/sunflower_birch_forest",
+      "wythers:farm/harvest_fields_stumps",
+      "wythers:vegetation/local/trees/harvest_fields_woods_1",
+      "wythers:vegetation/local/trees/harvest_fields_woods_2",
+      "minecraft:patch_grass_plain",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin",
-      "minecraft:patch_berry_common"
+      "minecraft:patch_pumpkin"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -161,10 +182,16 @@
         "weight": 8
       },
       {
-        "type": "minecraft:wolf",
-        "maxCount": 4,
-        "minCount": 4,
+        "type": "minecraft:horse",
+        "maxCount": 6,
+        "minCount": 2,
         "weight": 5
+      },
+      {
+        "type": "minecraft:donkey",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 1
       }
     ],
     "misc": [],
@@ -229,5 +256,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.94
+  "temperature": 0.7
 }

@@ -1,0 +1,17 @@
+{
+    "item.minecraft.diamond_axe": "Diamond Infused Alloy Axe",
+    "item.minecraft.diamond_boots": "Diamond Infused Alloy Boots",
+    "item.minecraft.diamond_chestplate": "Diamond Infused Alloy Chestplate",
+    "item.minecraft.diamond_helmet": "Diamond Infused Alloy Helmet",
+    "item.minecraft.diamond_hoe": "Diamond Infused Alloy Hoe",
+    "item.minecraft.diamond_horse_armor": "Diamond Infused Alloy Horse Armor",
+    "item.minecraft.diamond_leggings": "Diamond Infused Alloy Leggings",
+    "item.minecraft.diamond_pickaxe": "Diamond Infused Alloy Pickaxe",
+    "item.minecraft.diamond_shovel": "Diamond Infused Alloy Shovel",
+    "item.minecraft.diamond_sword": "Diamond Infused Alloy Sword",
+    "item.minecraft.netherite_upgrade_smithing_template": "Netherite Steel Upgrade",
+    "item.minecraft.smithing_template.netherite_upgrade.additions_slot_description": "Add Block",
+    "item.minecraft.smithing_template.netherite_upgrade.applies_to": "High-Grade Steel Equipment",
+    "item.minecraft.smithing_template.netherite_upgrade.base_slot_description": "Add Tools / Weapons / Armor",
+    "item.minecraft.smithing_template.netherite_upgrade.ingredients": "Netherite Steel Block"
+}

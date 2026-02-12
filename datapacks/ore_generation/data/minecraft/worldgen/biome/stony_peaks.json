@@ -6,12 +6,12 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.21,
+  "downfall": 0.3,
   "effects": {
-    "sky_color": 7321324,
-    "fog_color": 12772607,
-    "water_color": 4632530,
-    "water_fog_color": 533311,
+    "additions_sound": {
+      "sound": "minecraft:ambient.soul_sand_valley.additions",
+      "tick_chance": 0.0111
+    },
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -22,12 +22,20 @@
       "max_delay": 24000,
       "min_delay": 12000,
       "replace_current_music": false,
-      "sound": "minecraft:music.overworld.forest"
-    }
+      "sound": "minecraft:music.overworld.stony_peaks"
+    },
+    "sky_color": 6269917,
+    "fog_color": 12638463,
+    "water_color": 4445678,
+    "water_fog_color": 270131,
+    "grass_color": 12826152,
+    "foliage_color": 9285927
   },
   "features": [
     [
-      "natures_spirit:kaolin_cliff"
+      "wythers:terrain/local/replace_calcite_to_stone",
+      "wythers:terrain/local/volcanic_resurfacing"
+    
     ],
     [
       "minecraft:lake_lava_underground",
@@ -40,8 +48,14 @@
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
-    [],
-    [],
+    [
+      "wythers:terrain/local/volcanic_pools"
+    ],
+    [
+      "wythers:terrain/local/volcanic_basalt_cliffs",
+      "wythers:terrain/extended/volcanic_flows",
+      "wythers:terrain/extended/volcanic_flows_ore"
+    ],
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
@@ -102,25 +116,20 @@
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
-    [],
+    [
+      "minecraft:ore_infested"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
       "minecraft:glow_lichen",
-      "natures_spirit:patch_tall_grass_2",
-      "natures_spirit:olive_placed",
-      "natures_spirit:dense_cypress_placed",
-      "natures_spirit:patch_grass_field",
-      "natures_spirit:flower_cypress_placed",
-      "minecraft:forest_flowers",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin",
-      "minecraft:patch_berry_common"
+      "wythers:vegetation/local/patch/grass_standard"
     ],
     [
-      "minecraft:freeze_top_layer"
+      "minecraft:freeze_top_layer",
+      "wythers:decor/sparse_steam"
     ]
   ],
   "has_precipitation": true,
@@ -135,38 +144,7 @@
       }
     ],
     "axolotls": [],
-    "creature": [
-      {
-        "type": "minecraft:sheep",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 12
-      },
-      {
-        "type": "minecraft:pig",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:chicken",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:cow",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 8
-      },
-      {
-        "type": "minecraft:wolf",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 5
-      }
-    ],
+    "creature": [],
     "misc": [],
     "monster": [
       {
@@ -229,5 +207,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.94
+  "temperature": 0.5
 }

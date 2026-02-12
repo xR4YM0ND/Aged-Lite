@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "armorandtools:iron_upgrade_template"
+  },
+  "base": {
+    "item": "stal-alloys:bronze_axe"
+  },
+  "addition": {
+    "item": "armorandtools:reinforced_iron_sheet"
+  },
+  "result": {
+    "id": "minecraft:iron_axe"
+  }
+}

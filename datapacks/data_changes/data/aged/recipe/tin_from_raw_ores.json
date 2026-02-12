@@ -1,0 +1,15 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "stal-alloys:raw_tin",
+      "count": 1
+    }
+  ],
+  "output": {
+    "item": "stal-alloys:tin_ingot",
+    "count": 1
+  },
+  "min_forge_tier": 1,
+  "fuel_per_tick": 25
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "agedaddition:bronze_upgrade_template"
+  },
+  "base": {
+    "item": "armorandtools:copper_hoe"
+  },
+  "addition": {
+    "item": "agedaddition:bronze_sheet"
+  },
+  "result": {
+    "id": "agedaddition:bronze_hoe"
+  }
+}

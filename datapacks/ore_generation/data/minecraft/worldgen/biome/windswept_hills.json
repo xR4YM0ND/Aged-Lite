@@ -1,0 +1,242 @@
+{
+  "temperature": 2,
+  "downfall": 0,
+  "has_precipitation": true,
+  "effects": {
+    "sky_color": 12830407,
+    "fog_color": 13882581,
+    "water_color": 7499128,
+    "water_fog_color": 4341314,
+    "grass_color": 8286834,
+    "foliage_color": 8286834,
+    "additions_sound": {
+      "sound": "minecraft:ambient.soul_sand_valley.additions",
+      "tick_chance": 0.0111
+    },
+    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.nether.soul_sand_valley"
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
+      },
+      "probability": 0.118093334
+    }
+  },
+  "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "minecraft:sheep",
+        "weight": 12,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:pig",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:cow",
+        "weight": 8,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:llama",
+        "weight": 5,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 95,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "wythers:terrain/local/volcanic_resurfacing"
+    ],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [
+      "wythers:terrain/local/volcanic_pools"
+    ],
+    [
+      "wythers:terrain/local/volcanic_basalt_cliffs",
+      "wythers:terrain/extended/volcanic_fallout",
+      "wythers:terrain/extended/volcanic_fallout_ore"
+    ],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "agedaddition:ore_carbon_large",
+      "agedaddition:ore_carbon_medium",
+      "agedaddition:ore_carbon_small",
+      "agedaddition:ore_chromium_large",
+      "agedaddition:ore_chromium_medium",
+      "agedaddition:ore_chromium_small",
+      "agedaddition:ore_coal_large",
+      "agedaddition:ore_coal_medium",
+      "agedaddition:ore_coal_small",
+      "agedaddition:ore_copper_large",
+      "agedaddition:ore_copper_medium",
+      "agedaddition:ore_copper_small",
+      "agedaddition:ore_diamond_large",
+      "agedaddition:ore_diamond_medium",
+      "agedaddition:ore_diamond_small",
+      "agedaddition:ore_emerald_large",
+      "agedaddition:ore_emerald_medium",
+      "agedaddition:ore_emerald_small",
+      "agedaddition:ore_gold_large",
+      "agedaddition:ore_gold_medium",
+      "agedaddition:ore_gold_small",
+      "agedaddition:ore_iron_large",
+      "agedaddition:ore_iron_medium",
+      "agedaddition:ore_iron_small",
+      "agedaddition:ore_lapis_large",
+      "agedaddition:ore_lapis_medium",
+      "agedaddition:ore_lapis_small",
+      "agedaddition:ore_nickel_large",
+      "agedaddition:ore_nickel_medium",
+      "agedaddition:ore_nickel_small",
+      "agedaddition:ore_quartz_large",
+      "agedaddition:ore_quartz_medium",
+      "agedaddition:ore_quartz_small",
+      "agedaddition:ore_redstone_large",
+      "agedaddition:ore_redstone_medium",
+      "agedaddition:ore_redstone_small",
+      "agedaddition:ore_salt_large",
+      "agedaddition:ore_salt_medium",
+      "agedaddition:ore_salt_small",
+      "agedaddition:ore_tin_large",
+      "agedaddition:ore_tin_medium",
+      "agedaddition:ore_tin_small",
+      "agedaddition:ore_zinc_large",
+      "agedaddition:ore_zinc_medium",
+      "agedaddition:ore_zinc_small",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [
+      "minecraft:ore_infested"
+    ],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "minecraft:glow_lichen",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal"
+    ],
+    [
+      "minecraft:freeze_top_layer",
+      "wythers:decor/sparse_steam"
+    ]
+  ]
+}

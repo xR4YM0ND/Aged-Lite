@@ -1,0 +1,17 @@
+{
+  "material": "minecraft:polished_blackstone",
+  "additional_materials": [
+    "minecraft:polished_blackstone_bricks",
+    "minecraft:chiseled_polished_blackstone",
+    "minecraft:cracked_polished_blackstone_bricks",
+    "stoneworks:mossy_blackstone_bricks",
+    "stoneworks:blackstone_tiles",
+    "stoneworks:cracked_blackstone_tiles",
+    "stoneworks:blackstone_pillar",
+    "stoneworks:blackstone_shingles",
+    "stoneworks:blackstone_plates"
+  ],
+  "tier": 4,
+  "speed_multiplier": 1.5,
+  "fuel_capacity": 96000
+}

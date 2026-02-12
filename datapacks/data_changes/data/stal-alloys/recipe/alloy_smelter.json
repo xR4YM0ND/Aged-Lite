@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:mud_bricks"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#F#",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "stal-alloys:alloy_smelter"
+  }
+}

@@ -6,12 +6,8 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.21,
+  "downfall": 0.0,
   "effects": {
-    "sky_color": 7321324,
-    "fog_color": 12772607,
-    "water_color": 4632530,
-    "water_fog_color": 533311,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -22,26 +18,38 @@
       "max_delay": 24000,
       "min_delay": 12000,
       "replace_current_music": false,
-      "sound": "minecraft:music.overworld.forest"
-    }
+      "sound": "minecraft:music.overworld.flower_forest"
+    },
+    "foliage_color": 11123575,
+    "sky_color": 7391487,
+    "fog_color": 14598542,
+    "water_color": 4445678,
+    "water_fog_color": 270131
   },
   "features": [
     [
-      "natures_spirit:kaolin_cliff"
+      "wythers:terrain/local/stone_cliffs_plus",
+      "wythers:road/andesite",
+      "wythers:terrain/extended/replace_stone_to_diorite"
     ],
     [
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
     ],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "wythers:terrain/local/replace_granite_to_diorite"
     ],
     [
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
     [],
-    [],
+    [
+      "wythers:terrain/local/cave_disk_basalt",
+      "wythers:terrain/local/cave_disk_blackstone",
+      "wythers:terrain/local/cave_disk_magma"
+    ],
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
@@ -98,9 +106,12 @@
       "agedaddition:ore_zinc_medium",
       "agedaddition:ore_zinc_small",
       "minecraft:underwater_magma",
+      "wythers:terrain/local/disk_sand_shore",
+      "wythers:terrain/extended/disk_clay_dirt_only",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel",
+	  "wythers:terrain/local/replace_volcanics_flower_forest"
     ],
     [],
     [
@@ -109,18 +120,25 @@
     ],
     [
       "minecraft:glow_lichen",
-      "natures_spirit:patch_tall_grass_2",
-      "natures_spirit:olive_placed",
-      "natures_spirit:dense_cypress_placed",
-      "natures_spirit:patch_grass_field",
-      "natures_spirit:flower_cypress_placed",
-      "minecraft:forest_flowers",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin",
-      "minecraft:patch_berry_common"
+      "wythers:vegetation/local/bushes/mediterranean",
+      "wythers:vegetation/extended/trees/mediterranean_woods",
+      "wythers:vegetation/local/patch/flower_mediterranean_lilacs",
+      "wythers:vegetation/extended/trees/sclerophyllous_woods",
+      "wythers:vegetation/extended/trees/savanna_mediterranean_woods",
+      "wythers:vegetation/extended/trees/windbreak_1",
+      "wythers:vegetation/extended/trees/windbreak_2",
+      "wythers:vegetation/extended/patch/flower_dry_mediterranean",
+      "wythers:vegetation/local/patch/grass_standard",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal"
     ],
     [
-      "minecraft:freeze_top_layer"
+      "minecraft:freeze_top_layer",
+      "wythers:terrain/local/pamukkale_diorite",
+      "wythers:terrain/local/pamukkale_calcite",
+      "wythers:terrain/local/pamukkale_pools",
+      "wythers:terrain/extended/volcanic_extinction",
+      "wythers:decor/dense_steam"
     ]
   ],
   "has_precipitation": true,
@@ -161,10 +179,10 @@
         "weight": 8
       },
       {
-        "type": "minecraft:wolf",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 5
+        "type": "minecraft:rabbit",
+        "maxCount": 3,
+        "minCount": 2,
+        "weight": 4
       }
     ],
     "misc": [],
@@ -229,5 +247,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.94
+  "temperature": 1.2
 }

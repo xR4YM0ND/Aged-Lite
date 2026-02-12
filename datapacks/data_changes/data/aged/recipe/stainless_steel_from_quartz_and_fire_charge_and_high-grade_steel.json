@@ -1,0 +1,23 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "earlystage:steel_ingot",
+      "count": 1
+    },
+    {
+      "item": "minecraft:quartz",
+      "count": 1
+    },
+    {
+      "item": "minecraft:fire_charge",
+      "count": 1
+    }
+  ],
+  "output": {
+    "item": "stal-alloys:stainless_steel_ingot",
+    "count": 1
+  },
+  "min_forge_tier": 1,
+  "fuel_per_tick": 500
+}

@@ -1,0 +1,19 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "minecraft:raw_copper",
+      "count": 2
+    },
+    {
+      "item": "stal-alloys:raw_tin",
+      "count": 1
+    }
+  ],
+  "output": {
+    "item": "stal-alloys:bronze_ingot",
+    "count": 1
+  },
+  "min_forge_tier": 1,
+  "fuel_per_tick": 20
+}

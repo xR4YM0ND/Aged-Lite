@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beetroot",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": "Farming",
+    "description": "A fresh start!",
+    "background": "minecraft:moss",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

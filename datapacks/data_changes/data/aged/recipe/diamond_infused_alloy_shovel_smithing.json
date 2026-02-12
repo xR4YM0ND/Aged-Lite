@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "armorandtools:diamond_upgrade_template"
+  },
+  "base": {
+    "item": "stal-alloys:steel_shovel"
+  },
+  "addition": {
+    "item": "agedaddition:diamond_infused_alloy_sheet"
+  },
+  "result": {
+    "id": "minecraft:diamond_shovel"
+  }
+}

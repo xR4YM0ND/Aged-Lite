@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "armorandtools:aurium_upgrade_template"
+  },
+  "base": {
+    "item": "minecraft:iron_shovel"
+  },
+  "addition": {
+    "item": "armorandtools:reinforced_aurium_sheet"
+  },
+  "result": {
+    "id": "armorandtools:aurium_shovel"
+  }
+}

@@ -6,32 +6,38 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.21,
+  "downfall": 0.5,
   "effects": {
-    "sky_color": 7321324,
-    "fog_color": 12772607,
-    "water_color": 4632530,
-    "water_fog_color": 533311,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "music": {
-      "max_delay": 24000,
-      "min_delay": 12000,
-      "replace_current_music": false,
-      "sound": "minecraft:music.overworld.forest"
-    }
+    "sky_color": 6269917,
+    "fog_color": 12638463,
+    "water_color": 4445678,
+    "water_fog_color": 270131,
+    "grass_color": 11122488,
+    "foliage_color": 9285927
   },
   "features": [
     [
-      "natures_spirit:kaolin_cliff"
+      "wythers:terrain/carver/ocean",
+      "wythers:terrain/extended/ocean_beach_sand",
+      "wythers:terrain/extended/dead_coral_stone",
+      "wythers:terrain/extended/dead_coral_stone_2",
+      "wythers:terrain/extended/replace_gravel_to_sand",
+      "wythers:terrain/extended/replace_dirt_to_sand",
+      "wythers:terrain/extended/sandify_rooted_dirt",
+      "wythers:terrain/extended/replace_mud_to_sand",
+      "wythers:terrain/local/atoll_grass"
     ],
     [
       "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+      "minecraft:lake_lava_surface",
+      "wythers:terrain/extended/coral_pools",
+      "wythers:terrain/extended/coral_pools_edge"
     ],
     [
       "minecraft:amethyst_geode"
@@ -98,9 +104,7 @@
       "agedaddition:ore_zinc_medium",
       "agedaddition:ore_zinc_small",
       "minecraft:underwater_magma",
-      "minecraft:disk_sand",
-      "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "wythers:vegetation/local/other/coral_disks"
     ],
     [],
     [
@@ -109,15 +113,17 @@
     ],
     [
       "minecraft:glow_lichen",
-      "natures_spirit:patch_tall_grass_2",
-      "natures_spirit:olive_placed",
-      "natures_spirit:dense_cypress_placed",
-      "natures_spirit:patch_grass_field",
-      "natures_spirit:flower_cypress_placed",
-      "minecraft:forest_flowers",
+      "wythers:vegetation/local/trees/jungle_island_bent",
+      "wythers:vegetation/local/trees/jungle_island",
+      "wythers:vegetation/local/patch/pineapples",
+      "minecraft:patch_grass_jungle",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "minecraft:patch_berry_common"
+      "minecraft:seagrass_warm",
+      "minecraft:sea_pickle",
+      "wythers:vegetation/local/other/cocoanuts"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -137,38 +143,38 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "minecraft:sheep",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 12
-      },
-      {
         "type": "minecraft:pig",
         "maxCount": 4,
-        "minCount": 4,
-        "weight": 10
+        "minCount": 2,
+        "weight": 100
       },
       {
         "type": "minecraft:chicken",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 10
+        "weight": 50
       },
       {
-        "type": "minecraft:cow",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 8
+        "type": "minecraft:parrot",
+        "maxCount": 6,
+        "minCount": 2,
+        "weight": 100
       },
       {
-        "type": "minecraft:wolf",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 5
+        "type": "minecraft:turtle",
+        "maxCount": 5,
+        "minCount": 2,
+        "weight": 50
       }
     ],
     "misc": [],
     "monster": [
+      {
+        "type": "minecraft:drowned",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      },
       {
         "type": "minecraft:spider",
         "maxCount": 4,
@@ -226,8 +232,34 @@
         "weight": 10
       }
     ],
-    "water_ambient": [],
-    "water_creature": []
+    "water_ambient": [
+      {
+        "type": "minecraft:pufferfish",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 15
+      },
+      {
+        "type": "minecraft:tropical_fish",
+        "maxCount": 8,
+        "minCount": 8,
+        "weight": 25
+      }
+    ],
+    "water_creature": [
+      {
+        "type": "minecraft:squid",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:dolphin",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 2
+      }
+    ]
   },
-  "temperature": 0.94
+  "temperature": 0.5
 }

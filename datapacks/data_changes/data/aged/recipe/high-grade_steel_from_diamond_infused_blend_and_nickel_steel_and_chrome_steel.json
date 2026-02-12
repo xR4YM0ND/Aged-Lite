@@ -1,0 +1,23 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "armorandtools:diamond_ingot"
+    },
+    {
+      "item": "agedaddition:nickel_steel_ingot"
+    },
+    {
+      "item": "agedaddition:chrome_steel_ingot"
+    },
+    {
+      "item": "minecraft:fire_charge"
+    }
+  ],
+  "output": {
+    "item": "earlystage:steel_ingot",
+    "count": 1
+  },
+  "min_forge_tier": 1,
+  "fuel_per_tick": 200
+}

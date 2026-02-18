@@ -1,0 +1,14 @@
+{
+    "targets": "minecraft:iron_pickaxe",
+    "components": {
+        "minecraft:attribute_modifiers": [
+            {
+                "type": "minecraft:player.mining_efficiency",
+                "id": "aged:mining_efficiency",
+                "amount": 12.0,
+                "operation": "add_value",
+                "slot": "mainhand"
+            }
+        ]
+    }
+}

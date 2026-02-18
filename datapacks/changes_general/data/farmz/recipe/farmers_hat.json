@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "d": {
+      "tag": "c:grains"
+    }
+  },
+  "pattern": [
+    "ddd",
+    "d d"
+  ],
+  "result": {
+    "count": 1,
+    "id": "farmz:farmers_hat"
+  }
+}

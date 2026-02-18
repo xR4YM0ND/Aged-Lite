@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "farm_and_charm:oat"
+    }
+  ],
+  "result": {
+    "id": "farm_and_charm:oat_seeds",
+    "count": 2
+  }
+}

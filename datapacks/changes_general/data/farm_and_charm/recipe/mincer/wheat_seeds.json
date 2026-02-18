@@ -1,0 +1,11 @@
+{
+  "type": "farm_and_charm:mincer",
+  "ingredient": {
+    "item": "minecraft:wheat"
+  },
+  "recipe_type": "MEAT",
+  "result": {
+    "id": "minecraft:wheat_seeds",
+    "count": 4
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "d": {
+      "tag": "immersive_aircraft:sturdy_pipes"
+    },
+    "e": {
+      "item": "minecraft:barrel"
+    },
+    "f": {
+      "item": "stal-alloys:steel_block"
+    },
+    "x": {
+      "item": "immersive_machinery:redstone_mechanism"
+    },
+    "a": {
+      "item": "meadow:wooden_cauldron"
+    }
+  },
+  "pattern": [
+    "fdf",
+    "eae",
+    "exe"
+  ],
+  "result": {
+    "count": 1,
+    "id": "farmz:sprinkler"
+  }
+}

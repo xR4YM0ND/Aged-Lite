@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " dd",
+        "d#d",
+        " d "
+    ],
+    "key": {
+        "d": {
+            "item": "minecraft:leather"
+        },
+        "#": {
+            "item": "earlystage:brick_bucket"
+        }
+    },
+    "result": {
+        "id": "dehydration:leather_flask"
+    }
+}

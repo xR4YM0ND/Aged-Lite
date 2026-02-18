@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "agedaddition:bronze_sheet"
+    },
+    {
+      "item": "agedaddition:bronze_rod"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "stal-alloys:bronze_dagger"
+  }
+}

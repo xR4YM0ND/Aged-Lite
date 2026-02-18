@@ -1,0 +1,19 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "tag": "minecraft:logs_that_burn",
+      "count": 9
+    },
+    {
+      "item": "minecraft:blaze_powder",
+      "count": 1
+    }
+  ],
+  "output": {
+    "item": "stal-alloys:raw_carbon",
+    "count": 18
+  },
+  "min_forge_tier": 1,
+  "fuel_per_tick": 50
+}

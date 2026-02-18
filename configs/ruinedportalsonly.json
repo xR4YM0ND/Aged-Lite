@@ -1,0 +1,27 @@
+{
+  "overworldPortalsOption": "CUSTOM",
+  "netherPortalsOption": "CUSTOM",
+  "customOverworldBiomesOption": [],
+  "customOverworldStructuresOption": [
+    "minecraft:ruined_portal",
+    "minecraft:ruined_portal_desert",
+    "minecraft:ruined_portal_jungle",
+    "minecraft:ruined_portal_mountain",
+    "minecraft:ruined_portal_ocean",
+    "minecraft:ruined_portal_swamp",
+    "betterarcheology:stonehenge_grassy",
+    "hopo:portal/overworld/portal_deepslate",
+    "hopo:portal/overworld/portal_dripstone",
+    "hopo:portal/overworld/portal_lush",
+    "hopo:portal/overworld/portal_ruined"
+  ],
+  "customNetherBiomesOption": [
+    "minecraft:nether_wastes",
+    "minecraft:crimson_forest"
+  ],
+  "customNetherStructuresOption": [
+    "minecraft:ruined_portal_nether",
+    "minecraft:bastion_remnant",
+    "hopo/portal/nether/piglin_ruin"
+  ]
+}

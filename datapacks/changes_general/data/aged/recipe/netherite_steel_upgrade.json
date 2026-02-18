@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "cxc",
+    "#a#",
+    "c#c"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "#": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "a": {
+      "item": "earlystage:steel_block"
+    },
+    "c": {
+        "item": "minecraft:blackstone"
+    }
+  },
+  "result": {
+    "id": "minecraft:netherite_upgrade_smithing_template",
+    "count": 2
+  }
+}

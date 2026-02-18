@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "P": {
+            "tag": "minecraft:planks"
+        },
+        "S": {
+            "tag": "minecraft:wooden_slabs"
+        },
+        "X": {
+            "tag": "c:metal_nuggets"
+        }
+    },
+    "pattern": [
+        "XSX",
+        "P P",
+        "XSX"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:barrel"
+    }
+}

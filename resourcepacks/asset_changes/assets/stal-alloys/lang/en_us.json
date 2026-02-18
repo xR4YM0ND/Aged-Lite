@@ -1,14 +1,14 @@
 {
+    "item.stal-alloys.copper_axe": "Oxidized Copper Axe",
+    "item.stal-alloys.copper_pickaxe": "Oxidized Copper Pickaxe",
+    "item.stal-alloys.copper_hoe": "Oxidized Copper Hoe",
+    "item.stal-alloys.copper_shovel": "Oxidized Copper Shovel",
+    "item.stal-alloys.copper_sword": "Oxidized Copper Sword",
     "item.stal-alloys.steel_ingot": "Basic Steel Ingot",
     "item.stal-alloys.steel_pickaxe": "Basic Steel Pickaxe",
     "item.stal-alloys.steel_axe": "Basic Steel Axe",
     "item.stal-alloys.steel_shovel": "Basic Steel Shovel",
     "item.stal-alloys.steel_hoe": "Basic Steel Hoe",
     "block.stal-alloys.steel_block": "Block of Basic Steel",
-    "block.stal-alloys.alloy_smelter": "Kiln",
-    "item.stal-alloys.copper_sword": "Stainless Steel Sword",
-    "item.stal-alloys.copper_pickaxe": "Stainless Steel Pickaxe",
-    "item.stal-alloys.copper_axe": "Stainless Steel Axe",
-    "item.stal-alloys.copper_shovel": "Stainless Steel Shovel",
-    "item.stal-alloys.copper_hoe": "Stainless Steel Hoe"
+    "block.stal-alloys.alloy_smelter": "Kiln"
 }

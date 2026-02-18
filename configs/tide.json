@@ -22,6 +22,7 @@
         "height": 50
       }
     ],
+    "autoFishDataBlacklist": [],
     "crateWeight": 4.0,
     "crateQuality": 1.0,
     "logDataErrors": false
@@ -29,7 +30,9 @@
   "items": {
     "fishItemSizes": "ALWAYS",
     "bucketableFishItems": "WHEN_LIVING",
-    "fishItemLifespan": 180
+    "fishItemLifespan": 180,
+    "enableBedrockBreakingItems": true,
+    "pocketWatchBlacklist": []
   },
   "journal": {
     "giveJournal": false,
@@ -44,6 +47,6 @@
     "doFeedback": true,
     "doSuccessSound": true,
     "doFailSound": true,
-    "minigameDifficulty": 1.0
+    "minigameDifficulty": 2.0
   }
 }

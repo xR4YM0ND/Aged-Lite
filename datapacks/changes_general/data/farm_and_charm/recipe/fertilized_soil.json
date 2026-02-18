@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#A#",
+    "#B#"
+  ],
+  "key": {
+    "#": {
+      "item": "farm_and_charm:fertilizer"
+    },
+    "A": {
+      "item": "minecraft:grass_block"
+    },
+    "B": {
+      "item": "herbalbrews:herbal_infusion"
+    }
+  },
+  "result": {
+    "id": "farm_and_charm:fertilized_soil",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "#x#",
+    "#a#",
+    "###"
+  ],
+  "key": {
+    "x": {
+      "item": "armorandtools:aurium_upgrade_template"
+    },
+    "#": {
+      "item": "armorandtools:aurium_ingot"
+    },
+    "a": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "id": "armorandtools:aurium_upgrade_template",
+    "count": 2
+  }
+}

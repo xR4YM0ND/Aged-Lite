@@ -1,0 +1,14 @@
+{
+    "targets": "rosegoldequipment:rose_golden_pickaxe",
+    "components": {
+        "minecraft:attribute_modifiers": [
+            {
+                "type": "minecraft:player.mining_efficiency",
+                "id": "aged:mining_efficiency",
+                "amount": 11.0,
+                "operation": "add_value",
+                "slot": "mainhand"
+            }
+        ]
+    }
+}

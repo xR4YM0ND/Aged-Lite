@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "#x#",
+    "#a#",
+    "###"
+  ],
+  "key": {
+    "x": {
+      "item": "agedaddition:bronze_upgrade_template"
+    },
+    "#": {
+      "item": "stal-alloys:bronze_ingot"
+    },
+    "a": {
+      "item": "minecraft:copper_block"
+    }
+  },
+  "result": {
+    "id": "agedaddition:bronze_upgrade_template",
+    "count": 2
+  }
+}

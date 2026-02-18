@@ -1,0 +1,15 @@
+{
+  "restriction": {
+    "replace": false,
+    "recipes": [
+      "vinery:white_grape_bag",
+      "vinery:white_grape",
+      "vinery:red_grape_bag",
+      "vinery:red_grape",
+      "vinery:cherry_bag",
+      "vinery:cherries",
+      "vinery:apple_bag",
+      "vinery:apples"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "agedaddition:nickel_steel_upgrade_template"
+  },
+  "base": {
+    "item": "stal-alloys:steel_pickaxe"
+  },
+  "addition": {
+    "item": "minecraft:breeze_rod"
+  },
+  "result": {
+    "id": "agedaddition:nickel_steel_pickaxe"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "targets": "agedaddition:chrome_steel_pickaxe",
+    "components": {
+        "minecraft:attribute_modifiers": [
+            {
+                "type": "minecraft:player.mining_efficiency",
+                "id": "aged:mining_efficiency",
+                "amount": 35.0,
+                "operation": "add_value",
+                "slot": "mainhand"
+            }
+        ]
+    }
+}

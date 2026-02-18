@@ -1,0 +1,29 @@
+{
+  "restriction": {
+    "replace": false,
+    "recipes": [
+      "farm_and_charm:lettuce",
+      "farm_and_charm:lettuce_bag",
+      "farm_and_charm:tomato",
+      "farm_and_charm:tomato_bag",
+      "farm_and_charm:carrot_from_bag",
+      "farm_and_charm:carrot_bag",
+      "farm_and_charm:potato_from_bag",
+      "farm_and_charm:potato_bag",
+      "farm_and_charm:onion",
+      "farm_and_charm:onion_bag",
+      "farm_and_charm:beetroot_from_bag",
+      "farm_and_charm:beetroot_bag",
+      "farm_and_charm:corn",
+      "farm_and_charm:corn_bag",
+      "farm_and_charm:strawberry",
+      "farm_and_charm:strawberry_bag",
+      "farm_and_charm:flour_from_bag",
+      "farm_and_charm:flour_bag",
+      "farm_and_charm:dog_food_from_bag",
+      "farm_and_charm:dog_food_bag",
+      "farm_and_charm:cat_food_from_bag",
+      "farm_and_charm:cat_food_bag"
+    ]
+  }
+}

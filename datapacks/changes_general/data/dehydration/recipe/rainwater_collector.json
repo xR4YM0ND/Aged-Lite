@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "d d",
+    "d d",
+    "ede"
+  ],
+  "key": {
+    "d": {
+      "tag": "minecraft:planks"
+    },
+    "e": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "id": "dehydration:rainwater_collector"
+  }
+}

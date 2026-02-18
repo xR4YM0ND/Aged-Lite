@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "stal-alloys:stainless_steel_ingot"
+    },
+    "S": {
+      "item": "agedaddition:stainless_steel_rod"
+    }
+  },
+  "pattern": [
+    " # ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "agedaddition:stainless_steel_shovel"
+  }
+}

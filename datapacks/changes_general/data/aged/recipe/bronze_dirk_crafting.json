@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "agedaddition:bronze_sheet"
+    },
+    "S": {
+      "item": "agedaddition:bronze_rod"
+    }
+  },
+  "pattern": [
+    "  #",
+    " # ",
+    "S  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "stal-alloys:bronze_dirk"
+  }
+}

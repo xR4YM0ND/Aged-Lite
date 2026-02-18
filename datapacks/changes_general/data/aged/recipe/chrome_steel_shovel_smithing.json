@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "agedaddition:chrome_steel_upgrade_template"
+  },
+  "base": {
+    "item": "stal-alloys:steel_shovel"
+  },
+  "addition": {
+    "item": "earth-and-water:bore_rod"
+  },
+  "result": {
+    "id": "agedaddition:chrome_steel_shovel"
+  }
+}

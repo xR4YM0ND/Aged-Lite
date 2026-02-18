@@ -1,0 +1,23 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "minecraft:raw_iron",
+      "count": 2
+    },
+    {
+      "item": "rosegoldequipment:raw_rose_gold",
+      "count": 1
+    },
+    {
+      "item": "minecraft:raw_gold",
+      "count": 2
+    }
+  ],
+  "output": {
+    "item": "armorandtools:aurium_ingot",
+    "count": 1
+  },
+  "min_forge_tier": 1,
+  "fuel_per_tick": 60
+}

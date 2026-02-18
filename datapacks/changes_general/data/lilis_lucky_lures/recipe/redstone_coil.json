@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "FEF"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:echo_shard"
+    },
+    "B": {
+      "item": "minecraft:soul_torch"
+    },
+    "C": {
+      "item": "armorandtools:reinforced_aurium_sheet"
+    },
+    "D": {
+      "item": "immersive_machinery:redstone_mechanism"
+    },
+    "E": {
+      "item": "minecraft:redstone_block"
+    },
+    "F": {
+      "item": "agedaddition:diamond_infused_alloy_sheet"
+    }
+  },
+  "result": {
+    "id": "lilis_lucky_lures:redstone_coil",
+    "count": 1
+  }
+}

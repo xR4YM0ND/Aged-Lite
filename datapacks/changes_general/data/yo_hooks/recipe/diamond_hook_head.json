@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "agedaddition:diamond_infused_alloy_sheet"
+    },
+    "B": {
+      "item": "armorandtools:diamond_ingot"
+    }
+  },
+  "pattern": [
+    "BAB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "yo_hooks:diamond_hook_head"
+  }
+}

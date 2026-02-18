@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "yo_hooks:netherite_hook_head"
+  },
+  "addition": {
+    "item": "agedaddition:stainless_steel_rod"
+  },
+  "result": {
+    "id": "yo_hooks:netherite_grappling_hook"
+  }
+}

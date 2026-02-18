@@ -1,0 +1,11 @@
+{
+  "...": {
+    "replace": false,
+    "skills": {
+      "health": 1
+    },
+    "crafting": [
+      "minecraft:dirt"
+    ]
+  }
+}

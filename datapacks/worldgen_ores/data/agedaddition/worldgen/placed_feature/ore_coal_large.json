@@ -1,0 +1,28 @@
+{
+    "feature": "agedaddition:ore_coal_large",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": 1
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:very_biased_to_bottom",
+                "min_inclusive": {
+                    "absolute": -23
+                },
+                "max_inclusive": {
+                    "absolute": 63
+                },
+                "inner": 4
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

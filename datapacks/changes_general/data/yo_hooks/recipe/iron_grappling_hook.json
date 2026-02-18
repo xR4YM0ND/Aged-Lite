@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "armorandtools:iron_upgrade_template"
+  },
+  "base": {
+    "item": "yo_hooks:iron_hook_head"
+  },
+  "addition": {
+    "item": "earth-and-water:bore_rod"
+  },
+  "result": {
+    "id": "yo_hooks:iron_grappling_hook"
+  }
+}

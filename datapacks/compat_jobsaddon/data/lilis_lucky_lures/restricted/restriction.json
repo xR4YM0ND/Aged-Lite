@@ -1,0 +1,8 @@
+{
+  "restriction": {
+    "replace": false,
+    "recipes": [
+      "lilis_lucky_lures:fish_bag"
+    ]
+  }
+}

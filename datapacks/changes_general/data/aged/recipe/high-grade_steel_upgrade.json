@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "#x#",
+    "#a#",
+    "###"
+  ],
+  "key": {
+    "x": {
+      "item": "earth-and-water:steel_upgrade_smithing_template"
+    },
+    "#": {
+      "item": "earlystage:steel_ingot"
+    },
+    "a": {
+      "item": "minecraft:fire_charge"
+    }
+  },
+  "result": {
+    "id": "earth-and-water:steel_upgrade_smithing_template",
+    "count": 2
+  }
+}

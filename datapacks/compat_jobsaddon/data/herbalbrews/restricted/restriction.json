@@ -1,0 +1,9 @@
+{
+  "restriction": {
+    "replace": false,
+    "recipes": [
+      "herbalbrews:tea_leaf_crate",
+      "herbalbrews:tea_leafs_from_crate"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "meadow:felting",
+  "ingredient": {
+    "tag": "aged:string_felting_ingredients"
+  },
+  "result": {
+    "id": "minecraft:string",
+    "count": 4
+  }
+}

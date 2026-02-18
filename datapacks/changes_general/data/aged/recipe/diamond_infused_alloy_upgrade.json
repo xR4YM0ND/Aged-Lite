@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "#x#",
+    "#a#",
+    "###"
+  ],
+  "key": {
+    "x": {
+      "item": "armorandtools:diamond_upgrade_template"
+    },
+    "#": {
+      "item": "armorandtools:diamond_ingot"
+    },
+    "a": {
+      "item": "stal-alloys:steel_block"
+    }
+  },
+  "result": {
+    "id": "armorandtools:diamond_upgrade_template",
+    "count": 2
+  }
+}

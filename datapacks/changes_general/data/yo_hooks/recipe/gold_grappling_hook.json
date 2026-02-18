@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "agedaddition:golden_upgrade_template"
+  },
+  "base": {
+    "item": "yo_hooks:gold_hook_head"
+  },
+  "addition": {
+    "item": "minecraft:blaze_rod"
+  },
+  "result": {
+    "id": "yo_hooks:gold_grappling_hook"
+  }
+}

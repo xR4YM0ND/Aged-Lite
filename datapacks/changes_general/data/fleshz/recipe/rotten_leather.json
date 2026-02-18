@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:leather"
+    },
+    "A": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "B": {
+      "tag": "aged:rotten_leather_ingredients"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "B#B",
+    "ABA"
+  ],
+  "result": {
+    "id": "fleshz:rotten_leather",
+    "count": 2
+  }
+}

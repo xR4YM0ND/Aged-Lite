@@ -1,0 +1,25 @@
+ {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AB",
+    "CD"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:bone_meal"
+    },
+    "B": {
+      "item": "minecraft:honey_bottle"
+    },
+    "C": {
+      "item": "natures_spirit:calcite_shard"
+    },
+    "D": {
+      "item": "agedaddition:raw_iron_nugget"
+    }
+  },
+  "result": {
+    "id": "farm_and_charm:fertilizer",
+    "count": 4
+  }
+}

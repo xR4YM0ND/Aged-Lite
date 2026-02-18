@@ -1,0 +1,11 @@
+{
+  "type": "farm_and_charm:mincer",
+  "ingredient": {
+    "item": "minecraft:beetroot"
+  },
+  "recipe_type": "MEAT",
+  "result": {
+    "id": "minecraft:beetroot_seeds",
+    "count": 4
+  }
+}

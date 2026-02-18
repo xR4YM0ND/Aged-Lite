@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "armorandtools:diamond_upgrade_template"
+  },
+  "base": {
+    "item": "stal-alloys:steel_pickaxe"
+  },
+  "addition": {
+    "item": "earth-and-water:brine_rod"
+  },
+  "result": {
+    "id": "minecraft:diamond_pickaxe"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "agedaddition:netherite_steel_sheet"
+  },
+  "base": {
+    "item": "immersive_machinery:diamond_drill"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "result": {
+    "id": "immersive_machinery:netherite_drill"
+  }
+}

@@ -1,9 +1,13 @@
 {
+    "item.earth-and-water.steel_ingot": "Forgotten Steel Ingot",
+    "item.earth-and-water.steel_nugget": "Forgotten Steel Nugget",
+    "block.earth-and-water.steel_block": "Forgotten Steel Block",
+    "trim_material.earth-and-water.steel": "Forgotten Steel Material",
     "item.earth-and-water.steel_upgrade_smithing_template": "High-Grade Steel Upgrade",
     "upgrade.earth-and-water.steel_upgrade_smithing_template": "Craft more of these",
     "item.earth-and-water.smithing_template.steel_upgrade.applies_to": "Nickel / Chrome / Diamond Infused Equipment",
-    "item.earth-and-water.smithing_template.steel_upgrade.ingredients": "High-Grade Steel Block",
+    "item.earth-and-water.smithing_template.steel_upgrade.ingredients": "High-Grade Steel Sheet",
     "item.earth-and-water.smithing_template.steel_upgrade.text": "Craft more of these",
-    "item.earth-and-water.smithing_template.steel_upgrade.additions_slot_description": "Add Block",
+    "item.earth-and-water.smithing_template.steel_upgrade.additions_slot_description": "Add Sheet",
     "item.earth-and-water.smithing_template.steel_upgrade.base_slot_description": "Add Tools / Weapons / Armor"
 }

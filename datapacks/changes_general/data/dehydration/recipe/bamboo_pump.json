@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " d ",
+        " de",
+        "fof"
+    ],
+    "key": {
+        "d": {
+            "item": "minecraft:bamboo"
+        },
+        "e": {
+            "item": "minecraft:lever"
+        },
+        "f": {
+            "item": "minecraft:smooth_stone_slab"
+        },
+        "o": {
+            "tag": "c:empty_buckets"
+        }
+    },
+    "result": {
+        "id": "dehydration:bamboo_pump"
+    }
+}

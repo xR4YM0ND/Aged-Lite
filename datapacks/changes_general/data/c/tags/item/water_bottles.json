@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "earlystage:water_wooden_bucket",
+    "earlystage:water_brick_bucket",
+    "dehydration:purified_water_bucket"
+  ]
+}

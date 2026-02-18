@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "agedaddition:diamond_infused_alloy_sheet"
+  },
+  "base": {
+    "item": "immersive_machinery:iron_drill"
+  },
+  "template": {
+    "item": "armorandtools:diamond_upgrade_template"
+  },
+  "result": {
+    "id": "immersive_machinery:diamond_drill"
+  }
+}

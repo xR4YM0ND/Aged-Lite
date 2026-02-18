@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "cxc",
+    "#a#",
+    "c#c"
+  ],
+  "key": {
+    "x": {
+      "item": "agedaddition:stainless_steel_upgrade_template"
+    },
+    "#": {
+      "item": "stal-alloys:stainless_steel_ingot"
+    },
+    "a": {
+      "item": "earlystage:steel_block"
+    },
+    "c": {
+        "item": "minecraft:smooth_quartz"
+    }
+  },
+  "result": {
+    "id": "agedaddition:stainless_steel_upgrade_template",
+    "count": 2
+  }
+}

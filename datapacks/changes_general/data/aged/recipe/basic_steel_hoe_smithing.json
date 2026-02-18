@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "agedaddition:basic_steel_upgrade_template"
+  },
+  "base": {
+    "tag": "aged:recipes/basic_steel_hoe"
+  },
+  "addition": {
+    "item": "agedaddition:basic_steel_rod"
+  },
+  "result": {
+    "id": "stal-alloys:steel_hoe"
+  }
+}

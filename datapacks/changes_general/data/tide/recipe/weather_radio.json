@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "tag": "stal-alloys:bronze_ingot"
+    },
+    "L": {
+      "item": "minecraft:lightning_rod"
+    },
+    "R": {
+      "tag": "immersive_machinery:redstone_mechanism"
+    },
+    "A": {
+      "tag": "minecraft:lever"
+    }
+  },
+  "pattern": [
+    "AL ",
+    "#R#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tide:weather_radio"
+  }
+}

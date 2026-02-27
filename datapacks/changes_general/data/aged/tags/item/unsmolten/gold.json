@@ -1,0 +1,13 @@
+{
+    "values": [
+        "minecraft:gold_ore",
+        "natures_spirit:chert_gold_ore",
+        "minecraft:deepslate_gold_ore",
+        "agedaddition:tuff_gold_ore",
+        "agedaddition:groutless_rubblestone_gold_ore",
+        "agedaddition:smooth_basalt_gold_ore",
+        "agedaddition:blackstone_gold_ore",
+        "meadow:alpine_gold_ore",
+        "minecraft:raw_gold"
+    ]
+}

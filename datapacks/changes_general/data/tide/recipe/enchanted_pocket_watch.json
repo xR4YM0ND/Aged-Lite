@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "cdc",
+    "bxe",
+    "cac"
+  ],
+  "key": {
+    "x": {
+      "item": "tide:pocket_watch"
+    },
+    "a": {
+      "item": "tide:coelacanth"
+    },
+    "c": {
+      "item": "minecraft:end_crystal"
+    },
+    "b": {
+      "item": "endrem:witch_eye"
+    },
+    "d": {
+      "item": "minecraft:dragon_head"
+    },
+    "e": {
+      "item": "endrem:magical_eye"
+    }
+  },
+  "result": {
+    "id": "tide:enchanted_pocket_watch"
+  }
+}

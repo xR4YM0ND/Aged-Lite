@@ -1,0 +1,12 @@
+{
+    "values": [
+        "meadow:alpine_salt_ore",
+        "agedaddition:alpine_gneiss_salt_ore",
+        "agedaddition:travertine_salt_ore",
+        "agedaddition:diorite_salt_ore",
+        "agedaddition:calcite_salt_ore",
+        "agedaddition:andesite_salt_ore",
+        "agedaddition:chert_salt_ore",
+        "agedaddition:salt_ore"
+    ]
+}

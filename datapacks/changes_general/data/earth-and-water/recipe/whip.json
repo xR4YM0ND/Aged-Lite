@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": [
+      {
+        "item": "tide:reinforced_line"
+      }
+    ],
+    "X": [
+      {
+        "item": "earth-and-water:brine_rod"
+      }
+    ],
+    "d": [
+      {
+        "item": "agedaddition:diamond_piece"
+      }
+    ]
+  },
+  "pattern": [
+    "  X",
+    "dX#",
+    "X# "
+  ],
+  "result": {
+    "count": 1,
+    "id": "earth-and-water:whip"
+  }
+}

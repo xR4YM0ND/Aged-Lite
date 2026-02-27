@@ -1,0 +1,31 @@
+{
+  "replace": true,
+  "values": [
+	"#sereneseasons:year_round_crops",
+	"minecraft:jungle_sapling",
+	"minecraft:acacia_sapling",
+	"minecraft:mangrove_leaves",
+	"minecraft:mangrove_propagule",
+	"minecraft:azalea",
+	"minecraft:flowering_azalea",
+	"minecraft:bamboo",
+	"minecraft:cactus",
+	"minecraft:sugar_cane",
+	"minecraft:wheat_seeds",
+	"minecraft:melon_seeds",
+	"minecraft:cocoa_beans",
+	"minecraft:torchflower_seeds",
+	"minecraft:pitcher_pod",
+    "farm_and_charm:barley_seeds",
+    "farm_and_charm:kernels",
+    "farm_and_charm:tomato_seeds",
+    "vinery:savanna_grape_seeds_red",
+    "vinery:savanna_grape_seeds_white",
+    "vinery:jungle_grape_seeds_red",
+    "vinery:jungle_grape_seeds_white",
+	"herbalbrews:coffee_beans",
+	"herbalbrews:yerba_mate_leaf",
+	"natures_spirit:desert_turnip",
+	"brewery:hops"
+  ]
+}

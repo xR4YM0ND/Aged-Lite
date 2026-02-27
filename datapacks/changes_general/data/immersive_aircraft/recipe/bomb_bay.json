@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:tnt"
+    },
+    "B": {
+      "item": "agedaddition:basic_steel_sheet"
+    }
+  },
+  "pattern": [
+    "BAB",
+    "B B"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersive_aircraft:bomb_bay"
+  }
+}

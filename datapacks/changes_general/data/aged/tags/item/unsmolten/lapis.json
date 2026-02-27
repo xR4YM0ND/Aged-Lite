@@ -1,0 +1,13 @@
+{
+    "values": [
+        "meadow:alpine_lapis_ore",
+        "agedaddition:blackstone_lapis_ore",
+        "agedaddition:smooth_basalt_lapis_ore",
+        "agedaddition:groutless_rubblestone_lapis_ore",
+        "agedaddition:alpine_gneiss_lapis_ore",
+        "agedaddition:travertine_lapis_ore",
+        "minecraft:deepslate_lapis_ore",
+        "natures_spirit:chert_lapis_ore",
+        "minecraft:lapis_ore"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "targets": "lilis_lucky_lures:spear",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.attack_damage",
+        "amount": 7.0,
+        "id": "minecraft:spear_attack_damage",
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "type": "minecraft:generic.attack_speed",
+        "amount": -2.7,
+        "id": "minecraft:spear_attack_speed",
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "targets": "stal-alloys:stainless_steel_helmet",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "amount": 7.0,
+        "id": "minecraft:stainless_steel_helmet_armor",
+        "operation": "add_value",
+        "slot": "head"
+      },
+      {
+        "type": "minecraft:generic.armor_toughness",
+        "amount": 2.0,
+        "id": "minecraft:stainless_steel_helmet_armor_toughness",
+        "operation": "add_value",
+        "slot": "head"
+      }
+    ],
+    "minecraft:max_damage": 1800
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "targets": "minecraft:chainmail_chestplate",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "amount": 3.0,
+        "id": "minecraft:chainmail_chestplate_armor",
+        "operation": "add_value",
+        "slot": "chest"
+      },
+      {
+        "type": "minecraft:generic.armor_toughness",
+        "amount": 0.0,
+        "id": "minecraft:chainmail_chestplate_armor_toughness",
+        "operation": "add_value",
+        "slot": "chest"
+      }
+    ],
+    "minecraft:max_damage": 650
+  }
+}

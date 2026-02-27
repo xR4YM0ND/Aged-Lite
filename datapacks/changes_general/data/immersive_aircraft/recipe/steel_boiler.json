@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "immersive_aircraft:boiler"
+    },
+    "B": {
+      "item": "minecraft:blast_furnace"
+    },
+    "C": {
+      "item": "stal-alloys:steel_ingot"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "CAC",
+    "CBC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersive_aircraft:steel_boiler"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "earth-and-water:steel_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "immersive_aircraft:engine"
+  },
+  "addition": {
+    "item": "minecraft:emerald_block"
+  },
+  "result": {
+    "id": "immersive_aircraft:eco_engine"
+  }
+}

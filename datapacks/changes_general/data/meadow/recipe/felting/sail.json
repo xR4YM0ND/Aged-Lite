@@ -1,0 +1,11 @@
+{
+  "type": "meadow:felting",
+  "ingredient": {
+    "item": "tide:braided_line",
+    "count": 4
+  },
+  "result": {
+    "id": "immersive_aircraft:sail",
+    "count": 1
+  }
+}

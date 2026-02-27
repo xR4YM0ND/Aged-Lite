@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "agedaddition:bronze_upgrade_template"
+  },
+  "base": {
+    "item": "inmis:baby_backpack"
+  },
+  "addition": {
+    "item": "minecraft:leather"
+  },
+  "result": {
+    "id": "inmis:frayed_backpack"
+  }
+}

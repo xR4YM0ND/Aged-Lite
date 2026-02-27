@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "dehydration:diamond_leather_flask"
+  },
+  "addition": {
+    "item": "agedaddition:netherite_sheet"
+  },
+  "result": {
+    "id": "dehydration:netherite_leather_flask"
+  }
+}

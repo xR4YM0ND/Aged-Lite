@@ -1,0 +1,16 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "tag": "aged:unsmolten/salt",
+      "count": 1
+    }
+  ],
+  "output": {
+    "item": "meadow:alpine_salt",
+    "count": 1
+  },
+  "min_forge_tier": 1,
+  "experience": 1.0,
+  "fuel_per_tick": 25
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "armorandtools:iron_upgrade_template"
+  },
+  "base": {
+    "item": "tide:stone_fishing_rod"
+  },
+  "addition": {
+    "item": "agedaddition:iron_rod"
+  },
+  "result": {
+    "id": "tide:iron_fishing_rod"
+  }
+}

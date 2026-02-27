@@ -1,0 +1,29 @@
+{
+  "targets": "agedaddition:nickel_steel_pickaxe",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:player.mining_efficiency",
+        "id": "minecraft:nickel_steel_pickaxe_mining_efficiency",
+        "amount": 32.0,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "type": "minecraft:generic.attack_damage",
+        "amount": 10.0,
+        "id": "minecraft:nickel_steel_pickaxe_attack_damage",
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "type": "minecraft:generic.attack_speed",
+        "amount": -3.0,
+        "id": "minecraft:nickel_steel_pickaxe_attack_speed",
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "minecraft:max_damage": 1200
+  }
+}

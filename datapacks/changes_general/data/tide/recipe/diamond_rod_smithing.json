@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "armorandtools:diamond_upgrade_template"
+  },
+  "base": [
+    {
+      "item": "tide:golden_fishing_rod"
+    },
+    {
+      "item": "tide:crystal_fishing_rod"
+    }
+  ],
+  "addition": {
+    "item": "earth-and-water:brine_rod"
+  },
+  "result": {
+    "id": "tide:diamond_fishing_rod"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "targets": "agedaddition:chrome_steel_chestplate",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "amount": 4.0,
+        "id": "minecraft:chrome_steel_chestplate_armor",
+        "operation": "add_value",
+        "slot": "chest"
+      },
+      {
+        "type": "minecraft:generic.armor_toughness",
+        "amount": 1.0,
+        "id": "minecraft:chrome_steel_chestplate_armor_toughness",
+        "operation": "add_value",
+        "slot": "chest"
+      }
+    ],
+    "minecraft:max_damage": 1100
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "config_version": "2.0.17",
+  "config_datetime": "2026-02-20_21-24-09",
+  "general": {
+    "disable_all_structures": false,
+    "prevent_structure_overlap": true,
+    "enable_global_spacing_and_separation_modifier": false,
+    "global_spacing_and_separation_modifier": 1.0
+  },
+  "structure_namespaces": [],
+  "structures": [
+    {
+      "name": "bettermineshafts:mineshaft_overgrown",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "underground_structures",
+      "terrain_adaptation": "none"
+    }
+  ],
+  "structure_sets": [
+    {
+      "spacing": 68,
+      "separation": 12,
+      "name": "minecraft:trial_chambers",
+      "salt": 94251327,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:trial_chambers": 1
+      }
+    }
+  ]
+}

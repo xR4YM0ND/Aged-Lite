@@ -1,0 +1,22 @@
+{
+  "replace": true,
+  "values": [
+	"#sereneseasons:year_round_crops",
+	"minecraft:birch_sapling",
+	"minecraft:spruce_sapling",
+	"minecraft:cherry_sapling",
+	"minecraft:azalea",
+	"minecraft:flowering_azalea",
+	"minecraft:sweet_berry_bush",
+	"minecraft:bamboo",
+	"minecraft:bamboo_sapling",
+	"minecraft:carrots",
+	"minecraft:potatoes",
+    "farm_and_charm:onion_crop",
+    "farm_and_charm:strawberry_crop",
+    "farm_and_charm:oat_crop",
+    "vinery:white_grape_bush",
+    "vinery:red_grape_bush",
+	"brewery:hops_crop"
+  ]
+}

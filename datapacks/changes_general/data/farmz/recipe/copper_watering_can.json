@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "d": {
+      "item": "agedaddition:copper_sheet"
+    },
+    "x": {
+      "item": "agedaddition:copper_rod"
+    }
+  },
+  "pattern": [
+    "  x",
+    "dd ",
+    "dd "
+  ],
+  "result": {
+    "count": 1,
+    "id": "farmz:copper_watering_can"
+  }
+}

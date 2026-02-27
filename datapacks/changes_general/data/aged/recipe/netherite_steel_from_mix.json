@@ -23,5 +23,6 @@
     "count": 1
   },
   "min_forge_tier": 1,
+  "experience": 2.5,
   "fuel_per_tick": 500
 }

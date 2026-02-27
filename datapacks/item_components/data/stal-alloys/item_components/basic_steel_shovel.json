@@ -1,0 +1,22 @@
+{
+  "targets": "stal-alloys:steel_shovel",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.attack_damage",
+        "amount": 6.0,
+        "id": "minecraft:basic_steel_shovel_attack_damage",
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "type": "minecraft:generic.attack_speed",
+        "amount": -3.0,
+        "id": "minecraft:basic_steel_shovel_attack_speed",
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "minecraft:max_damage": 800
+  }
+}

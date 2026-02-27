@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "agedaddition:golden_upgrade_template"
+  },
+  "base": {
+    "item": "farmz:iron_watering_can"
+  },
+  "addition": {
+    "item": "agedaddition:golden_sheet"
+  },
+  "result": {
+    "id": "farmz:golden_watering_can"
+  }
+}

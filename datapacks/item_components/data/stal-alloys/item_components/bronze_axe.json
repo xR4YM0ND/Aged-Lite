@@ -1,0 +1,22 @@
+{
+  "targets": "stal-alloys:bronze_axe",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.attack_damage",
+        "amount": 9.5,
+        "id": "minecraft:bronze_axe_attack_damage",
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "type": "minecraft:generic.attack_speed",
+        "amount": -3.1,
+        "id": "minecraft:bronze_axe_attack_speed",
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "minecraft:max_damage": 400
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lilis_pottery:blue_clay_ball"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    },
+    [
+      {
+        "item": "tide:lapis_lanternfish"
+      },
+      {
+        "item": "minecraft:lapis_lazuli"
+      }
+    ]
+  ],
+  "result": {
+    "id": "minecraft:slime_ball"
+  }
+}

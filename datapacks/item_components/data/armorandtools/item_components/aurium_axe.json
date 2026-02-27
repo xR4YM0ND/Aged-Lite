@@ -1,0 +1,22 @@
+{
+  "targets": "armorandtools:aurium_axe",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.attack_damage",
+        "amount": 10.5,
+        "id": "minecraft:aurium_axe_attack_damage",
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "type": "minecraft:generic.attack_speed",
+        "amount": -2.9,
+        "id": "minecraft:aurium_axe_attack_speed",
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "minecraft:max_damage": 500
+  }
+}

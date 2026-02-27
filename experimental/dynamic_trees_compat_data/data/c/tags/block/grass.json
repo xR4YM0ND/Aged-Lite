@@ -1,0 +1,21 @@
+{
+  "values": [
+    "minecraft:short_grass",
+    "minecraft:tall_grass",
+    "minecraft:fern",
+    "natures_spirit:beach_grass",
+    "natures_spirit:scorched_grass",
+    "natures_spirit:sedge_grass",
+    "natures_spirit:oat_grass",
+    "natures_spirit:melic_grass",
+    "natures_spirit:frigid_grass",
+    "natures_spirit:tall_beach_grass",
+    "natures_spirit:tall_scorched_grass",
+    "natures_spirit:tall_sedge_grass",
+    "natures_spirit:tall_oat_grass",
+    "natures_spirit:tall_melic_grass",
+    "natures_spirit:tall_frigid_grass",
+    "alpinewhispers:hoarfrost_grass",
+    "alpinewhispers:tall_hoarfrost_grass"
+  ]
+}

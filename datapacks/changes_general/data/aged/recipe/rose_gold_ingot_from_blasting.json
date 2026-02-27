@@ -2,7 +2,7 @@
   "type": "minecraft:blasting",
   "category": "misc",
   "cookingtime": 100,
-  "experience": 1.0,
+  "experience": 0.8,
   "ingredient": {
     "item": "rosegoldequipment:raw_rose_gold"
   },

@@ -1,0 +1,16 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "tag": "aged:unsmolten/diamond",
+      "count": 1
+    }
+  ],
+  "output": {
+    "item": "minecraft:diamond",
+    "count": 1
+  },
+  "min_forge_tier": 1,
+  "experience": 1.9,
+  "fuel_per_tick": 25
+}

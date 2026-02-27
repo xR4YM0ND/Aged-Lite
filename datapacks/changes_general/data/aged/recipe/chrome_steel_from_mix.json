@@ -10,7 +10,7 @@
       "count": 1
     },
     {
-      "tag": "aged:chromium",
+      "tag": "aged:ingredients/chromium",
       "count": 3
     }
   ],
@@ -19,5 +19,6 @@
     "count": 1
   },
   "min_forge_tier": 1,
+  "experience": 1.8,
   "fuel_per_tick": 80
 }

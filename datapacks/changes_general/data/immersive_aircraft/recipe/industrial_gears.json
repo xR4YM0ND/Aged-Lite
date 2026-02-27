@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:lever"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "stal-alloys:bronze_ingot"
+    }
+  },
+  "pattern": [
+    " CC",
+    "BAC",
+    "BB "
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersive_aircraft:heavy_crossbow"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  a",
+    "xxa",
+    "xx "
+  ],
+  "key": {
+    "a": {
+      "item": "agedaddition:copper_rod"
+    },
+    "x": {
+      "item": "agedaddition:copper_sheet"
+    }
+  },
+  "result": {
+    "id": "herbalbrews:copper_tea_kettle"
+  }
+}

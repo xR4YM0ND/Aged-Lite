@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:echo_shard"
+  },
+  "base": {
+    "item": "inmis:baby_backpack"
+  },
+  "addition": {
+    "item": "tide:enderfin"
+  },
+  "result": {
+    "id": "inmis:ender_pouch"
+  }
+}

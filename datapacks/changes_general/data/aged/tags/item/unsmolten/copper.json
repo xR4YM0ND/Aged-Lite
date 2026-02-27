@@ -1,0 +1,13 @@
+{
+    "values": [
+        "agedaddition:tuff_copper_ore",
+        "agedaddition:diorite_copper_ore",
+        "agedaddition:calcite_copper_ore",
+        "agedaddition:andesite_copper_ore",
+        "minecraft:deepslate_copper_ore",
+        "natures_spirit:chert_copper_ore",
+        "minecraft:copper_ore",
+        "minecraft:raw_copper",
+        "meadow:alpine_copper_ore"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "agedaddition:golden_upgrade_template"
+  },
+  "base": {
+    "item": "inmis:plated_backpack"
+  },
+  "addition": {
+    "item": "agedaddition:golden_sheet"
+  },
+  "result": {
+    "id": "inmis:gilded_backpack"
+  }
+}

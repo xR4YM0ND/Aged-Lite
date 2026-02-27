@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "agedaddition:stainless_steel_upgrade_template"
+  },
+  "base": {
+    "item": "inmis:withered_backpack"
+  },
+  "addition": {
+    "item": "minecraft:dragon_head"
+  },
+  "result": {
+    "id": "inmis:endless_backpack"
+  }
+}

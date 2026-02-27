@@ -2,7 +2,7 @@
   "type": "alloy_forgery:forging",
   "inputs": [
     {
-      "item": "stal-alloys:raw_tin",
+      "tag": "aged:unsmolten/tin",
       "count": 1
     }
   ],
@@ -11,5 +11,6 @@
     "count": 1
   },
   "min_forge_tier": 1,
+  "experience": 0.5,
   "fuel_per_tick": 25
 }

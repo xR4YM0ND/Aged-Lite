@@ -1,0 +1,21 @@
+{
+  "targets": "minecraft:leather_horse_armor",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "amount": 5.0,
+        "id": "minecraft:leather_horse_armor_armor",
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "type": "minecraft:generic.armor_toughness",
+        "amount": 0.0,
+        "id": "minecraft:leather_horse_armor_armor_toughness",
+        "operation": "add_value",
+        "slot": "armor"
+      }
+    ]
+  }
+}

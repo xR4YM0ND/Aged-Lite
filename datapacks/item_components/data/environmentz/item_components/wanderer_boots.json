@@ -1,0 +1,22 @@
+{
+  "targets": "environmentz:wanderer_boots",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "amount": 1.0,
+        "id": "minecraft:wanderer_boots_armor",
+        "operation": "add_value",
+        "slot": "feet"
+      },
+      {
+        "type": "minecraft:generic.armor_toughness",
+        "amount": 0.0,
+        "id": "minecraft:wanderer_boots_armor_toughness",
+        "operation": "add_value",
+        "slot": "feet"
+      }
+    ],
+    "minecraft:max_damage": 75
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "wildernature:blunderbuss"
+    },
+    "B": {
+      "item": "immersive_aircraft:industrial_gears"
+    },
+    "C": {
+      "item": "agedaddition:bronze_block"
+    }
+  },
+  "pattern": [
+    "A",
+    "B",
+    "C"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersive_aircraft:rotary_cannon"
+  }
+}

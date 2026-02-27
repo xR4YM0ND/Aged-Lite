@@ -1,7 +1,7 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " dd",
+        " da",
         "d#d",
         " d "
     ],
@@ -11,7 +11,21 @@
         },
         "#": {
             "item": "earlystage:brick_bucket"
-        }
+        },
+        "a": [
+            {
+                "item": "minecraft:bamboo"
+            },
+            {
+                "item": "earth-and-water:bore_rod"
+            },
+            {
+                "item": "agedaddition:copper_rod"
+            },
+            {
+                "item": "agedaddition:bronze_rod"
+            }
+        ]
     },
     "result": {
         "id": "dehydration:leather_flask"

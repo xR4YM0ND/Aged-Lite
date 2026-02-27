@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "agedaddition:golden_upgrade_template"
+  },
+  "base": {
+    "item": "miningz:iron_prospector_pick"
+  },
+  "addition": {
+    "item": "agedaddition:golden_rod"
+  },
+  "result": {
+    "id": "miningz:golden_prospector_pick"
+  }
+}

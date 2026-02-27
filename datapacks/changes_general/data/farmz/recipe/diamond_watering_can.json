@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "armorandtools:diamond_upgrade_template"
+  },
+  "base": {
+    "item": "farmz:golden_watering_can"
+  },
+  "addition": {
+    "item": "agedaddition:diamond_infused_alloy_sheet"
+  },
+  "result": {
+    "id": "farmz:diamond_watering_can"
+  }
+}

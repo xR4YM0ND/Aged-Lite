@@ -1,0 +1,22 @@
+{
+  "targets": "minecraft:chainmail_leggings",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "amount": 3.0,
+        "id": "minecraft:chainmail_leggings_armor",
+        "operation": "add_value",
+        "slot": "legs"
+      },
+      {
+        "type": "minecraft:generic.armor_toughness",
+        "amount": 0.0,
+        "id": "minecraft:chainmail_leggings_armor_toughness",
+        "operation": "add_value",
+        "slot": "legs"
+      }
+    ],
+    "minecraft:max_damage": 600
+  }
+}

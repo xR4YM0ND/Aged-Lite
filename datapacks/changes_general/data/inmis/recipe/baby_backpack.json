@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "a#a",
+    "#X#",
+    "a#a"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:leather"
+    },
+    "X": {
+      "item": "minecraft:chest"
+    },
+    "a": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "inmis:baby_backpack"
+  }
+}

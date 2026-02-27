@@ -7,7 +7,7 @@
     "item": "earlystage:steel_pickaxe"
   },
   "addition": {
-    "item": "agedaddition:netherite_steel_sheet"
+    "item": "minecraft:blaze_rod"
   },
   "result": {
     "id": "minecraft:netherite_pickaxe"

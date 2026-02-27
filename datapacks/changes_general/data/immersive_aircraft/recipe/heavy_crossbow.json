@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:crossbow"
+    },
+    "B": {
+      "item": "tide:reinforced_line"
+    },
+    "C": {
+      "item": "agedaddition:basic_steel_sheet"
+    },
+    "D": {
+      "item": "minecraft:tripwire_hook"
+    }
+  },
+  "pattern": [
+    " C ",
+    "BAC",
+    "DB "
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersive_aircraft:heavy_crossbow"
+  }
+}

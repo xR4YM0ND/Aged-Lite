@@ -1,0 +1,22 @@
+{
+  "targets": "armorandtools:aurium_sword",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.attack_damage",
+        "amount": 7.5,
+        "id": "minecraft:aurium_sword_attack_damage",
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "type": "minecraft:generic.attack_speed",
+        "amount": -2.2,
+        "id": "minecraft:aurium_sword_attack_speed",
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "minecraft:max_damage": 500
+  }
+}

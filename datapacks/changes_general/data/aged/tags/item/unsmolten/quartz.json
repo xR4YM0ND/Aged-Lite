@@ -1,0 +1,9 @@
+{
+    "values": [
+        "minecraft:nether_quartz_ore",
+        "agedaddition:groutless_rubblestone_quartz_ore",
+        "agedaddition:smooth_basalt_quartz_ore",
+        "agedaddition:deepslate_quartz_ore",
+        "agedaddition:blackstone_quartz_ore"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "values": [
+        "meadow:alpine_redstone_ore",
+        "agedaddition:tuff_redstone_ore",
+        "agedaddition:granite_redstone_ore",
+        "minecraft:deepslate_redstone_ore",
+        "natures_spirit:chert_redstone_ore",
+        "minecraft:redstone_ore"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [
+    {
+      "item": "minecraft:goat_horn"
+    },
+    {
+      "item": "wildernature:bison_horn"
+    },
+    {
+      "item": "horseman:copper_horn"
+    }
+  ],
+  "base": {
+    "item": "tide:iron_fishing_rod"
+  },
+  "addition": {
+    "item": "minecraft:amethyst_cluster"
+  },
+  "result": {
+    "id": "tide:crystal_fishing_rod"
+  }
+}

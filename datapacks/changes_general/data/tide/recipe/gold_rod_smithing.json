@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "agedaddition:golden_upgrade_template"
+  },
+  "base": {
+    "item": "tide:crystal_fishing_rod"
+  },
+  "addition": {
+    "item": "agedaddition:golden_rod"
+  },
+  "result": {
+    "id": "tide:golden_fishing_rod"
+  }
+}

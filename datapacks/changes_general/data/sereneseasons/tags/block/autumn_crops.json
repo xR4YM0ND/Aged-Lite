@@ -1,0 +1,20 @@
+{
+  "replace": true,
+  "values": [
+	"#sereneseasons:year_round_crops",
+	"minecraft:birch_sapling",
+	"minecraft:spruce_sapling",
+	"minecraft:dark_oak_sapling",
+	"minecraft:wheat",
+	"minecraft:pumpkin_stem",
+	"minecraft:beetroots",
+	"minecraft:carrots",
+    "farm_and_charm:onion_crop",
+    "farm_and_charm:lettuce_crop",
+    "vinery:jungle_grape_bush_white",
+    "vinery:jungle_grape_bush_red",
+	"herbalbrews:coffee_plant",
+	"herbalbrews:rooibos_plant",
+	"brewery:hops_crop"
+  ]
+}

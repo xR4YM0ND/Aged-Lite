@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "armorandtools:iron_upgrade_template"
+  },
+  "base": {
+    "item": "miningz:copper_prospector_pick"
+  },
+  "addition": {
+    "item": "agedaddition:iron_rod"
+  },
+  "result": {
+    "id": "miningz:iron_prospector_pick"
+  }
+}

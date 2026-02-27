@@ -1,0 +1,22 @@
+{
+  "targets": "minecraft:diamond_helmet",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "amount": 5.0,
+        "id": "minecraft:diamond_helmet_armor",
+        "operation": "add_value",
+        "slot": "head"
+      },
+      {
+        "type": "minecraft:generic.armor_toughness",
+        "amount": 1.0,
+        "id": "minecraft:diamond_helmet_armor_toughness",
+        "operation": "add_value",
+        "slot": "head"
+      }
+    ],
+    "minecraft:max_damage": 1000
+  }
+}

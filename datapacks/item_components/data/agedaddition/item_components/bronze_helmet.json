@@ -1,0 +1,22 @@
+{
+  "targets": "agedaddition:bronze_helmet",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "amount": 2.0,
+        "id": "minecraft:bronze_helmet_armor",
+        "operation": "add_value",
+        "slot": "head"
+      },
+      {
+        "type": "minecraft:generic.armor_toughness",
+        "amount": 0.0,
+        "id": "minecraft:bronze_helmet_armor_toughness",
+        "operation": "add_value",
+        "slot": "head"
+      }
+    ],
+    "minecraft:max_damage": 400
+  }
+}

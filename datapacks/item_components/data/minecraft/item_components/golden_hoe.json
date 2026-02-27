@@ -1,0 +1,22 @@
+{
+  "targets": "minecraft:golden_hoe",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.attack_damage",
+        "amount": 6.5,
+        "id": "minecraft:golden_hoe_attack_damage",
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "type": "minecraft:generic.attack_speed",
+        "amount": -2.0,
+        "id": "minecraft:golden_hoe_attack_speed",
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "minecraft:max_damage": 300
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "agedaddition:basic_steel_sheet"
+    },
+    "B": {
+      "item": "immersive_aircraft:hull"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BBB",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersive_aircraft:hull_reinforcement"
+  }
+}

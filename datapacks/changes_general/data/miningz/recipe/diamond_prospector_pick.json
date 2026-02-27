@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "armorandtools:diamond_upgrade_template"
+  },
+  "base": {
+    "item": "miningz:golden_prospector_pick"
+  },
+  "addition": {
+    "item": "earth-and-water:brine_rod"
+  },
+  "result": {
+    "id": "miningz:diamond_prospector_pick"
+  }
+}

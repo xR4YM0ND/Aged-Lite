@@ -1,0 +1,22 @@
+{
+  "targets": "minecraft:wooden_sword",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.attack_damage",
+        "amount": 1.5,
+        "id": "minecraft:wooden_sword_attack_damage",
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "type": "minecraft:generic.attack_speed",
+        "amount": -2.6,
+        "id": "minecraft:wooden_sword_attack_speed",
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "minecraft:max_damage": 25
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "values": [
+    "minecraft:desert",
+	"minecraft:badlands",
+	"minecraft:wooded_badlands",
+	"minecraft:eroded_badlands",
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:windswept_savanna",
+	"minecraft:mangrove_swamp",
+	"minecraft:jungle",
+	"minecraft:sparse_jungle",
+	"minecraft:bamboo_jungle",
+	"minecraft:mushroom_fields",
+	"minecraft:warm_ocean",
+    "#natures_spirit:is_desert",
+    "#natures_spirit:is_hot",
+    "#natures_spirit:is_scorched",
+    "#natures_spirit:is_tropical_woods",
+    "#natures_spirit:is_xeric"
+  ]
+}

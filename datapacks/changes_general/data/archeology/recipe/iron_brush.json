@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "armorandtools:iron_upgrade_template"
+  },
+  "base": {
+    "item": "minecraft:brush"
+  },
+  "addition": {
+    "item": "agedaddition:iron_infused_alloy_rod"
+  },
+  "result": {
+    "id": "betterarcheology:iron_brush"
+  }
+}

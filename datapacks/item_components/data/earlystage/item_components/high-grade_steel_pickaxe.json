@@ -1,0 +1,29 @@
+{
+  "targets": "earlystage:steel_pickaxe",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:player.mining_efficiency",
+        "id": "minecraft:high-grade_steel_pickaxe_mining_efficiency",
+        "amount": 45.0,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "type": "minecraft:generic.attack_damage",
+        "amount": 11.0,
+        "id": "minecraft:high-grade_steel_pickaxe_attack_damage",
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "type": "minecraft:generic.attack_speed",
+        "amount": -2.7,
+        "id": "minecraft:high-grade_steel_pickaxe_attack_speed",
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "minecraft:max_damage": 1400
+  }
+}

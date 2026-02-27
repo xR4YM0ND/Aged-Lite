@@ -7,7 +7,7 @@
     "item": "earlystage:steel_sword"
   },
   "addition": {
-    "item": "agedaddition:netherite_steel_sheet"
+    "item": "minecraft:blaze_rod"
   },
   "result": {
     "id": "minecraft:netherite_sword"

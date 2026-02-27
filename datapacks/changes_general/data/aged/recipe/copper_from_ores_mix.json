@@ -1,0 +1,16 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "tag": "aged:unsmolten/copper",
+      "count": 1
+    }
+  ],
+  "output": {
+    "item": "minecraft:copper_ingot",
+    "count": 1
+  },
+  "min_forge_tier": 1,
+  "experience": 0.5,
+  "fuel_per_tick": 5
+}

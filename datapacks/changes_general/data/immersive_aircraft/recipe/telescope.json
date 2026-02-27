@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "A": {
+      "item": "minecraft:spyglass"
+    },
+    "B": {
+      "item": "agedaddition:basic_steel_rod"
+    },
+    "C": {
+      "item": "agedaddition:bronze_sheet"
+    },
+    "D": {
+      "item": "agedaddition:basic_steel_sheet"
+    }
+  },
+  "pattern": [
+    " C#",
+    "BAC",
+    "DB "
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersive_aircraft:telescope"
+  }
+}

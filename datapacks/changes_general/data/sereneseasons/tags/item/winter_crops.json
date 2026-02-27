@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": [
+    "#sereneseasons:year_round_crops",
+    "minecraft:spruce_sapling",
+    "minecraft:sweet_berries",
+    "vinery:taiga_grape_seeds_red",
+    "vinery:taiga_grape_seeds_white",
+    "herbalbrews:rooibos_leaf"
+  ]
+}

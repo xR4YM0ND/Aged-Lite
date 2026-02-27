@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  a",
+    "xxa",
+    "xx "
+  ],
+  "key": {
+    "a": {
+      "item": "agedaddition:iron_rod"
+    },
+    "x": {
+      "item": "armorandtools:reinforced_iron_sheet"
+    }
+  },
+  "result": {
+    "id": "herbalbrews:tea_kettle"
+  }
+}

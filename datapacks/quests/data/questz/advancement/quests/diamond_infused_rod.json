@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/diamond_infused_alloy",
+  "display": {
+    "icon": {
+      "id": "agedaddition:diamond_infused_alloy_rod"
+    },
+    "title": {
+      "text": "Diamond Infused Rod"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 7.0,
+    "y_manual": 10.0
+  },
+  "criteria": {
+    "diamond_infused_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "agedaddition:diamond_infused_alloy_rod"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "diamond_infused_rod"
+    ]
+  ]
+}

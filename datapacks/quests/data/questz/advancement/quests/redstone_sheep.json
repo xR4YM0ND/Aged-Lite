@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/farmer",
+  "display": {
+    "icon": {
+      "id": "immersive_machinery:redstone_sheep"
+    },
+    "title": {
+      "text": "Redstone Sheep"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 10.0,
+    "y_manual": 12.0
+  },
+  "criteria": {
+    "redstone_sheep": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersive_machinery:redstone_sheep"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "redstone_sheep"
+    ]
+  ]
+}

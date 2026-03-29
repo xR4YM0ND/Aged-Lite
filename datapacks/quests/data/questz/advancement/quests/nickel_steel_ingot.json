@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/basic_steel",
+  "display": {
+    "icon": {
+      "id": "agedaddition:nickel_steel_ingot"
+    },
+    "title": {
+      "text": "Nickel Steel Ingot"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 5.0,
+    "y_manual": 8.0
+  },
+  "criteria": {
+    "nickel_steel_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "agedaddition:nickel_steel_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "nickel_steel_ingot"
+    ]
+  ]
+}

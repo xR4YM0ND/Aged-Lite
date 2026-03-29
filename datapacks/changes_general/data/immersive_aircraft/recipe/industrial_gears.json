@@ -5,7 +5,7 @@
       "item": "minecraft:lever"
     },
     "B": {
-      "item": "minecraft:iron_ingot"
+      "item": "stal-alloys:zinc_ingot"
     },
     "C": {
       "item": "stal-alloys:bronze_ingot"
@@ -18,6 +18,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "immersive_aircraft:heavy_crossbow"
+    "id": "immersive_aircraft:industrial_gears"
   }
 }

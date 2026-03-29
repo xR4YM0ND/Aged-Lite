@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/sprinkler",
+  "display": {
+    "icon": {
+      "id": "farm_and_charm:water_sprinkler"
+    },
+    "title": {
+      "text": "Advanced Sprinkler"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 11.0,
+    "y_manual": 10.0
+  },
+  "criteria": {
+    "advanced_sprinkler": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farm_and_charm:water_sprinkler"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "advanced_sprinkler"
+    ]
+  ]
+}

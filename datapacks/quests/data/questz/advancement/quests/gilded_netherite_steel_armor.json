@@ -1,0 +1,84 @@
+{
+  "parent": "questz:quests/netherite_steel_armor",
+  "display": {
+    "icon": {
+      "id": "adventurez:gilded_netherite_helmet"
+    },
+    "title": {
+      "text": "Gilded Netherite Steel Armor"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 8.0,
+    "y_manual": -2.0
+  },
+  "criteria": {
+    "g_netherite_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "adventurez:gilded_netherite_leggings"
+            ]
+          }
+        ]
+      }
+    },
+    "g_netherite_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "adventurez:gilded_netherite_helmet"
+            ]
+          }
+        ]
+      }
+    },
+    "g_netherite_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "adventurez:gilded_netherite_chestplate"
+            ]
+          }
+        ]
+      }
+    },
+    "g_netherite_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "adventurez:gilded_netherite_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "g_netherite_leggings"
+    ],
+    [
+      "g_netherite_helmet"
+    ],
+    [
+      "g_netherite_chestplate"
+    ],
+    [
+      "g_netherite_boots"
+    ]
+  ]
+}

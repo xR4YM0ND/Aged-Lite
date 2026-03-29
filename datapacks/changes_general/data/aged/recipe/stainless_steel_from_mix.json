@@ -18,7 +18,7 @@
     "item": "stal-alloys:stainless_steel_ingot",
     "count": 1
   },
-  "min_forge_tier": 1,
+  "min_forge_tier": 4,
   "experience": 2.5,
-  "fuel_per_tick": 750
+  "fuel_per_tick": 150
 }

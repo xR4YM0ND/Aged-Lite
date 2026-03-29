@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/copper_brewingstation",
+  "display": {
+    "icon": {
+      "id": "brewery:netherite_brewingstation"
+    },
+    "title": {
+      "text": "Netherite Brewingstation"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 13.0,
+    "y_manual": 7.0
+  },
+  "criteria": {
+    "netherite_brewingstation": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "brewery:netherite_brewingstation"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "netherite_brewingstation"
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "questz:quests/agro_culinary",
+  "display": {
+    "icon": {
+      "id": "minecraft:wheat_seeds"
+    },
+    "title": {
+      "text": "Farmer"
+    },
+    "description": {
+      "text": "Change this to seeds used on block"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 9.0,
+    "y_manual": 10.0
+  },
+  "criteria": {
+    "farmer": {
+      "trigger": "minecraft:tick",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "farmer"
+    ]
+  ]
+}

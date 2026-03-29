@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/mincer",
+  "display": {
+    "icon": {
+      "id": "candlelight:cooking_pan"
+    },
+    "title": {
+      "text": "Copper Cooking Pan"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 12.0,
+    "y_manual": 2.0
+  },
+  "criteria": {
+    "cooking_pan": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "candlelight:cooking_pan"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cooking_pan"
+    ]
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/brush",
+  "display": {
+    "icon": {
+      "id": "betterarcheology:artifact_shards"
+    },
+    "title": {
+      "text": "Artifact Shards"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 8.0,
+    "y_manual": 5.0
+  },
+  "criteria": {
+    "artifact_shards": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "betterarcheology:artifact_shards"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "artifact_shards"
+    ]
+  ]
+}

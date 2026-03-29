@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "a": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "x": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "# #",
+    "xax"
+  ],
+  "result": {
+    "count": 1,
+    "id": "meadow:wooden_bucket"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/cold",
+  "display": {
+    "icon": {
+      "id": "environmentz:heating_stones"
+    },
+    "title": {
+      "text": "Heating Stones"
+    },
+    "description": {
+      "text": "Convert to item_used_on_block in the future"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 3.0,
+    "y_manual": -1.0
+  },
+  "criteria": {
+    "heating_stones": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "environmentz:heating_stones"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "heating_stones"
+    ]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "cxd",
+    "aea"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:end_crystal"
+    },
+    "a": {
+      "item": "agedaddition:stainless_steel_block"
+    },
+    "b": {
+      "item": "lilis_lucky_lures:redstone_coil"
+    },
+    "c": {
+      "item": "immersive_aircraft:gyroscope_dials"
+    },
+    "d": {
+      "item": "immersive_aircraft:gyroscope_hud"
+    },
+    "e": {
+      "tag": "aged:magic_mirror_engines"
+    }
+  },
+  "result": {
+    "id": "magicmirror:magic_mirror"
+  }
+}

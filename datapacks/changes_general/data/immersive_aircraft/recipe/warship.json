@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SHS",
+    "EAE",
+    "HPH  "
+  ],
+  "key": {
+    "E": {
+      "tag": "aged:magic_mirror_engines"
+    },
+    "A": {
+      "item": "immersive_aircraft:cargo_airship"
+    },
+    "S": {
+      "item": "immersive_aircraft:sail"
+    },
+    "H": {
+      "item": "immersive_aircraft:hull_reinforcement"
+    },
+    "P": {
+      "item": "immersive_aircraft:sturdy_pipes"
+    }
+  },
+  "result": {
+    "id": "immersive_aircraft:warship",
+    "count": 1
+  }
+}

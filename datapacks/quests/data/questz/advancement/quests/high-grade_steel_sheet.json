@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/high-grade_steel_ingot",
+  "display": {
+    "icon": {
+      "id": "agedaddition:high-grade_steel_sheet"
+    },
+    "title": {
+      "text": "High-Grade Steel Sheet"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 7.0,
+    "y_manual": 11.0
+  },
+  "criteria": {
+    "high-grade_steel_sheet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "agedaddition:high-grade_steel_sheet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "high-grade_steel_sheet"
+    ]
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/iron_pickaxe",
+  "display": {
+    "icon": {
+      "id": "armorandtools:aurium_pickaxe"
+    },
+    "title": {
+      "text": "Aurium Pickaxe"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 4.0,
+    "y_manual": 2.0
+  },
+  "criteria": {
+    "aurium_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "armorandtools:aurium_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "aurium_pickaxe"
+    ]
+  ]
+}

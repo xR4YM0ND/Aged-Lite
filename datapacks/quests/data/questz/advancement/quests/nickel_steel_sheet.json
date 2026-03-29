@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/nickel_steel_ingot",
+  "display": {
+    "icon": {
+      "id": "agedaddition:nickel_steel_sheet"
+    },
+    "title": {
+      "text": "Nickel Steel Sheet"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 6.0,
+    "y_manual": 8.0
+  },
+  "criteria": {
+    "nickel_steel_sheet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "agedaddition:nickel_steel_sheet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "nickel_steel_sheet"
+    ]
+  ]
+}

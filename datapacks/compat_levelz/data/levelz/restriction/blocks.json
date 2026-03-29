@@ -1,0 +1,626 @@
+{
+  "crafting_table": {
+    "replace": false,
+    "skills": {
+      "constitution": 3,
+      "masonry": 3
+    },
+    "blocks": [
+      "minecraft:crafting_table"
+    ],
+    "crafting": [
+      "minecraft:crafting_table"
+    ]
+  },
+  "furnace": {
+    "replace": false,
+    "skills": {
+      "constitution": 2,
+      "masonry": 2
+    },
+    "blocks": [
+      "minecraft:furnace"
+    ],
+    "crafting": [
+      "minecraft:furnace"
+    ]
+  },
+  "composter": {
+    "replace": false,
+    "skills": {
+      "cultivation": 5
+    },
+    "blocks": [
+      "minecraft:composter"
+    ],
+    "crafting": [
+      "minecraft:composter"
+    ]
+  },
+  "smoker": {
+    "replace": false,
+    "skills": {
+      "provisioning": 2
+    },
+    "blocks": [
+      "minecraft:smoker"
+    ],
+    "crafting": [
+      "minecraft:smoker"
+    ]
+  },
+  "pine_smoker": {
+    "replace": false,
+    "skills": {
+      "provisioning": 2,
+      "masonry": 3
+    },
+    "blocks": [
+      "alpinewhispers:arolla_pine_smoker"
+    ],
+    "crafting": [
+      "alpinewhispers:arolla_pine_smoker"
+    ]
+  },
+  "silo_wood": {
+    "replace": false,
+    "skills": {
+      "cultivation": 1,
+      "provisioning": 3
+    },
+    "crafting": [
+      "farm_and_charm:silo_wood"
+    ]
+  },
+  "silo_copper": {
+    "replace": false,
+    "skills": {
+      "smithing": 3,
+      "cultivation": 3,
+      "provisioning": 6
+    },
+    "crafting": [
+      "farm_and_charm:silo_copper"
+    ]
+  },
+  "crafting_bowl": {
+    "replace": false,
+    "skills": {
+      "provisioning": 3,
+      "masonry": 1
+    },
+    "blocks": [
+      "farm_and_charm:crafting_bowl"
+    ],
+    "crafting": [
+      "farm_and_charm:crafting_bowl"
+    ]
+  },
+  "mincer": {
+    "replace": false,
+    "skills": {
+      "provisioning": 4,
+      "smithing": 6
+    },
+    "blocks": [
+      "farm_and_charm:mincer"
+    ],
+    "crafting": [
+      "farm_and_charm:mincer"
+    ]
+  },
+  "roaster": {
+    "replace": false,
+    "skills": {
+      "provisioning": 6,
+      "smithing": 3,
+      "masonry": 3
+    },
+    "blocks": [
+      "farm_and_charm:roaster"
+    ],
+    "crafting": [
+      "farm_and_charm:roaster"
+    ]
+  },
+  "cheese_form": {
+    "replace": false,
+    "skills": {
+      "provisioning": 7,
+      "cultivation": 7,
+      "masonry": 4
+    },
+    "blocks": [
+      "meadow:cheese_form"
+    ],
+    "crafting": [
+      "meadow:cheese_form"
+    ]
+  },
+  "baker_station": {
+    "replace": false,
+    "skills": {
+      "provisioning": 10
+    },
+    "blocks": [
+      "bakery:baker_station"
+    ],
+    "crafting": [
+      "bakery:baker_station"
+    ]
+  },
+  "copper_cooking_set": {
+    "replace": false,
+    "skills": {
+      "provisioning": 5,
+      "smithing": 3
+    },
+    "blocks": [
+      "candlelight:cooking_pot",
+      "candlelight:cooking_pan"
+    ],
+    "crafting": [
+      "candlelight:cooking_pot",
+      "candlelight:cooking_pan"
+    ]
+  },
+  "copper_kettle": {
+    "replace": false,
+    "skills": {
+      "provisioning": 5,
+      "cultivation": 3,
+      "smithing": 3
+    },
+    "blocks": [
+      "herbalbrews:copper_tea_kettle"
+    ],
+    "crafting": [
+      "herbalbrews:copper_tea_kettle"
+    ]
+  },
+  "copper_cauldron": {
+    "replace": false,
+    "skills": {
+      "smithing": 3
+    },
+    "crafting": [
+      "dehydration:copper_cauldron",
+      "dehydration:campfire_cauldron"
+    ]
+  },
+  "iron_cooking_set": {
+    "replace": false,
+    "skills": {
+      "provisioning": 6,
+      "smithing": 5
+    },
+    "blocks": [
+      "bakery:small_cooking_pot",
+      "farm_and_charm:cooking_pot"
+    ],
+    "crafting": [
+      "bakery:small_cooking_pot",
+      "farm_and_charm:cooking_pot"
+    ]
+  },
+  "iron_kettle": {
+    "replace": false,
+    "skills": {
+      "provisioning": 6,
+      "cultivation": 5,
+      "smithing": 5
+    },
+    "blocks": [
+      "herbalbrews:tea_kettle"
+    ],
+    "crafting": [
+      "herbalbrews:tea_kettle"
+    ]
+  },
+  "brewing_cauldron": {
+    "replace": false,
+    "skills": {
+      "provisioning": 10,
+      "cultivation": 10,
+      "smithing": 5
+    },
+    "blocks": [
+      "herbalbrews:cauldron"
+    ],
+    "crafting": [
+      "herbalbrews:cauldron"
+    ]
+  },
+  "stove": {
+    "replace": false,
+    "skills": {
+      "provisioning": 5
+    },
+    "blocks": [
+      "farm_and_charm:stove"
+    ],
+    "crafting": [
+      "farm_and_charm:stove"
+    ]
+  },
+  "wooden_brewingstation": {
+    "replace": false,
+    "skills": {
+      "provisioning": 3,
+      "cultivation": 3
+    },
+    "blocks": [
+      "brewery:wooden_brewingstation"
+    ],
+    "crafting": [
+      "brewery:wooden_brewingstation"
+    ]
+  },
+  "copper_brewingstation": {
+    "replace": false,
+    "skills": {
+      "provisioning": 6,
+      "cultivation": 5,
+      "smithing": 3
+    },
+    "blocks": [
+      "brewery:copper_brewingstation"
+    ],
+    "crafting": [
+      "brewery:copper_brewingstation"
+    ]
+  },
+  "netherite_brewingstation": {
+    "replace": false,
+    "skills": {
+      "provisioning": 10,
+      "cultivation": 10,
+      "smithing": 10
+    },
+    "blocks": [
+      "brewery:netherite_brewingstation"
+    ],
+    "crafting": [
+      "brewery:netherite_brewingstation"
+    ]
+  },
+  "blast_furnace": {
+    "replace": false,
+    "skills": {
+      "smithing": 1
+    },
+    "blocks": [
+      "minecraft:blast_furnace"
+    ],
+    "crafting": [
+      "minecraft:blast_furnace"
+    ]
+  },
+  "smithing_table": {
+    "replace": false,
+    "skills": {
+      "smithing": 2
+    },
+    "blocks": [
+      "minecraft:smithing_table"
+    ],
+    "crafting": [
+      "minecraft:smithing_table"
+    ]
+  },
+  "forge_brick": {
+    "replace": false,
+    "skills": {
+      "smithing": 3
+    },
+    "blocks": [
+      "alloy_forgery:bricks_forge_controller"
+    ],
+    "crafting": [
+      "alloy_forgery:bricks_forge_controller"
+    ]
+  },
+  "forge_stone": {
+    "replace": false,
+    "skills": {
+      "smithing": 4
+    },
+    "blocks": [
+      "alloy_forgery:stone_bricks_forge_controller"
+    ],
+    "crafting": [
+      "alloy_forgery:stone_bricks_forge_controller"
+    ]
+  },
+  "forge_deepslate": {
+    "replace": false,
+    "skills": {
+      "smithing": 5
+    },
+    "blocks": [
+      "alloy_forgery:deepslate_bricks_forge_controller"
+    ],
+    "crafting": [
+      "alloy_forgery:deepslate_bricks_forge_controller"
+    ]
+  },
+  "forge_prismarine": {
+    "replace": false,
+    "skills": {
+      "smithing": 6
+    },
+    "blocks": [
+      "alloy_forgery:prismarine_bricks_forge_controller"
+    ],
+    "crafting": [
+      "alloy_forgery:prismarine_bricks_forge_controller"
+    ]
+  },
+  "forge_blackstone": {
+    "replace": false,
+    "skills": {
+      "smithing": 7
+    },
+    "blocks": [
+      "alloy_forgery:polished_blackstone_forge_controller"
+    ],
+    "crafting": [
+      "alloy_forgery:polished_blackstone_forge_controller"
+    ]
+  },
+  "forge_end": {
+    "replace": false,
+    "skills": {
+      "smithing": 10
+    },
+    "blocks": [
+      "alloy_forgery:end_stone_bricks_forge_controller"
+    ],
+    "crafting": [
+      "alloy_forgery:end_stone_bricks_forge_controller"
+    ]
+  },
+  "beacon": {
+    "replace": false,
+    "skills": {
+      "quarrying": 10,
+      "provisioning": 10
+    },
+    "blocks": [
+      "minecraft:beacon"
+    ],
+    "crafting": [
+      "minecraft:beacon"
+    ]
+  },
+  "enchanting_table": {
+    "replace": false,
+    "skills": {
+      "sorcery": 5
+    },
+    "blocks": [
+      "minecraft:enchanting_table"
+    ],
+    "crafting": [
+      "minecraft:enchanting_table"
+    ]
+  },
+  "fletching_table": {
+    "replace": false,
+    "skills": {
+      "archery": 5
+    },
+    "blocks": [
+      "minecraft:fletching_table"
+    ],
+    "crafting": [
+      "minecraft:fletching_table"
+    ]
+  },
+  "crafter": {
+    "replace": false,
+    "skills": {
+      "mechanics": 5
+    },
+    "crafting": [
+      "minecraft:crafter"
+    ]
+  },
+  "pistons_dropper": {
+    "replace": false,
+    "skills": {
+      "mechanics": 2
+    },
+    "blocks": [
+      "minecraft:dropper"
+    ],
+    "crafting": [
+      "minecraft:piston",
+      "minecraft:sticky_piston",
+      "minecraft:dropper"
+    ]
+  },
+  "dispenser": {
+    "replace": false,
+    "skills": {
+      "mechanics": 3
+    },
+    "blocks": [
+      "minecraft:dispenser"
+    ],
+    "crafting": [
+      "minecraft:dispenser"
+    ]
+  },
+  "mini_fridge": {
+    "replace": false,
+    "skills": {
+      "provisioning": 3,
+      "mechanics": 3
+    },
+    "crafting": [
+      "beachparty:mini_fridge"
+    ]
+  },
+  "palm_bar": {
+    "replace": false,
+    "skills": {
+      "provisioning": 5,
+      "constitution": 3,
+      "seafaring": 4
+    },
+    "crafting": [
+      "beachparty:palm_bar"
+    ]
+  },
+  "sieve": {
+    "replace": false,
+    "skills": {
+      "mechanics": 1
+    },
+    "crafting": [
+      "earlystage:sieve"
+    ]
+  },
+  "redstone_sieve": {
+    "replace": false,
+    "skills": {
+      "mechanics": 4
+    },
+    "crafting": [
+      "earlystage:redstone_sieve"
+    ]
+  },
+  "season_sensor": {
+    "replace": false,
+    "skills": {
+      "mechanics": 5
+    },
+    "crafting": [
+      "sereneseasons:season_sensor"
+    ]
+  },
+  "pottery": {
+    "replace": false,
+    "skills": {
+      "masonry": 6
+    },
+    "blocks": [
+      "lilis_pottery:pottery_table",
+      "lilis_pottery:kiln"
+    ],
+    "crafting": [
+      "lilis_pottery:pottery_table",
+      "lilis_pottery:kiln"
+    ]
+  },
+  "meadow_cooking": {
+    "replace": false,
+    "skills": {
+      "provisioning": 7,
+      "cultivation": 4,
+      "constitution": 4
+    },
+    "blocks": [
+      "meadow:cookpot",
+      "meadow:cooking_frame"
+    ],
+    "crafting": [
+      "meadow:cookpot",
+      "meadow:cooking_frame"
+    ]
+  },
+  "fondue": {
+    "replace": false,
+    "skills": {
+      "provisioning": 9,
+      "constitution": 5
+    },
+    "blocks": [
+      "meadow:fondue_pot"
+    ],
+    "crafting": [
+      "meadow:fondue_pot"
+    ]
+  },
+  "cutter": {
+    "replace": false,
+    "skills": {
+      "masonry": 2
+    },
+    "crafting": [
+      "meadow:woodcutter",
+      "minecraft:stonecutter"
+    ]
+  },
+  "framing_table": {
+    "replace": false,
+    "skills": {
+      "masonry": 5,
+      "mechanics": 5
+    },
+    "blocks": [
+      "storagedrawers:framing_table"
+    ],
+    "crafting": [
+      "storagedrawers:framing_table"
+    ]
+  },
+  "heater": {
+    "replace": false,
+    "skills": {
+      "masonry": 10,
+      "mechanics": 6,
+      "smithing": 3,
+      "constitution": 4
+    },
+    "blocks": [
+      "heater:heater"
+    ],
+    "crafting": [
+      "heater:heater",
+      "heater:thermostat",
+      "heater:heat_pipe"
+    ]
+  },
+  "angling_table": {
+    "replace": false,
+    "skills": {
+      "seafaring": 3,
+      "smithing": 3,
+      "cultivation": 3
+    },
+    "blocks": [
+      "tide:angling_table"
+    ],
+    "crafting": [
+      "tide:angling_table"
+    ]
+  },
+  "vinery_press": {
+    "replace": false,
+    "skills": {
+      "cultivation": 2,
+      "mechanics": 4
+    },
+    "blocks": [
+      "vinery:apple_press"
+    ],
+    "crafting": [
+      "vinery:apple_press"
+    ]
+  },
+  "fermentation_barrel": {
+    "replace": false,
+    "skills": {
+      "provisioning": 7,
+      "cultivation": 5
+    },
+    "blocks": [
+      "vinery:fermentation_barrel"
+    ],
+    "crafting": [
+      "vinery:fermentation_barrel"
+    ]
+  }
+}

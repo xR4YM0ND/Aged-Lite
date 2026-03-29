@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/fisher",
+  "display": {
+    "icon": {
+      "id": "tide:stone_fishing_rod"
+    },
+    "title": {
+      "text": "Copper Fishing Rod"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 10.0,
+    "y_manual": 13.0
+  },
+  "criteria": {
+    "copper_fishing_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tide:stone_fishing_rod"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "copper_fishing_rod"
+    ]
+  ]
+}

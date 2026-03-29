@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/gold_ingot",
+  "display": {
+    "icon": {
+      "id": "agedaddition:golden_rod"
+    },
+    "title": {
+      "text": "Golden Rod"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 1.0,
+    "y_manual": 12.0
+  },
+  "criteria": {
+    "gold_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "agedaddition:golden_rod"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gold_rod"
+    ]
+  ]
+}

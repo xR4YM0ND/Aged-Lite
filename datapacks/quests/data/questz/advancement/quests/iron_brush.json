@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/brush",
+  "display": {
+    "icon": {
+      "id": "betterarcheology:iron_brush"
+    },
+    "title": {
+      "text": "Iron Brush"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 8.0,
+    "y_manual": 6.0
+  },
+  "criteria": {
+    "iron_brush": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "betterarcheology:iron_brush"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "iron_brush"
+    ]
+  ]
+}

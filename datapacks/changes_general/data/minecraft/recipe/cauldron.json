@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "armorandtools:reinforced_iron_sheet"
+    },
+    "X": {
+      "item": "agedaddition:iron_rod"
+    }
+  },
+  "pattern": [
+    "# #",
+    "# #",
+    "X#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:cauldron"
+  }
+}

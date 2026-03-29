@@ -9,6 +9,5 @@
     "item.stal-alloys.steel_axe": "Basic Steel Axe",
     "item.stal-alloys.steel_shovel": "Basic Steel Shovel",
     "item.stal-alloys.steel_hoe": "Basic Steel Hoe",
-    "block.stal-alloys.steel_block": "Block of Basic Steel",
-    "block.stal-alloys.alloy_smelter": "Kiln"
+    "block.stal-alloys.steel_block": "Block of Basic Steel"
 }

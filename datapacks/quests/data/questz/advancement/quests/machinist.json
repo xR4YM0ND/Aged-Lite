@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "immersive_aircraft:industrial_gears"
+    },
+    "title": {
+      "text": "Machinist"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/block/deepslate_bricks.png",
+    "x_manual": 0.0,
+    "y_manual": 6.0,
+    "tab_order": 5
+  },
+  "criteria": {
+    "machinist": {
+      "trigger": "minecraft:tick",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "machinist"
+    ]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:smooth_stone"
+    },
+    "I": {
+      "item": "minecraft:cobblestone"
+    },
+    "X": {
+      "item": "minecraft:furnace"
+    },
+    "A": [
+      {
+        "item": "minecraft:lava_bucket"
+      },
+      {
+        "item": "earlystage:lava_brick_bucket"
+      }
+    ]
+  },
+  "pattern": [
+    "IXI",
+    "IAI",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:blast_furnace"
+  }
+}

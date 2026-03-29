@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/frayed_backpack",
+  "display": {
+    "icon": {
+      "id": "inmis:plated_backpack"
+    },
+    "title": {
+      "text": "Plated Backpack"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 4.0,
+    "y_manual": 0.0
+  },
+  "criteria": {
+    "plated_backpack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "inmis:plated_backpack"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "plated_backpack"
+    ]
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/propeller",
+  "display": {
+    "icon": {
+      "id": "immersive_aircraft:enhanced_propeller"
+    },
+    "title": {
+      "text": "Enhanced Propeller"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 2.0,
+    "y_manual": 7.0
+  },
+  "criteria": {
+    "enhanced_propeller": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersive_aircraft:enhanced_propeller"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "enhanced_propeller"
+    ]
+  ]
+}

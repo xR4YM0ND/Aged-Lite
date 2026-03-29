@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/grapevine_pot",
+  "display": {
+    "icon": {
+      "id": "vinery:apple_press"
+    },
+    "title": {
+      "text": "Apple Press"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 12.0,
+    "y_manual": 5.0
+  },
+  "criteria": {
+    "apple_press": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vinery:apple_press"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "apple_press"
+    ]
+  ]
+}

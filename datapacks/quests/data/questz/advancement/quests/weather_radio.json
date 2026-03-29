@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/fisher",
+  "display": {
+    "icon": {
+      "id": "tide:weather_radio"
+    },
+    "title": {
+      "text": "Weather Radio"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 9.0,
+    "y_manual": 18.0
+  },
+  "criteria": {
+    "weather_radio": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tide:weather_radio"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "weather_radio"
+    ]
+  ]
+}

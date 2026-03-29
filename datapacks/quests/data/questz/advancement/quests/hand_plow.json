@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/farmer",
+  "display": {
+    "icon": {
+      "id": "farm_and_charm:plow"
+    },
+    "title": {
+      "text": "Hand Plow"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 10.0,
+    "y_manual": 9.0
+  },
+  "criteria": {
+    "hand_plow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farm_and_charm:plow"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hand_plow"
+    ]
+  ]
+}

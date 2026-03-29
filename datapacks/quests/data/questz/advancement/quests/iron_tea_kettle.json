@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/copper_tea_kettle",
+  "display": {
+    "icon": {
+      "id": "herbalbrews:tea_kettle"
+    },
+    "title": {
+      "text": "Iron Tea Kettle"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 13.0,
+    "y_manual": 1.0
+  },
+  "criteria": {
+    "tea_kettle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "herbalbrews:tea_kettle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "tea_kettle"
+    ]
+  ]
+}

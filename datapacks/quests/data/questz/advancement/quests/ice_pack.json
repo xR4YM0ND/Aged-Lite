@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/hot",
+  "display": {
+    "icon": {
+      "id": "environmentz:ice_pack"
+    },
+    "title": {
+      "text": "Ice Pack"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 3.0,
+    "y_manual": -3.0
+  },
+  "criteria": {
+    "ice_pack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "environmentz:ice_pack"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ice_pack"
+    ]
+  ]
+}

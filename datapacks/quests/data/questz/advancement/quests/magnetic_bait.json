@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/bait",
+  "display": {
+    "icon": {
+      "id": "tide:magnetic_bait"
+    },
+    "title": {
+      "text": "Magnetic Bait"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 11.0,
+    "y_manual": 15.0
+  },
+  "criteria": {
+    "magnetic_bait": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tide:magnetic_bait"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "magnetic_bait"
+    ]
+  ]
+}

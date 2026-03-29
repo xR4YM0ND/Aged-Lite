@@ -1,0 +1,29 @@
+{
+  "targets": "tide:dragonfin_boots",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "amount": 6.0,
+        "id": "minecraft:dragonfin_boots_armor",
+        "operation": "add_value",
+        "slot": "feet"
+      },
+      {
+        "type": "minecraft:generic.armor_toughness",
+        "amount": 3.0,
+        "id": "minecraft:dragonfin_boots_armor_toughness",
+        "operation": "add_value",
+        "slot": "feet"
+      },
+      {
+        "type": "minecraft:generic.knockback_resistance",
+        "amount": 0.7,
+        "id": "minecraft:dragonfin_boots_knockback_resistance",
+        "operation": "add_value",
+        "slot": "feet"
+      }
+    ],
+    "minecraft:max_damage": 1150
+  }
+}

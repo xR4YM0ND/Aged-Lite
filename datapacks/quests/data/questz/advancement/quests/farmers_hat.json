@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/farmer",
+  "display": {
+    "icon": {
+      "id": "farmz:farmers_hat"
+    },
+    "title": {
+      "text": "Farmers Hat"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 10.0,
+    "y_manual": 8.0
+  },
+  "criteria": {
+    "farmers_hat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmz:farmers_hat"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "farmers_hat"
+    ]
+  ]
+}

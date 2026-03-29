@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "stal-alloys:steel_ingot"
+    },
+    "C": {
+      "item": "minecraft:crafting_table"
+    },
+    "D": {
+      "item": "minecraft:dropper"
+    },
+    "R": {
+      "item": "immersive_aircraft:industrial_gears"
+    },
+    "L": {
+      "item": "immersive_machinery:redstone_mechanism"
+    }
+  },
+  "pattern": [
+    "###",
+    "#C#",
+    "LDR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:crafter"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/basic_steel_pickaxe",
+  "display": {
+    "icon": {
+      "id": "agedaddition:chrome_steel_pickaxe"
+    },
+    "title": {
+      "text": "Chrome Steel Pickaxe"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 5.0,
+    "y_manual": 2.0
+  },
+  "criteria": {
+    "chrome_steel_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "agedaddition:chrome_steel_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "chrome_steel_pickaxe"
+    ]
+  ]
+}

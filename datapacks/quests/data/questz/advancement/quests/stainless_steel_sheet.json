@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/stainless_steel_ingot",
+  "display": {
+    "icon": {
+      "id": "agedaddition:stainless_steel_sheet"
+    },
+    "title": {
+      "text": "Stainless Steel Sheet"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 8.0,
+    "y_manual": 12.0
+  },
+  "criteria": {
+    "stainless_steel_sheet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "agedaddition:stainless_steel_sheet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "stainless_steel_sheet"
+    ]
+  ]
+}

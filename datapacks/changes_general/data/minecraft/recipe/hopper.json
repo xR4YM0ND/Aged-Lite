@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "C": {
+      "item": "minecraft:bucket"
+    },
+    "I": {
+      "item": "armorandtools:reinforced_iron_sheet"
+    },
+    "X": {
+      "item": "agedaddition:iron_rod"
+    }
+  },
+  "pattern": [
+    "I I",
+    "ICI",
+    " X "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:hopper"
+  }
+}

@@ -7,7 +7,7 @@
     "item": "minecraft:brush"
   },
   "addition": {
-    "item": "agedaddition:iron_infused_alloy_rod"
+    "item": "agedaddition:iron_rod"
   },
   "result": {
     "id": "betterarcheology:iron_brush"

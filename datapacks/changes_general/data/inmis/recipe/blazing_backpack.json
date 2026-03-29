@@ -4,7 +4,7 @@
     "item": "earth-and-water:steel_upgrade_smithing_template"
   },
   "base": {
-    "item": "inmis:gilded_backpack"
+    "item": "inmis:bejeweled_backpack"
   },
   "addition": {
     "item": "minecraft:blaze_rod"

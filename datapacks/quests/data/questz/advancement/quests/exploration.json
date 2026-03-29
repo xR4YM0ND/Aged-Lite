@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spyglass"
+    },
+    "title": {
+      "text": "Exploration"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/block/chiseled_tuff.png",
+    "x_manual": 6.0,
+    "y_manual": 6.0,
+    "tab_order": 4
+  },
+  "criteria": {
+    "exploration": {
+      "trigger": "minecraft:tick",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "exploration"
+    ]
+  ]
+}

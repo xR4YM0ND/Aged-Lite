@@ -1,0 +1,22 @@
+{
+  "targets": "farm_and_charm:pitchfork",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.attack_damage",
+        "amount": 14.0,
+        "id": "minecraft:basic_steel_sword_attack_damage",
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "type": "minecraft:generic.attack_speed",
+        "amount": -3.4,
+        "id": "minecraft:basic_steel_sword_attack_speed",
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "minecraft:max_damage": 600
+  }
+}

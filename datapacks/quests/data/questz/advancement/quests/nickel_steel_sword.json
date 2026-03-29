@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/basic_steel_sword",
+  "display": {
+    "icon": {
+      "id": "agedaddition:nickel_steel_sword"
+    },
+    "title": {
+      "text": "Nickel Steel Sword"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 5.0,
+    "y_manual": 3.0
+  },
+  "criteria": {
+    "nickel_steel_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "agedaddition:nickel_steel_sword"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "nickel_steel_sword"
+    ]
+  ]
+}

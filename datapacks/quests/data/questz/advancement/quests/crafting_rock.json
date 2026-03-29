@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/first_steps",
+  "display": {
+    "icon": {
+      "id": "earlystage:crafting_rock"
+    },
+    "title": {
+      "text": "Crafting Rock"
+    },
+    "description": {
+      "text": "Place the recipe then \nhit it with a rock several times."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 1.0,
+    "y_manual": 3.0
+  },
+  "criteria": {
+    "crafting_rock": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "earlystage:crafting_rock"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crafting_rock"
+    ]
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/propeller",
+  "display": {
+    "icon": {
+      "id": "immersive_aircraft:improved_landing_gear"
+    },
+    "title": {
+      "text": "Improved Landing Gear"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 1.0,
+    "y_manual": 8.0
+  },
+  "criteria": {
+    "improved_landing_gear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersive_aircraft:improved_landing_gear"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "improved_landing_gear"
+    ]
+  ]
+}

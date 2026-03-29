@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/chefcook",
+  "display": {
+    "icon": {
+      "id": "farm_and_charm:crafting_bowl"
+    },
+    "title": {
+      "text": "Crafting Bowl"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 10.0,
+    "y_manual": 4.0
+  },
+  "criteria": {
+    "crafting_bowl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farm_and_charm:crafting_bowl"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crafting_bowl"
+    ]
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "xxx",
+    "aaa",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "tag": "minecraft:logs"
+    },
+    "a": {
+      "item": "stal-alloys:zinc_ingot"
+    }
+  },
+  "result": {
+    "id": "immersive_aircraft:hull"
+  }
+}

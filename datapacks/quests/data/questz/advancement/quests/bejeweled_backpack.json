@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/gilded_backpack",
+  "display": {
+    "icon": {
+      "id": "inmis:bejeweled_backpack"
+    },
+    "title": {
+      "text": "Bejeweled Backpack"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 6.0,
+    "y_manual": 1.0
+  },
+  "criteria": {
+    "bejeweled_backpack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "inmis:bejeweled_backpack"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bejeweled_backpack"
+    ]
+  ]
+}

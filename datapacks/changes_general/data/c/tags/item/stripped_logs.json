@@ -1,0 +1,33 @@
+{
+  "values": [
+    "#natures_spirit:stripped_logs",
+    "minecraft:stripped_oak_log",
+    "minecraft:stripped_oak_wood",
+    "minecraft:stripped_spruce_log",
+    "minecraft:stripped_spruce_wood",
+    "minecraft:stripped_birch_log",
+    "minecraft:stripped_birch_wood",
+    "minecraft:stripped_jungle_log",
+    "minecraft:stripped_jungle_wood",
+    "minecraft:stripped_acacia_log",
+    "minecraft:stripped_acacia_wood",
+    "minecraft:stripped_dark_oak_log",
+    "minecraft:stripped_dark_oak_wood",
+    "minecraft:stripped_mangrove_log",
+    "minecraft:stripped_mangrove_wood",
+    "minecraft:stripped_cherry_log",
+    "minecraft:stripped_cherry_wood",
+    "minecraft:stripped_crimson_stem",
+    "minecraft:stripped_crimson_hyphae",
+    "minecraft:stripped_warped_stem",
+    "minecraft:stripped_warped_hyphae",
+    "alpinewhispers:stripped_arolla_pine_log",
+    "alpinewhispers:stripped_arolla_pine_wood",
+    "beachparty:stripped_palm_log",
+    "beachparty:stripped_palm_wood",
+    "meadow:stripped_pine_log",
+    "meadow:stripped_pine_wood",
+    "vinery:stripped_dark_cherry_log",
+    "vinery:stripped_dark_cherry_wood"
+  ]
+}

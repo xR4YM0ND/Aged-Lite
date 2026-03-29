@@ -1,0 +1,84 @@
+{
+  "parent": "questz:quests/equipment",
+  "display": {
+    "icon": {
+      "id": "armorandtools:copper_helmet"
+    },
+    "title": {
+      "text": "Copper Armor"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 1.0,
+    "y_manual": -1.0
+  },
+  "criteria": {
+    "copper_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "armorandtools:copper_helmet"
+            ]
+          }
+        ]
+      }
+    },
+    "copper_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "armorandtools:copper_chestplate"
+            ]
+          }
+        ]
+      }
+    },
+    "copper_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "armorandtools:copper_leggings"
+            ]
+          }
+        ]
+      }
+    },
+    "copper_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "armorandtools:copper_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "copper_helmet"
+    ],
+    [
+      "copper_chestplate"
+    ],
+    [
+      "copper_leggings"
+    ],
+    [
+      "copper_boots"
+    ]
+  ]
+}

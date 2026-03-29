@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/roaster",
+  "display": {
+    "icon": {
+      "id": "meadow:fondue_pot"
+    },
+    "title": {
+      "text": "Fondue Pot"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 14.0,
+    "y_manual": 2.0
+  },
+  "criteria": {
+    "fondue_pot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "meadow:fondue_pot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fondue_pot"
+    ]
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/bricks_forge_controller",
+  "display": {
+    "icon": {
+      "id": "alloy_forgery:stone_bricks_forge_controller"
+    },
+    "title": {
+      "text": "Stone Bricks Forge Controller"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 2.0,
+    "y_manual": 13.0
+  },
+  "criteria": {
+    "stone_bricks_forge_controller": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alloy_forgery:stone_bricks_forge_controller"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "stone_bricks_forge_controller"
+    ]
+  ]
+}

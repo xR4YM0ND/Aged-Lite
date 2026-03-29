@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/fisher",
+  "display": {
+    "icon": {
+      "id": "tide:angling_table"
+    },
+    "title": {
+      "text": "Angling Table"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 10.0,
+    "y_manual": 14.0
+  },
+  "criteria": {
+    "angling_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tide:angling_table"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "angling_table"
+    ]
+  ]
+}

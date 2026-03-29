@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:recovery_compass"
+  },
+  "addition": [
+    {
+      "item": "minecraft:wither_rose"
+    },
+    {
+      "item": "minecraft:torchflower"
+    },
+    {
+      "item": "minecraft:pitcher_plant"
+    }
+  ],
+  "template": {
+    "item": "armorandtools:aurium_upgrade_template"
+  },
+  "result": {
+    "id": "naturescompass:naturescompass"
+  }
+}

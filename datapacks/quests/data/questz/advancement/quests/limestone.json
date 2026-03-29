@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/diorite",
+  "display": {
+    "icon": {
+      "id": "meadow:limestone"
+    },
+    "title": {
+      "text": "Limestone"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 4.0,
+    "y_manual": -1.0
+  },
+  "criteria": {
+    "limestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "meadow:limestone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "limestone"
+    ]
+  ]
+}

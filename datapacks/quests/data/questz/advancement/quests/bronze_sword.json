@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/copper_sword",
+  "display": {
+    "icon": {
+      "id": "stal-alloys:bronze_sword"
+    },
+    "title": {
+      "text": "Bronze Sword"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 2.0,
+    "y_manual": 1.0
+  },
+  "criteria": {
+    "bronze_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stal-alloys:bronze_sword"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bronze_sword"
+    ]
+  ]
+}

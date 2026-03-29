@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/fertilizer",
+  "display": {
+    "icon": {
+      "id": "farm_and_charm:fertilized_soil"
+    },
+    "title": {
+      "text": "Fertilized Soil"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 12.0,
+    "y_manual": 12.0
+  },
+  "criteria": {
+    "fertilized_soil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farm_and_charm:fertilized_soil"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fertilized_soil"
+    ]
+  ]
+}

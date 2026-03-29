@@ -1,0 +1,124 @@
+{
+  "bamboo_bee": {
+    "replace": false,
+    "skills": {
+      "masonry": 5,
+      "mechanics": 10,
+      "archery": 5
+    },
+    "crafting": [
+      "immersive_machinery:bamboo_bee"
+    ]
+  },
+  "redstone_sheep": {
+    "replace": false,
+    "skills": {
+      "cultivation": 10,
+      "mechanics": 10
+    },
+    "crafting": [
+      "immersive_machinery:redstone_sheep"
+    ]
+  },
+  "tunnel_digger": {
+    "replace": false,
+    "skills": {
+      "quarrying": 10,
+      "mechanics": 10
+    },
+    "crafting": [
+      "immersive_machinery:tunnel_digger"
+    ]
+  },
+  "copper_fin": {
+    "replace": false,
+    "skills": {
+      "seafaring": 10,
+      "mechanics": 10
+    },
+    "crafting": [
+      "immersive_machinery:copperfin"
+    ]
+  },
+  "quadrocopter": {
+    "replace": false,
+    "skills": {
+      "masonry": 5,
+      "mechanics": 5,
+      "archery": 5
+    },
+    "crafting": [
+      "immersive_aircraft:quadrocopter"
+    ]
+  },
+  "gyrodyne": {
+    "replace": false,
+    "skills": {
+      "constitution": 5,
+      "mechanics": 4,
+      "athletics": 3,
+      "archery": 5
+    },
+    "crafting": [
+      "immersive_aircraft:gyrodyne"
+    ]
+  },
+  "biplane": {
+    "replace": false,
+    "skills": {
+      "constitution": 5,
+      "mechanics": 7,
+      "athletics": 5,
+      "combat": 3
+    },
+    "crafting": [
+      "immersive_aircraft:biplane"
+    ]
+  },
+  "bamboo_hopper": {
+    "replace": false,
+    "skills": {
+      "constitution": 7,
+      "mechanics": 10,
+      "athletics": 7,
+      "seafaring": 10
+    },
+    "crafting": [
+      "immersive_aircraft:bamboo_hopper"
+    ]
+  },
+  "airship": {
+    "replace": false,
+    "skills": {
+      "constitution": 3,
+      "masonry": 3
+    },
+    "crafting": [
+      "immersive_aircraft:airship"
+    ]
+  },
+  "cargo_airship": {
+    "replace": false,
+    "skills": {
+      "constitution": 4,
+      "masonry": 6,
+      "warding": 2
+    },
+    "crafting": [
+      "immersive_aircraft:cargo_airship"
+    ]
+  },
+  "warship": {
+    "replace": false,
+    "skills": {
+      "constitution": 5,
+      "masonry": 10,
+      "warding": 5,
+      "combat": 5,
+      "smithing": 5
+    },
+    "crafting": [
+      "immersive_aircraft:warship"
+    ]
+  }
+}

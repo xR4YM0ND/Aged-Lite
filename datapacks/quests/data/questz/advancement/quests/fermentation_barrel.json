@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/grapevine_pot",
+  "display": {
+    "icon": {
+      "id": "vinery:fermentation_barrel"
+    },
+    "title": {
+      "text": "Fermentation Barrel"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 12.0,
+    "y_manual": 6.0
+  },
+  "criteria": {
+    "fermentation_barrel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vinery:fermentation_barrel"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fermentation_barrel"
+    ]
+  ]
+}

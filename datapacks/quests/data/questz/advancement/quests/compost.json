@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/composter",
+  "display": {
+    "icon": {
+      "id": "farm_and_charm:compost"
+    },
+    "title": {
+      "text": "Compost"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 11.0,
+    "y_manual": 11.0
+  },
+  "criteria": {
+    "compost": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farm_and_charm:compost"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "compost"
+    ]
+  ]
+}

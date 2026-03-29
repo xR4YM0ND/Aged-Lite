@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XHP",
+    "HEH",
+    "RHX"
+  ],
+  "key": {
+    "H": {
+      "item": "immersive_aircraft:hull_reinforcement"
+    },
+    "E": {
+      "item": "immersive_aircraft:engine"
+    },
+    "P": {
+      "item": "immersive_aircraft:enhanced_propeller"
+    },
+    "X": {
+      "item": "armorandtools:reinforced_iron_sheet"
+    },
+    "R": {
+      "item": "immersive_aircraft:redstone_mechanism"
+    }
+  },
+  "result": {
+    "id": "immersive_aircraft:biplane",
+    "count": 1
+  }
+}

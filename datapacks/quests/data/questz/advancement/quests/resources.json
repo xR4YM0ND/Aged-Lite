@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "agedaddition:chrome_steel_pickaxe"
+    },
+    "title": {
+      "text": "Resources"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "hearth_and_timber:textures/block/groutless_rubblestone.png",
+    "x_manual": 0.0,
+    "y_manual": 8.0,
+    "tab_order": 2
+  },
+  "criteria": {
+    "resources": {
+      "trigger": "minecraft:tick",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "resources"
+    ]
+  ]
+}

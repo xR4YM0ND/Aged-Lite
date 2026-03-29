@@ -1,0 +1,84 @@
+{
+  "parent": "questz:quests/high-grade_steel_armor",
+  "display": {
+    "icon": {
+      "id": "stal-alloys:stainless_steel_helmet"
+    },
+    "title": {
+      "text": "Stainless Steel Armor"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 7.0,
+    "y_manual": -1.0
+  },
+  "criteria": {
+    "stainless_steel_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stal-alloys:stainless_steel_helmet"
+            ]
+          }
+        ]
+      }
+    },
+    "stainless_steel_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stal-alloys:stainless_steel_chestplate"
+            ]
+          }
+        ]
+      }
+    },
+    "stainless_steel_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stal-alloys:stainless_steel_boots"
+            ]
+          }
+        ]
+      }
+    },
+    "stainless_steel_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stal-alloys:stainless_steel_leggings"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "stainless_steel_helmet"
+    ],
+    [
+      "stainless_steel_chestplate"
+    ],
+    [
+      "stainless_steel_boots"
+    ],
+    [
+      "stainless_steel_leggings"
+    ]
+  ]
+}

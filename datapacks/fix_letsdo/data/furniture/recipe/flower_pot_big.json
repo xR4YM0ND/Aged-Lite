@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x x",
+    "x x",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:brick"
+    }
+  },
+  "result": {
+    "id": "furniture:flower_pot_big"
+  }
+}

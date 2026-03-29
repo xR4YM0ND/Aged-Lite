@@ -1,0 +1,33 @@
+{
+  "parent": "questz:quests/crafting_rock",
+  "display": {
+    "icon": {
+      "id": "minecraft:campfire"
+    },
+    "title": {
+      "text": "Campfire"
+    },
+    "description": {
+      "text": "Light it with barks"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 4.0,
+    "y_manual": 6.0
+  },
+  "criteria": {
+    "campfire": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:campfire"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "campfire"
+    ]
+  ]
+}

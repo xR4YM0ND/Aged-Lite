@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/pocket_watch",
+  "display": {
+    "icon": {
+      "id": "tide:enchanted_pocket_watch"
+    },
+    "title": {
+      "text": "Enchanted Pocket Watch"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true,
+    "x_manual": 8.0,
+    "y_manual": 14.0
+  },
+  "criteria": {
+    "enchanted_pocket_watch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tide:enchanted_pocket_watch"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "enchanted_pocket_watch"
+    ]
+  ]
+}

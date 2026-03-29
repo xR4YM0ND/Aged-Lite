@@ -1,0 +1,336 @@
+{
+    "constitution": {
+        "replace": true,
+        "id": 0,
+        "key": "constitution",
+        "level": 10,
+        "attributes": [
+            {
+                "type": "generic.max_health",
+                "base": 8,
+                "operation": "ADD_VALUE",
+                "value": 4
+            }
+        ],
+        "bonus": [
+            {
+                "level": 5,
+                "key": "healthRegen"
+            }
+        ]
+    },
+    "provisioning": {
+        "replace": true,
+        "id": 1,
+        "key": "provisioning",
+        "level": 10,
+        "attributes": [
+            {
+                "type": "generic.max_stamina",
+                "operation": "ADD_VALUE",
+                "value": 10.0
+            }
+        ],
+        "bonus": [
+            {
+                "level": 1,
+                "key": "foodIncreasion"
+            }
+        ]
+    },
+    "warding": {
+        "replace": true,
+        "id": 2,
+        "key": "warding",
+        "level": 10,
+        "attributes": [
+            {
+                "type": "generic.armor",
+                "operation": "ADD_VALUE",
+                "value": 0.25
+            },
+            {
+                "type": "generic.knockback_resistance",
+                "operation": "ADD_VALUE",
+                "value": 0.05
+            }
+        ],
+        "bonus": [
+            {
+                "level": 10,
+                "key": "deathGraceChance"
+            }
+        ]
+    },
+    "cultivation": {
+        "replace": true,
+        "id": 3,
+        "key": "cultivation",
+        "level": 10,
+        "attributes": [],
+        "bonus": [
+            {
+                "level": 10,
+                "key": "breedTwinChance"
+            },
+            {
+                "level": 5,
+                "key": "plantDropChance"
+            }
+        ]
+    },
+    "athletics": {
+        "replace": true,
+        "id": 4,
+        "key": "athletics",
+        "level": 10,
+        "attributes": [
+            {
+                "type": "generic.movement_speed",
+                "base": 0.09,
+                "operation": "ADD_VALUE",
+                "value": 0.001
+            },
+            {
+                "type": "player.submerged_mining_speed",
+                "operation": "ADD_VALUE",
+                "value": 0.04
+            },
+            {
+                "type": "generic.water_movement_efficiency",
+                "operation": "ADD_VALUE",
+                "value": 0.02
+            }
+        ],
+        "bonus": [
+            {
+                "level": 1,
+                "key": "exhaustionReduction"
+            },
+            {
+                "level": 10,
+                "key": "evadingDamageChance"
+            }
+        ]
+    },
+    "seafaring": {
+        "replace": true,
+        "id": 5,
+        "key": "seafaring",
+        "level": 10,
+        "attributes": [
+            {
+                "type": "generic.oxygen_bonus",
+                "operation": "ADD_VALUE",
+                "value": 0.2
+            },
+            {
+                "type": "generic.luck",
+                "base": -1,
+                "operation": "ADD_VALUE",
+                "value": 0.2
+            },
+            {
+                "type": "generic.water_movement_efficiency",
+                "operation": "ADD_VALUE",
+                "value": 0.02
+            }
+        ],
+        "bonus": [
+            {
+                "level": 10,
+                "key": "breedTwinChance"
+            },
+            {
+                "level": 5,
+                "key": "plantDropChance"
+            }
+        ]
+    },
+    "combat": {
+        "replace": true,
+        "id": 6,
+        "key": "combat",
+        "level": 10,
+        "attributes": [
+            {
+                "type": "generic.attack_knockback",
+                "operation": "ADD_VALUE",
+                "value": 0.05
+            },
+            {
+                "type": "player.sweeping_damage_ratio",
+                "base": 0,
+                "operation": "ADD_VALUE",
+                "value": 0.03
+            }
+        ],
+        "bonus": [
+            {
+                "level": 5,
+                "key": "meleeCriticalAttackDamage"
+            },
+            {
+                "level": 10,
+                "key": "meleeDoubleAttackDamageChance"
+            }
+        ]
+    },
+    "quarrying": {
+        "replace": true,
+        "id": 7,
+        "key": "quarrying",
+        "level": 10,
+        "attributes": [
+            {
+                "type": "player.block_break_speed",
+                "base": 0.5,
+                "operation": "ADD_VALUE",
+                "value": 0.05
+            },
+            {
+                "type": "player.mining_efficiency",
+                "operation": "ADD_VALUE",
+                "value": 1.0
+            }
+        ],
+        "bonus": [
+            {
+                "level": 10,
+                "key": "miningDropChance"
+            },
+            {
+                "level": 5,
+                "key": "fallDamageReduction"
+            }
+        ]
+    },
+    "archery": {
+        "replace": true,
+        "id": 8,
+        "key": "archery",
+        "level": 10,
+        "attributes": [
+            {
+                "type": "player.block_interaction_range",
+                "operation": "ADD_VALUE",
+                "value": 0.1
+            },
+            {
+                "type": "generic.follow_range",
+                "operation": "ADD_VALUE",
+                "value": 1
+            },
+            {
+                "type": "player.sneaking_speed",
+                "base": 0.2,
+                "operation": "ADD_VALUE",
+                "value": 0.01
+            }
+        ],
+        "bonus": [
+            {
+                "level": 5,
+                "key": "bowDamage"
+            },
+            {
+                "level": 10,
+                "key": "bowDoubleDamageChance"
+            },
+            {
+                "level": 5,
+                "key": "crossbowDamage"
+            },
+            {
+                "level": 10,
+                "key": "crossbowDoubleDamageChance"
+            }
+        ]
+    },
+    "smithing": {
+        "replace": true,
+        "id": 9,
+        "key": "smithing",
+        "level": 10,
+        "attributes": [
+            {
+                "type": "generic.burning_time",
+                "operation": "ADD_VALUE",
+                "value": -0.05
+            },
+            {
+                "type": "generic.explosion_knockback_resistance",
+                "operation": "ADD_VALUE",
+                "value": 0.05
+            }
+        ],
+        "bonus": [
+            {
+                "level": 10,
+                "key": "itemDamageChance"
+            },
+            {
+                "level": 5,
+                "key": "tntStrength"
+            },
+            {
+                "level": 10,
+                "key": "anvilXpCap"
+            }
+        ]
+    },
+    "sorcery": {
+        "replace": true,
+        "id": 10,
+        "key": "sorcery",
+        "level": 10,
+        "attributes": [],
+        "bonus": [
+            {
+                "level": 5,
+                "key": "potionEffectChance"
+            },
+            {
+                "level": 10,
+                "key": "healthAbsorption"
+            }
+        ]
+    },
+    "mechanics": {
+        "replace": true,
+        "id": 11,
+        "key": "mechanics",
+        "level": 10,
+        "attributes": [],
+        "bonus": []
+    },
+    "barter": {
+        "replace": true,
+        "id": 12,
+        "key": "barter",
+        "level": 10,
+        "attributes": [],
+        "bonus": [
+            {
+                "level": 5,
+                "key": "tradeXp"
+            },
+            {
+                "level": 10,
+                "key": "merchantImmune"
+            },
+            {
+                "level": 10,
+                "key": "anvilXpDiscount"
+            }
+        ]
+    },
+    "masonry": {
+        "replace": true,
+        "id": 13,
+        "key": "masonry",
+        "level": 10,
+        "attributes": [],
+        "bonus": []
+    }
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/machinist",
+  "display": {
+    "icon": {
+      "id": "immersive_aircraft:propeller"
+    },
+    "title": {
+      "text": "Propeller"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 1.0,
+    "y_manual": 7.0
+  },
+  "criteria": {
+    "propeller": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersive_aircraft:propeller"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "propeller"
+    ]
+  ]
+}

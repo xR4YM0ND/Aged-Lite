@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/aurium_nugget",
+  "display": {
+    "icon": {
+      "id": "armorandtools:aurium_ingot"
+    },
+    "title": {
+      "text": "Aurium Ingot"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 4.0,
+    "y_manual": 11.0
+  },
+  "criteria": {
+    "aurium_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "armorandtools:aurium_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "aurium_ingot"
+    ]
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "minecraft:cobblestone"
+    },
+    "R": {
+      "item": "immersive_machinery:redstone_mechanism"
+    },
+    "x": {
+      "item": "minecraft:piston"
+    }
+  },
+  "pattern": [
+    "###",
+    "#x#",
+    "#R#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:dropper"
+  }
+}

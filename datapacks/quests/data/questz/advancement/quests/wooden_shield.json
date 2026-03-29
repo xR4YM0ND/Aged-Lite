@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/crafting_rock",
+  "display": {
+    "icon": {
+      "id": "earlystage:wooden_shield"
+    },
+    "title": {
+      "text": "Wooden Shield"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 2.0,
+    "y_manual": 2.0
+  },
+  "criteria": {
+    "wooden_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "earlystage:wooden_shield"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wooden_shield"
+    ]
+  ]
+}

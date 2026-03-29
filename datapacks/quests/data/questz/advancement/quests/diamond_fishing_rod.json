@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/crystal_fishing_rod",
+  "display": {
+    "icon": {
+      "id": "tide:diamond_fishing_rod"
+    },
+    "title": {
+      "text": "Diamond Fishing Rod"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 13.0,
+    "y_manual": 13.0
+  },
+  "criteria": {
+    "diamond_fishing_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tide:diamond_fishing_rod"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "diamond_fishing_rod"
+    ]
+  ]
+}

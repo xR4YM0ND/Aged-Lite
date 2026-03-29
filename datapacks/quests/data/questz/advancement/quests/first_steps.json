@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "natures_spirit:joshua_log"
+    },
+    "title": {
+      "text": "First Steps"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "alpinewhispers:textures/block/frozen_dirt.png",
+    "x_manual": 0.0,
+    "y_manual": 3.0,
+    "tab_order": 0
+  },
+  "criteria": {
+    "first_steps": {
+      "trigger": "minecraft:tick",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "first_steps"
+    ]
+  ]
+}

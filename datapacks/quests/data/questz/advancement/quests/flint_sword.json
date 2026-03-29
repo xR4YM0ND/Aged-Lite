@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/flint_tools",
+  "display": {
+    "icon": {
+      "id": "earlystage:flint_sword"
+    },
+    "title": {
+      "text": "Flint Sword"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 4.0,
+    "y_manual": 1.0
+  },
+  "criteria": {
+    "flint_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "earlystage:flint_sword"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "flint_sword"
+    ]
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/chefcook",
+  "display": {
+    "icon": {
+      "id": "farm_and_charm:silo_wood"
+    },
+    "title": {
+      "text": "Wooden Silo"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 10.0,
+    "y_manual": 6.0
+  },
+  "criteria": {
+    "wooden_silo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farm_and_charm:silo_wood"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wooden_silo"
+    ]
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/baby_backpack",
+  "display": {
+    "icon": {
+      "id": "inmis:frayed_backpack"
+    },
+    "title": {
+      "text": "Frayed Backpack"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 3.0,
+    "y_manual": 0.0
+  },
+  "criteria": {
+    "frayed_backpack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "inmis:frayed_backpack"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "frayed_backpack"
+    ]
+  ]
+}

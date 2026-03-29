@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/limestone",
+  "display": {
+    "icon": {
+      "id": "natures_spirit:travertine"
+    },
+    "title": {
+      "text": "Travertine"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 5.0,
+    "y_manual": -1.0
+  },
+  "criteria": {
+    "travertine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "natures_spirit:travertine"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "travertine"
+    ]
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "II ",
+    " A ",
+    " II"
+  ],
+  "key": {
+    "I": [
+      {
+        "item": "stal-alloys:nickel_ingot"
+      }
+    ],
+    "A": [
+      {
+        "item": "minecraft:iron_nugget"
+      }
+    ]
+  },
+  "result": {
+    "id": "immersive_aircraft:propeller"
+  }
+}

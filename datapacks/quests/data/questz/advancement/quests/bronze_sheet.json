@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/bronze_ingot",
+  "display": {
+    "icon": {
+      "id": "agedaddition:bronze_sheet"
+    },
+    "title": {
+      "text": "Bronze Sheet"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 4.0,
+    "y_manual": 6.0
+  },
+  "criteria": {
+    "bronze_sheet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "agedaddition:bronze_sheet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bronze_sheet"
+    ]
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/raw_carbon",
+  "display": {
+    "icon": {
+      "id": "stal-alloys:carbon_plate"
+    },
+    "title": {
+      "text": "Carbon Plate"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 4.0,
+    "y_manual": 8.0
+  },
+  "criteria": {
+    "carbon_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stal-alloys:carbon_plate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "carbon_plate"
+    ]
+  ]
+}

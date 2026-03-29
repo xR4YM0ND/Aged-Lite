@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/iron_fishing_rod",
+  "display": {
+    "icon": {
+      "id": "tide:golden_fishing_rod"
+    },
+    "title": {
+      "text": "Golden Fishing Rod"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 12.0,
+    "y_manual": 14.0
+  },
+  "criteria": {
+    "golden_fishing_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tide:golden_fishing_rod"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "golden_fishing_rod"
+    ]
+  ]
+}

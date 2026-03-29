@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/plated_backpack",
+  "display": {
+    "icon": {
+      "id": "inmis:gilded_backpack"
+    },
+    "title": {
+      "text": "Gilded Backpack"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 5.0,
+    "y_manual": 0.0
+  },
+  "criteria": {
+    "gilded_backpack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "inmis:gilded_backpack"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gilded_backpack"
+    ]
+  ]
+}

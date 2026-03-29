@@ -1,0 +1,1655 @@
+{
+  "fishing_rod": {
+    "replace": false,
+    "skills": {
+      "seafaring": 1,
+      "provisioning": 1
+    },
+    "crafting": [
+      "minecraft:fishing_rod"
+    ]
+  },
+  "fish_satchel": {
+    "replace": false,
+    "skills": {
+      "seafaring": 3,
+      "provisioning": 3,
+      "masonry": 3
+    },
+    "crafting": [
+      "tide:fish_satchel"
+    ]
+  },
+  "copper_armor": {
+    "replace": false,
+    "skills": {
+      "smithing": 3,
+      "warding": 3
+    },
+    "crafting": [
+      "armorandtools:copper_helmet",
+      "armorandtools:copper_chestplate",
+      "armorandtools:copper_leggings",
+      "armorandtools:copper_boots"
+    ]
+  },
+  "copper_sword": {
+    "replace": false,
+    "skills": {
+      "smithing": 3,
+      "combat": 3
+    },
+    "crafting": [
+      "armorandtools:copper_sword"
+    ]
+  },
+  "copper_pickaxe": {
+    "replace": false,
+    "skills": {
+      "smithing": 3,
+      "quarrying": 3
+    },
+    "crafting": [
+      "armorandtools:copper_pickaxe"
+    ]
+  },
+  "copper_axe": {
+    "replace": false,
+    "skills": {
+      "smithing": 3,
+      "cultivation": 3,
+      "combat": 3
+    },
+    "crafting": [
+      "armorandtools:copper_axe"
+    ]
+  },
+  "copper_hoe": {
+    "replace": false,
+    "skills": {
+      "smithing": 3,
+      "cultivation": 3
+    },
+    "crafting": [
+      "armorandtools:copper_hoe"
+    ]
+  },
+  "copper_shovel": {
+    "replace": false,
+    "skills": {
+      "smithing": 3,
+      "cultivation": 3,
+      "quarrying": 3
+    },
+    "crafting": [
+      "armorandtools:copper_shovel"
+    ]
+  },
+  "copper_prospector_pick": {
+    "replace": false,
+    "skills": {
+      "smithing": 3,
+      "quarrying": 3,
+      "sorcery": 3
+    },
+    "crafting": [
+      "miningz:copper_prospector_pick"
+    ]
+  },
+  "copper_fishing_rod": {
+    "replace": false,
+    "skills": {
+      "seafaring": 3,
+      "smithing": 3
+    },
+    "crafting": [
+      "tide:stone_fishing_rod"
+    ]
+  },
+  "copper_watering_can": {
+    "replace": false,
+    "skills": {
+      "cultivation": 3,
+      "smithing": 3
+    },
+    "crafting": [
+      "farmz:copper_watering_can"
+    ]
+  },
+  "copper_trowel": {
+    "replace": false,
+    "skills": {
+      "masonry": 3,
+      "smithing": 3
+    },
+    "crafting": [
+      "build_tools:trowel"
+    ]
+  },
+  "bronze_upgrade": {
+    "replace": false,
+    "skills": {
+      "smithing": 4,
+      "mechanics": 4
+    },
+    "crafting": [
+      "agedaddition:bronze_upgrade_template"
+    ]
+  },
+  "bronze_armor": {
+    "replace": false,
+    "skills": {
+      "smithing": 4,
+      "warding": 4
+    },
+    "crafting": [
+      "agedaddition:bronze_helmet",
+      "agedaddition:bronze_chestplate",
+      "agedaddition:bronze_leggings",
+      "agedaddition:bronze_boots"
+    ]
+  },
+  "bronze_swords": {
+    "replace": false,
+    "skills": {
+      "smithing": 4,
+      "combat": 4
+    },
+    "crafting": [
+      "stal-alloys:bronze_sword",
+      "stal-alloys:bronze_dirk",
+      "stal-alloys:bronze_dagger"
+    ]
+  },
+  "bronze_pickaxe": {
+    "replace": false,
+    "skills": {
+      "smithing": 4,
+      "quarrying": 4
+    },
+    "crafting": [
+      "agedaddition:bronze_pickaxe"
+    ]
+  },
+  "bronze_axe": {
+    "replace": false,
+    "skills": {
+      "smithing": 4,
+      "cultivation": 4,
+      "combat": 4
+    },
+    "crafting": [
+      "stal-alloys:bronze_axe"
+    ]
+  },
+  "bronze_hoe": {
+    "replace": false,
+    "skills": {
+      "smithing": 4,
+      "cultivation": 4
+    },
+    "crafting": [
+      "agedaddition:bronze_hoe"
+    ]
+  },
+  "bronze_shovel": {
+    "replace": false,
+    "skills": {
+      "smithing": 4,
+      "cultivation": 4,
+      "quarrying": 4
+    },
+    "crafting": [
+      "agedaddition:bronze_shovel"
+    ]
+  },
+  "bronze_wrench": {
+    "replace": false,
+    "skills": {
+      "masonry": 4,
+      "smithing": 4,
+      "quarrying": 4
+    },
+    "crafting": [
+      "build_tools:wrench"
+    ]
+  },
+  "rose_gold_armor": {
+    "replace": false,
+    "skills": {
+      "smithing": 4,
+      "warding": 4
+    },
+    "crafting": [
+      "rosegoldequipment:rose_golden_helmet",
+      "rosegoldequipment:rose_golden_chestplate",
+      "rosegoldequipment:rose_golden_leggings",
+      "rosegoldequipment:rose_golden_boots"
+    ]
+  },
+  "rose_gold_sword": {
+    "replace": false,
+    "skills": {
+      "smithing": 4,
+      "combat": 4
+    },
+    "crafting": [
+      "rosegoldequipment:rose_golden_sword"
+    ]
+  },
+  "rose_gold_pickaxe": {
+    "replace": false,
+    "skills": {
+      "smithing": 4,
+      "quarrying": 4
+    },
+    "crafting": [
+      "rosegoldequipment:rose_golden_pickaxe"
+    ]
+  },
+  "rose_gold_axe": {
+    "replace": false,
+    "skills": {
+      "smithing": 4,
+      "cultivation": 4,
+      "combat": 4
+    },
+    "crafting": [
+      "rosegoldequipment:rose_golden_axe"
+    ]
+  },
+  "rose_gold_hoe": {
+    "replace": false,
+    "skills": {
+      "smithing": 4,
+      "cultivation": 4
+    },
+    "crafting": [
+      "rosegoldequipment:rose_golden_hoe"
+    ]
+  },
+  "rose_gold_shovel": {
+    "replace": false,
+    "skills": {
+      "smithing": 4,
+      "cultivation": 4,
+      "quarrying": 4
+    },
+    "crafting": [
+      "rosegoldequipment:rose_golden_shovel"
+    ]
+  },
+  "iron_upgrade": {
+    "replace": false,
+    "skills": {
+      "smithing": 5,
+      "mechanics": 5
+    },
+    "crafting": [
+      "armorandtools:iron_upgrade_template"
+    ]
+  },
+  "iron_armor": {
+    "replace": false,
+    "skills": {
+      "smithing": 5,
+      "warding": 5
+    },
+    "crafting": [
+      "minecraft:iron_helmet",
+      "minecraft:iron_chestplate",
+      "minecraft:iron_leggings",
+      "minecraft:iron_boots"
+    ]
+  },
+  "iron_sword": {
+    "replace": false,
+    "skills": {
+      "smithing": 5,
+      "combat": 5
+    },
+    "crafting": [
+      "minecraft:iron_sword"
+    ]
+  },
+  "iron_pickaxe": {
+    "replace": false,
+    "skills": {
+      "smithing": 5,
+      "quarrying": 5
+    },
+    "crafting": [
+      "minecraft:iron_pickaxe"
+    ]
+  },
+  "iron_axe": {
+    "replace": false,
+    "skills": {
+      "smithing": 5,
+      "cultivation": 5,
+      "combat": 5
+    },
+    "crafting": [
+      "minecraft:iron_axe"
+    ]
+  },
+  "iron_hoe": {
+    "replace": false,
+    "skills": {
+      "smithing": 5,
+      "cultivation": 5
+    },
+    "crafting": [
+      "minecraft:iron_hoe"
+    ]
+  },
+  "iron_shovel": {
+    "replace": false,
+    "skills": {
+      "smithing": 5,
+      "cultivation": 5,
+      "quarrying": 5
+    },
+    "crafting": [
+      "minecraft:iron_shovel"
+    ]
+  },
+  "iron_pitchfork": {
+    "replace": false,
+    "skills": {
+      "smithing": 5,
+      "cultivation": 5
+    },
+    "crafting": [
+      "farm_and_charm:pitchfork"
+    ]
+  },
+  "iron_prospector_pick": {
+    "replace": false,
+    "skills": {
+      "smithing": 5,
+      "quarrying": 5,
+      "sorcery": 5
+    },
+    "crafting": [
+      "miningz:iron_prospector_pick"
+    ]
+  },
+  "iron_fishing_rod": {
+    "replace": false,
+    "skills": {
+      "seafaring": 5,
+      "smithing": 5
+    },
+    "crafting": [
+      "tide:iron_fishing_rod"
+    ]
+  },
+  "iron_watering_can": {
+    "replace": false,
+    "skills": {
+      "cultivation": 5,
+      "smithing": 5
+    },
+    "crafting": [
+      "farmz:iron_watering_can"
+    ]
+  },
+  "iron_brush": {
+    "replace": false,
+    "skills": {
+      "masonry": 5,
+      "athletics": 5
+    },
+    "crafting": [
+      "betterarcheology:iron_brush"
+    ]
+  },
+  "iron_grappling_hook": {
+    "replace": false,
+    "skills": {
+      "archery": 5,
+      "athletics": 5
+    },
+    "crafting": [
+      "yo_hooks:iron_grappling_hook"
+    ]
+  },
+  "iron_horse_armor": {
+    "replace": false,
+    "skills": {
+      "archery": 5,
+      "athletics": 5
+    },
+    "crafting": [
+      "minecraft:iron_horse_armor"
+    ]
+  },
+  "iron_leather_flask": {
+    "replace": false,
+    "skills": {
+      "provisioning": 5
+    },
+    "crafting": [
+      "dehydration:iron_leather_flask"
+    ]
+  },
+  "iron_bucket": {
+    "replace": false,
+    "skills": {
+      "smithing": 5,
+      "provisioning": 5,
+      "cultivation": 5,
+      "quarrying": 5
+    },
+    "crafting": [
+      "minecraft:bucket"
+    ]
+  },
+  "iron_shears": {
+    "replace": false,
+    "skills": {
+      "cultivation": 5,
+      "provisioning": 5
+    },
+    "crafting": [
+      "minecraft:shears"
+    ]
+  },
+  "iron_bread_knife": {
+    "replace": false,
+    "skills": {
+      "smithing": 5,
+      "provisioning": 5
+    },
+    "crafting": [
+      "bakery:bread_knife"
+    ]
+  },
+  "aurium_upgrade": {
+    "replace": false,
+    "skills": {
+      "smithing": 6,
+      "mechanics": 6
+    },
+    "crafting": [
+      "armorandtools:aurium_upgrade_template"
+    ]
+  },
+  "aurium_armor": {
+    "replace": false,
+    "skills": {
+      "smithing": 6,
+      "warding": 6
+    },
+    "crafting": [
+      "armorandtools:aurium_helmet",
+      "armorandtools:aurium_chestplate",
+      "armorandtools:aurium_leggings",
+      "armorandtools:aurium_boots"
+    ]
+  },
+  "aurium_sword": {
+    "replace": false,
+    "skills": {
+      "smithing": 6,
+      "combat": 6
+    },
+    "crafting": [
+      "armorandtools:aurium_sword"
+    ]
+  },
+  "aurium_pickaxe": {
+    "replace": false,
+    "skills": {
+      "smithing": 6,
+      "quarrying": 6
+    },
+    "crafting": [
+      "armorandtools:aurium_pickaxe"
+    ]
+  },
+  "aurium_axe": {
+    "replace": false,
+    "skills": {
+      "smithing": 6,
+      "cultivation": 6,
+      "combat": 6
+    },
+    "crafting": [
+      "armorandtools:aurium_axe"
+    ]
+  },
+  "aurium_hoe": {
+    "replace": false,
+    "skills": {
+      "smithing": 6,
+      "cultivation": 6
+    },
+    "crafting": [
+      "armorandtools:aurium_hoe"
+    ]
+  },
+  "aurium_shovel": {
+    "replace": false,
+    "skills": {
+      "smithing": 6,
+      "cultivation": 6,
+      "quarrying": 6
+    },
+    "crafting": [
+      "armorandtools:aurium_shovel"
+    ]
+  },
+  "chainmail_armor": {
+    "replace": false,
+    "skills": {
+      "smithing": 6,
+      "warding": 6
+    },
+    "crafting": [
+      "minecraft:chainmail_helmet",
+      "minecraft:chainmail_chestplate",
+      "minecraft:chainmail_leggings",
+      "minecraft:chainmail_boots"
+    ]
+  },
+  "golden_upgrade": {
+    "replace": false,
+    "skills": {
+      "smithing": 6,
+      "mechanics": 6
+    },
+    "crafting": [
+      "agedaddition:golden_upgrade_template"
+    ]
+  },
+  "golden_armor": {
+    "replace": false,
+    "skills": {
+      "smithing": 6,
+      "warding": 6
+    },
+    "crafting": [
+      "minecraft:golden_helmet",
+      "minecraft:golden_chestplate",
+      "minecraft:golden_leggings",
+      "minecraft:golden_boots"
+    ]
+  },
+  "golden_sword": {
+    "replace": false,
+    "skills": {
+      "smithing": 6,
+      "combat": 6
+    },
+    "crafting": [
+      "minecraft:golden_sword"
+    ]
+  },
+  "golden_pickaxe": {
+    "replace": false,
+    "skills": {
+      "smithing": 6,
+      "quarrying": 6
+    },
+    "crafting": [
+      "minecraft:golden_pickaxe"
+    ]
+  },
+  "golden_axe": {
+    "replace": false,
+    "skills": {
+      "smithing": 6,
+      "cultivation": 6,
+      "combat": 6
+    },
+    "crafting": [
+      "minecraft:golden_axe"
+    ]
+  },
+  "golden_hoe": {
+    "replace": false,
+    "skills": {
+      "smithing": 6,
+      "cultivation": 6
+    },
+    "crafting": [
+      "minecraft:golden_hoe"
+    ]
+  },
+  "golden_shovel": {
+    "replace": false,
+    "skills": {
+      "smithing": 6,
+      "cultivation": 6,
+      "quarrying": 6
+    },
+    "crafting": [
+      "minecraft:golden_shovel"
+    ]
+  },
+  "golden_prospector_pick": {
+    "replace": false,
+    "skills": {
+      "smithing": 6,
+      "quarrying": 6,
+      "sorcery": 6
+    },
+    "crafting": [
+      "miningz:golden_prospector_pick"
+    ]
+  },
+  "golden_fishing_rod": {
+    "replace": false,
+    "skills": {
+      "seafaring": 6,
+      "smithing": 6
+    },
+    "crafting": [
+      "tide:golden_fishing_rod"
+    ]
+  },
+  "midas_fishing_rod": {
+    "replace": false,
+    "skills": {
+      "seafaring": 6,
+      "smithing": 10,
+      "sorcery": 10
+    },
+    "crafting": [
+      "tide:midas_fishing_rod"
+    ]
+  },
+  "golden_watering_can": {
+    "replace": false,
+    "skills": {
+      "cultivation": 6,
+      "smithing": 6
+    },
+    "crafting": [
+      "farmz:golden_watering_can"
+    ]
+  },
+  "gold_grappling_hook": {
+    "replace": false,
+    "skills": {
+      "archery": 6,
+      "athletics": 6
+    },
+    "crafting": [
+      "yo_hooks:gold_grappling_hook"
+    ]
+  },
+  "golden_horse_armor": {
+    "replace": false,
+    "skills": {
+      "archery": 6,
+      "athletics": 6
+    },
+    "crafting": [
+      "minecraft:golden_horse_armor"
+    ]
+  },
+  "golden_leather_flask": {
+    "replace": false,
+    "skills": {
+      "provisioning": 6
+    },
+    "crafting": [
+      "dehydration:golden_leather_flask"
+    ]
+  },
+  "golden_ring": {
+    "replace": false,
+    "skills": {
+      "constitution": 6,
+      "provisioning": 6,
+      "cultivation": 6,
+      "quarrying": 6,
+      "smithing": 6,
+      "sorcery": 6,
+      "masonry": 6
+    },
+    "crafting": [
+      "candlelight:gold_ring"
+    ]
+  },
+  "basic_steel_upgrade": {
+    "replace": false,
+    "skills": {
+      "smithing": 7,
+      "mechanics": 7
+    },
+    "crafting": [
+      "agedaddition:basic_steel_upgrade_template"
+    ]
+  },
+  "basic_steel_armor": {
+    "replace": false,
+    "skills": {
+      "smithing": 7,
+      "warding": 7
+    },
+    "crafting": [
+      "agedaddition:basic_steel_helmet",
+      "agedaddition:basic_steel_chestplate",
+      "agedaddition:basic_steel_leggings",
+      "agedaddition:basic_steel_boots"
+    ]
+  },
+  "basic_steel_sword": {
+    "replace": false,
+    "skills": {
+      "smithing": 7,
+      "combat": 7
+    },
+    "crafting": [
+      "agedaddition:basic_steel_sword"
+    ]
+  },
+  "basic_steel_pickaxe": {
+    "replace": false,
+    "skills": {
+      "smithing": 7,
+      "quarrying": 7
+    },
+    "crafting": [
+      "stal-alloys:steel_pickaxe"
+    ]
+  },
+  "basic_steel_axe": {
+    "replace": false,
+    "skills": {
+      "smithing": 7,
+      "cultivation": 7,
+      "combat": 7
+    },
+    "crafting": [
+      "stal-alloys:steel_axe"
+    ]
+  },
+  "basic_steel_hoe": {
+    "replace": false,
+    "skills": {
+      "smithing": 7,
+      "cultivation": 7
+    },
+    "crafting": [
+      "stal-alloys:steel_hoe"
+    ]
+  },
+  "basic_steel_shovel": {
+    "replace": false,
+    "skills": {
+      "smithing": 7,
+      "cultivation": 7,
+      "quarrying": 7
+    },
+    "crafting": [
+      "stal-alloys:steel_shovel"
+    ]
+  },
+  "basic_steel_drill": {
+    "replace": false,
+    "skills": {
+      "mechanics": 7,
+      "quarrying": 10,
+      "smithing": 10
+    },
+    "crafting": [
+      "immersive_machinery:iron_drill"
+    ]
+  },
+  "flint_and_steel": {
+    "replace": false,
+    "skills": {
+      "smithing": 7,
+      "mechanics": 7
+    },
+    "crafting": [
+      "minecraft:flint_and_steel"
+    ]
+  },
+  "nickel_steel_upgrade": {
+    "replace": false,
+    "skills": {
+      "smithing": 8,
+      "mechanics": 8
+    },
+    "crafting": [
+      "agedaddition:nickel_steel_upgrade_template"
+    ]
+  },
+  "nickel_steel_armor": {
+    "replace": false,
+    "skills": {
+      "smithing": 8,
+      "warding": 8
+    },
+    "crafting": [
+      "agedaddition:nickel_steel_helmet",
+      "agedaddition:nickel_steel_chestplate",
+      "agedaddition:nickel_steel_leggings",
+      "agedaddition:nickel_steel_boots"
+    ]
+  },
+  "nickel_steel_sword": {
+    "replace": false,
+    "skills": {
+      "smithing": 8,
+      "combat": 8
+    },
+    "crafting": [
+      "agedaddition:nickel_steel_sword"
+    ]
+  },
+  "nickel_steel_pickaxe": {
+    "replace": false,
+    "skills": {
+      "smithing": 8,
+      "quarrying": 8
+    },
+    "crafting": [
+      "agedaddition:nickel_steel_pickaxe"
+    ]
+  },
+  "nickel_steel_axe": {
+    "replace": false,
+    "skills": {
+      "smithing": 8,
+      "cultivation": 8,
+      "combat": 8
+    },
+    "crafting": [
+      "agedaddition:nickel_steel_axe"
+    ]
+  },
+  "nickel_steel_hoe": {
+    "replace": false,
+    "skills": {
+      "smithing": 8,
+      "cultivation": 8
+    },
+    "crafting": [
+      "agedaddition:nickel_steel_hoe"
+    ]
+  },
+  "nickel_steel_shovel": {
+    "replace": false,
+    "skills": {
+      "smithing": 8,
+      "cultivation": 8,
+      "quarrying": 8
+    },
+    "crafting": [
+      "agedaddition:nickel_steel_shovel"
+    ]
+  },
+  "chrome_steel_upgrade": {
+    "replace": false,
+    "skills": {
+      "smithing": 8,
+      "mechanics": 8,
+      "athletics": 8
+    },
+    "crafting": [
+      "agedaddition:chrome_steel_upgrade_template"
+    ]
+  },
+  "chrome_steel_armor": {
+    "replace": false,
+    "skills": {
+      "smithing": 8,
+      "warding": 8,
+      "athletics": 8
+    },
+    "crafting": [
+      "agedaddition:chrome_steel_helmet",
+      "agedaddition:chrome_steel_chestplate",
+      "agedaddition:chrome_steel_leggings",
+      "agedaddition:chrome_steel_boots"
+    ]
+  },
+  "chrome_steel_sword": {
+    "replace": false,
+    "skills": {
+      "smithing": 8,
+      "combat": 8,
+      "athletics": 8
+    },
+    "crafting": [
+      "agedaddition:chrome_steel_sword"
+    ]
+  },
+  "chrome_steel_pickaxe": {
+    "replace": false,
+    "skills": {
+      "smithing": 8,
+      "quarrying": 8,
+      "athletics": 8
+    },
+    "crafting": [
+      "agedaddition:chrome_steel_pickaxe"
+    ]
+  },
+  "chrome_steel_axe": {
+    "replace": false,
+    "skills": {
+      "smithing": 8,
+      "cultivation": 8,
+      "combat": 8,
+      "athletics": 8
+    },
+    "crafting": [
+      "agedaddition:chrome_steel_axe"
+    ]
+  },
+  "chrome_steel_hoe": {
+    "replace": false,
+    "skills": {
+      "smithing": 8,
+      "cultivation": 8,
+      "athletics": 8
+    },
+    "crafting": [
+      "agedaddition:chrome_steel_hoe"
+    ]
+  },
+  "chrome_steel_shovel": {
+    "replace": false,
+    "skills": {
+      "smithing": 8,
+      "cultivation": 8,
+      "quarrying": 8,
+      "athletics": 8
+    },
+    "crafting": [
+      "agedaddition:chrome_steel_shovel"
+    ]
+  },
+  "diamond_infused_upgrade": {
+    "replace": false,
+    "skills": {
+      "smithing": 8,
+      "mechanics": 8,
+      "seafaring": 8
+    },
+    "crafting": [
+      "armorandtools:diamond_upgrade_template"
+    ]
+  },
+  "diamond_infused_armor": {
+    "replace": false,
+    "skills": {
+      "smithing": 8,
+      "warding": 8,
+      "seafaring": 8
+    },
+    "crafting": [
+      "minecraft:diamond_helmet",
+      "minecraft:diamond_chestplate",
+      "minecraft:diamond_leggings",
+      "minecraft:diamond_boots"
+    ]
+  },
+  "diamond_infused_sword": {
+    "replace": false,
+    "skills": {
+      "smithing": 8,
+      "combat": 8,
+      "seafaring": 8
+    },
+    "crafting": [
+      "minecraft:diamond_sword"
+    ]
+  },
+  "diamond_infused_pickaxe": {
+    "replace": false,
+    "skills": {
+      "smithing": 8,
+      "quarrying": 8,
+      "seafaring": 8
+    },
+    "crafting": [
+      "minecraft:diamond_pickaxe"
+    ]
+  },
+  "diamond_infused_axe": {
+    "replace": false,
+    "skills": {
+      "smithing": 8,
+      "cultivation": 8,
+      "combat": 8,
+      "seafaring": 8
+    },
+    "crafting": [
+      "minecraft:diamond_axe"
+    ]
+  },
+  "diamond_infused_hoe": {
+    "replace": false,
+    "skills": {
+      "smithing": 8,
+      "cultivation": 8,
+      "seafaring": 8
+    },
+    "crafting": [
+      "minecraft:diamond_hoe"
+    ]
+  },
+  "diamond_infused_shovel": {
+    "replace": false,
+    "skills": {
+      "smithing": 8,
+      "cultivation": 8,
+      "quarrying": 8,
+      "seafaring": 8
+    },
+    "crafting": [
+      "minecraft:diamond_shovel"
+    ]
+  },
+  "diamond_infused_prospector_pick": {
+    "replace": false,
+    "skills": {
+      "smithing": 8,
+      "quarrying": 8,
+      "sorcery": 8
+    },
+    "crafting": [
+      "miningz:diamond_prospector_pick"
+    ]
+  },
+  "diamond_infused_fishing_rod": {
+    "replace": false,
+    "skills": {
+      "seafaring": 8,
+      "smithing": 8
+    },
+    "crafting": [
+      "tide:diamond_fishing_rod"
+    ]
+  },
+  "diamond_infused_watering_can": {
+    "replace": false,
+    "skills": {
+      "cultivation": 8,
+      "smithing": 8
+    },
+    "crafting": [
+      "farmz:diamond_watering_can"
+    ]
+  },
+  "diamond_infused_brush": {
+    "replace": false,
+    "skills": {
+      "masonry": 8,
+      "athletics": 8
+    },
+    "crafting": [
+      "betterarcheology:diamond_brush"
+    ]
+  },
+  "diamond_infused_grappling_hook": {
+    "replace": false,
+    "skills": {
+      "archery": 8,
+      "athletics": 8,
+      "seafaring": 8
+    },
+    "crafting": [
+      "yo_hooks:diamond_grappling_hook"
+    ]
+  },
+  "diamond_infused_horse_armor": {
+    "replace": false,
+    "skills": {
+      "archery": 8,
+      "athletics": 8
+    },
+    "crafting": [
+      "minecraft:diamond_horse_armor"
+    ]
+  },
+  "diamond_infused_leather_flask": {
+    "replace": false,
+    "skills": {
+      "provisioning": 8
+    },
+    "crafting": [
+      "dehydration:diamond_leather_flask"
+    ]
+  },
+  "diamond_infused_drill": {
+    "replace": false,
+    "skills": {
+      "mechanics": 8,
+      "quarrying": 10,
+      "smithing": 10
+    },
+    "crafting": [
+      "immersive_machinery:diamond_drill"
+    ]
+  },
+  "diamond_infused_ammunition": {
+    "replace": false,
+    "skills": {
+      "smithing": 8,
+      "archery": 8
+    },
+    "crafting": [
+      "wildernature:diamond_ammunition"
+    ]
+  },
+  "high-grade_steel_upgrade": {
+    "replace": false,
+    "skills": {
+      "smithing": 9,
+      "mechanics": 9,
+      "constitution": 10
+    },
+    "crafting": [
+      "earth-and-water:steel_upgrade_smithing_template"
+    ]
+  },
+  "high-grade_steel_armor": {
+    "replace": false,
+    "skills": {
+      "smithing": 9,
+      "warding": 9,
+      "constitution": 10
+    },
+    "crafting": [
+      "earlystage:steel_helmet",
+      "earlystage:steel_chestplate",
+      "earlystage:steel_leggings",
+      "earlystage:steel_boots"
+    ]
+  },
+  "high-grade_steel_sword": {
+    "replace": false,
+    "skills": {
+      "smithing": 9,
+      "combat": 9,
+      "athletics": 10
+    },
+    "crafting": [
+      "earlystage:steel_sword"
+    ]
+  },
+  "high-grade_steel_pickaxe": {
+    "replace": false,
+    "skills": {
+      "smithing": 9,
+      "quarrying": 9,
+      "provisioning": 10
+    },
+    "crafting": [
+      "earlystage:steel_pickaxe"
+    ]
+  },
+  "high-grade_steel_axe": {
+    "replace": false,
+    "skills": {
+      "smithing": 9,
+      "cultivation": 9,
+      "combat": 9,
+      "athletics": 10
+    },
+    "crafting": [
+      "earlystage:steel_axe"
+    ]
+  },
+  "high-grade_steel_hoe": {
+    "replace": false,
+    "skills": {
+      "smithing": 9,
+      "cultivation": 9,
+      "provisioning": 10
+    },
+    "crafting": [
+      "earlystage:steel_hoe"
+    ]
+  },
+  "high-grade_steel_shovel": {
+    "replace": false,
+    "skills": {
+      "smithing": 9,
+      "cultivation": 9,
+      "quarrying": 9,
+      "athletics": 10
+    },
+    "crafting": [
+      "earlystage:steel_shovel"
+    ]
+  },
+  "high-grade_steel_horse_armor": {
+    "replace": false,
+    "skills": {
+      "archery": 9,
+      "athletics": 9,
+      "warding": 10
+    },
+    "crafting": [
+      "earlystage:steel_horse_armor"
+    ]
+  },
+  "stainless_steel_upgrade": {
+    "replace": false,
+    "skills": {
+      "smithing": 10,
+      "mechanics": 10,
+      "constitution": 10,
+      "masonry": 10
+    },
+    "crafting": [
+      "agedaddition:stainless_steel_upgrade_template"
+    ]
+  },
+  "stainless_steel_armor": {
+    "replace": false,
+    "skills": {
+      "smithing": 10,
+      "warding": 10,
+      "constitution": 10,
+      "masonry": 10
+    },
+    "crafting": [
+      "stal-alloys:stainless_steel_helmet",
+      "stal-alloys:stainless_steel_chestplate",
+      "stal-alloys:stainless_steel_leggings",
+      "stal-alloys:stainless_steel_boots"
+    ]
+  },
+  "stainless_steel_sword": {
+    "replace": false,
+    "skills": {
+      "smithing": 10,
+      "combat": 10,
+      "constitution": 10,
+      "masonry": 10
+    },
+    "crafting": [
+      "agedaddition:stainless_steel_sword"
+    ]
+  },
+  "stainless_steel_pickaxe": {
+    "replace": false,
+    "skills": {
+      "smithing": 10,
+      "quarrying": 10,
+      "constitution": 10,
+      "masonry": 10
+    },
+    "crafting": [
+      "agedaddition:stainless_steel_pickaxe"
+    ]
+  },
+  "stainless_steel_axe": {
+    "replace": false,
+    "skills": {
+      "smithing": 10,
+      "cultivation": 10,
+      "combat": 10,
+      "constitution": 10,
+      "masonry": 10
+    },
+    "crafting": [
+      "agedaddition:stainless_steel_axe"
+    ]
+  },
+  "stainless_steel_hoe": {
+    "replace": false,
+    "skills": {
+      "smithing": 10,
+      "cultivation": 10,
+      "constitution": 10,
+      "masonry": 10
+    },
+    "crafting": [
+      "agedaddition:stainless_steel_hoe"
+    ]
+  },
+  "stainless_steel_shovel": {
+    "replace": false,
+    "skills": {
+      "smithing": 10,
+      "cultivation": 10,
+      "quarrying": 10,
+      "constitution": 10,
+      "masonry": 10
+    },
+    "crafting": [
+      "agedaddition:stainless_steel_shovel"
+    ]
+  },
+  "netherite_steel_upgrade": {
+    "replace": false,
+    "skills": {
+      "smithing": 10,
+      "mechanics": 10,
+      "constitution": 10,
+      "barter": 10
+    },
+    "crafting": [
+      "minecraft:netherite_upgrade_smithing_template"
+    ]
+  },
+  "netherite_steel_armor": {
+    "replace": false,
+    "skills": {
+      "smithing": 10,
+      "warding": 10,
+      "constitution": 10,
+      "barter": 10
+    },
+    "crafting": [
+      "minecraft:netherite_helmet",
+      "minecraft:netherite_chestplate",
+      "minecraft:netherite_leggings",
+      "minecraft:netherite_boots"
+    ]
+  },
+  "netherite_steel_sword": {
+    "replace": false,
+    "skills": {
+      "smithing": 10,
+      "combat": 10,
+      "constitution": 10,
+      "barter": 10
+    },
+    "crafting": [
+      "minecraft:netherite_sword"
+    ]
+  },
+  "netherite_steel_pickaxe": {
+    "replace": false,
+    "skills": {
+      "smithing": 10,
+      "quarrying": 10,
+      "constitution": 10,
+      "barter": 10
+    },
+    "crafting": [
+      "minecraft:netherite_pickaxe"
+    ]
+  },
+  "netherite_steel_axe": {
+    "replace": false,
+    "skills": {
+      "smithing": 10,
+      "cultivation": 10,
+      "combat": 10,
+      "constitution": 10,
+      "barter": 10
+    },
+    "crafting": [
+      "minecraft:netherite_axe"
+    ]
+  },
+  "netherite_steel_hoe": {
+    "replace": false,
+    "skills": {
+      "smithing": 10,
+      "cultivation": 10,
+      "constitution": 10,
+      "barter": 10
+    },
+    "crafting": [
+      "minecraft:netherite_hoe"
+    ]
+  },
+  "netherite_steel_shovel": {
+    "replace": false,
+    "skills": {
+      "smithing": 10,
+      "cultivation": 10,
+      "quarrying": 10,
+      "constitution": 10,
+      "barter": 10
+    },
+    "crafting": [
+      "minecraft:netherite_shovel"
+    ]
+  },
+  "netherite_steel_prospector_pick": {
+    "replace": false,
+    "skills": {
+      "smithing": 10,
+      "quarrying": 10,
+      "sorcery": 10,
+      "constitution": 10,
+      "barter": 10
+    },
+    "crafting": [
+      "miningz:netherite_prospector_pick"
+    ]
+  },
+  "netherite_steel_fishing_rod": {
+    "replace": false,
+    "skills": {
+      "seafaring": 10,
+      "smithing": 10,
+      "constitution": 10,
+      "barter": 10
+    },
+    "crafting": [
+      "tide:netherite_fishing_rod"
+    ]
+  },
+  "netherite_steel_watering_can": {
+    "replace": false,
+    "skills": {
+      "cultivation": 10,
+      "smithing": 10,
+      "constitution": 10,
+      "barter": 10
+    },
+    "crafting": [
+      "farmz:netherite_watering_can"
+    ]
+  },
+  "netherite_steel_brush": {
+    "replace": false,
+    "skills": {
+      "masonry": 10,
+      "athletics": 10,
+      "constitution": 10,
+      "barter": 10
+    },
+    "crafting": [
+      "betterarcheology:netherite_brush"
+    ]
+  },
+  "netherite_steel_grappling_hook": {
+    "replace": false,
+    "skills": {
+      "archery": 10,
+      "athletics": 10,
+      "constitution": 10,
+      "barter": 10
+    },
+    "crafting": [
+      "yo_hooks:netherite_grappling_hook"
+    ]
+  },
+  "netherite_steel_leather_flask": {
+    "replace": false,
+    "skills": {
+      "provisioning": 10,
+      "constitution": 10,
+      "barter": 10
+    },
+    "crafting": [
+      "dehydration:netherite_leather_flask"
+    ]
+  },
+  "netherite_drill": {
+    "replace": false,
+    "skills": {
+      "mechanics": 10,
+      "quarrying": 10,
+      "smithing": 10,
+      "constitution": 10,
+      "barter": 10
+    },
+    "crafting": [
+      "immersive_machinery:netherite_drill"
+    ]
+  },
+  "elytra": {
+    "replace": false,
+    "skills": {
+      "sorcery": 10,
+      "athletics": 10,
+      "constitution": 10,
+      "warding": 10,
+      "seafaring": 10,
+      "archery": 10
+    },
+    "items": [
+      "minecraft:elytra"
+    ]
+  },
+  "compass": {
+    "replace": false,
+    "skills": {
+      "smithing": 6,
+      "mechanics": 3
+    },
+    "crafting": [
+      "minecraft:compass"
+    ]
+  },
+  "recovery_compass": {
+    "replace": false,
+    "skills": {
+      "smithing": 7,
+      "mechanics": 4,
+      "sorcery": 3
+    },
+    "crafting": [
+      "minecraft:recovery_compass"
+    ]
+  },
+  "nature_compass": {
+    "replace": false,
+    "skills": {
+      "athletics": 5,
+      "smithing": 7,
+      "mechanics": 6
+    },
+    "crafting": [
+      "naturescompass:naturescompass"
+    ]
+  },
+  "explorers_compass": {
+    "replace": false,
+    "skills": {
+      "sorcery": 5,
+      "athletics": 10,
+      "smithing": 9,
+      "mechanics": 10
+    },
+    "crafting": [
+      "explorerscompass:explorerscompass"
+    ]
+  },
+  "ender_pouch": {
+    "replace": false,
+    "skills": {
+      "athletics": 5,
+      "provisioning": 5,
+      "sorcery": 5
+    },
+    "crafting": [
+      "inmis:ender_pouch"
+    ]
+  },
+  "frayed_backpack": {
+    "replace": false,
+    "skills": {
+      "athletics": 3,
+      "provisioning": 2
+    },
+    "crafting": [
+      "inmis:frayed_backpack"
+    ]
+  },
+  "plated_backpack": {
+    "replace": false,
+    "skills": {
+      "athletics": 4,
+      "provisioning": 3,
+      "smithing": 5
+    },
+    "crafting": [
+      "inmis:plated_backpack"
+    ]
+  },
+  "gilded_backpack": {
+    "replace": false,
+    "skills": {
+      "athletics": 5,
+      "provisioning": 4,
+      "smithing": 4,
+      "barter": 5
+    },
+    "crafting": [
+      "inmis:gilded_backpack"
+    ]
+  },
+  "bejeweled_backpack": {
+    "replace": false,
+    "skills": {
+      "athletics": 6,
+      "provisioning": 5,
+      "smithing": 8,
+      "constitution": 5
+    },
+    "crafting": [
+      "inmis:bejeweled_backpack"
+    ]
+  },
+  "blazing_backpack": {
+    "replace": false,
+    "skills": {
+      "athletics": 7,
+      "provisioning": 6,
+      "smithing": 9,
+      "barter": 10
+    },
+    "crafting": [
+      "inmis:blazing_backpack"
+    ]
+  },
+  "withered_backpack": {
+    "replace": false,
+    "skills": {
+      "athletics": 8,
+      "provisioning": 7,
+      "smithing": 10,
+      "sorcery": 5,
+      "constitution": 5,
+      "warding": 5
+    },
+    "crafting": [
+      "inmis:withered_backpack"
+    ]
+  },
+  "endless_backpack": {
+    "replace": false,
+    "skills": {
+      "athletics": 10,
+      "provisioning": 10,
+      "smithing": 10,
+      "sorcery": 10,
+      "constitution": 10,
+      "seafaring": 10
+    },
+    "crafting": [
+      "inmis:endless_backpack"
+    ]
+  }
+}

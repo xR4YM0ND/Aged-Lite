@@ -1,0 +1,31 @@
+{
+  "parent": "questz:quests/agro_culinary",
+  "display": {
+    "icon": {
+      "id": "candlelight:cooking_hat"
+    },
+    "title": {
+      "text": "Chefcook"
+    },
+    "description": {
+      "text": "Change to levelz provisioning 1"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 9.0,
+    "y_manual": 5.0
+  },
+  "criteria": {
+    "chefcook": {
+      "trigger": "minecraft:tick",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "chefcook"
+    ]
+  ]
+}

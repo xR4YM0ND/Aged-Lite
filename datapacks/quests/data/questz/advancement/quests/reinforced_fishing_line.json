@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/fishing_line",
+  "display": {
+    "icon": {
+      "id": "tide:reinforced_line"
+    },
+    "title": {
+      "text": "Reinforced Fishing Line"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 11.0,
+    "y_manual": 17.0
+  },
+  "criteria": {
+    "reinforced_line": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tide:reinforced_line"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "reinforced_line"
+    ]
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "cookingtime": 1200,
+  "experience": 0.5,
+  "ingredient": {
+    "item": "earlystage:clay_bucket"
+  },
+  "result": {
+    "id": "earlystage:brick_bucket"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/fisher",
+  "display": {
+    "icon": {
+      "id": "tide:lunar_calendar"
+    },
+    "title": {
+      "text": "Lunar Calendar"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 9.0,
+    "y_manual": 15.0
+  },
+  "criteria": {
+    "lunar_calendar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tide:lunar_calendar"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "lunar_calendar"
+    ]
+  ]
+}

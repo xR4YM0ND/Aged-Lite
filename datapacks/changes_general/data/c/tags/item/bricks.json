@@ -1,0 +1,11 @@
+{
+  "values": [
+    "minecraft:brick",
+    "minecraft:nether_brick",
+    "lilis_pottery:red_brick",
+    "lilis_pottery:yellow_brick",
+    "lilis_pottery:white_brick",
+    "lilis_pottery:blue_brick",
+    "lilis_pottery:black_brick"
+  ]
+}

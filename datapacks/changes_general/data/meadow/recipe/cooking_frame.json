@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "/B/",
+        "/x/",
+        "/C/"
+    ],
+    "key": {
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "C": {
+            "item": "minecraft:campfire"
+        },
+        "B": {
+            "item": "minecraft:iron_ingot"
+        },
+        "x": {
+            "item": "meadow:cookpot"
+        }
+    },
+    "result": {
+        "id": "meadow:cooking_frame",
+        "count": 1
+    }
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/chefcook",
+  "display": {
+    "icon": {
+      "id": "vinery:grapevine_pot"
+    },
+    "title": {
+      "text": "Grapevine Pot"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 11.0,
+    "y_manual": 5.0
+  },
+  "criteria": {
+    "grapevine_pot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vinery:grapevine_pot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "grapevine_pot"
+    ]
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/fisher",
+  "display": {
+    "icon": {
+      "id": "tide:depth_meter"
+    },
+    "title": {
+      "text": "Depth Meter"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 9.0,
+    "y_manual": 17.0
+  },
+  "criteria": {
+    "depth_meter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tide:depth_meter"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "depth_meter"
+    ]
+  ]
+}

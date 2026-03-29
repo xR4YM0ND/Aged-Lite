@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/fishing_hook",
+  "display": {
+    "icon": {
+      "id": "tide:void_fishing_hook"
+    },
+    "title": {
+      "text": "Void Fishing Hook"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 11.0,
+    "y_manual": 21.0
+  },
+  "criteria": {
+    "void_fishing_hook": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tide:void_fishing_hook"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "void_fishing_hook"
+    ]
+  ]
+}

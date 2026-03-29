@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/copper_cooking_pot",
+  "display": {
+    "icon": {
+      "id": "bakery:small_cooking_pot"
+    },
+    "title": {
+      "text": "Small Iron Cooking Pot"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 13.0,
+    "y_manual": 4.0
+  },
+  "criteria": {
+    "small_cooking_pot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bakery:small_cooking_pot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "small_cooking_pot"
+    ]
+  ]
+}

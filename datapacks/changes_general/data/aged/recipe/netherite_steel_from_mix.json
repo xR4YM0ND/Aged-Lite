@@ -2,7 +2,7 @@
   "type": "alloy_forgery:forging",
   "inputs": [
     {
-      "item": "stal-alloys:steel_block",
+      "item": "agedaddition:diamond_infused_alloy_sheet",
       "count": 1
     },
     {
@@ -10,7 +10,7 @@
       "count": 1
     },
     {
-      "item": "minecraft:gold_block",
+      "item": "armorandtools:aurium_block",
       "count": 1
     },
     {
@@ -22,7 +22,7 @@
     "item": "minecraft:netherite_ingot",
     "count": 1
   },
-  "min_forge_tier": 1,
+  "min_forge_tier": 4,
   "experience": 2.5,
-  "fuel_per_tick": 500
+  "fuel_per_tick": 200
 }

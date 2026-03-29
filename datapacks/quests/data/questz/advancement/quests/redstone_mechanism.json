@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/comparator",
+  "display": {
+    "icon": {
+      "id": "immersive_machinery:redstone_mechanism"
+    },
+    "title": {
+      "text": "Redstone Mechanism"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 5.0,
+    "y_manual": 4.0
+  },
+  "criteria": {
+    "redstone_mechanism": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersive_machinery:redstone_mechanism"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "redstone_mechanism"
+    ]
+  ]
+}

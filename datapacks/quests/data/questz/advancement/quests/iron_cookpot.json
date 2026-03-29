@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/iron_cooking_pot",
+  "display": {
+    "icon": {
+      "id": "meadow:cookpot"
+    },
+    "title": {
+      "text": "Iron Cookpot"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 14.0,
+    "y_manual": 3.0
+  },
+  "criteria": {
+    "cookpot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "meadow:cookpot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cookpot"
+    ]
+  ]
+}

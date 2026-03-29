@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/boiler",
+  "display": {
+    "icon": {
+      "id": "immersive_aircraft:engine"
+    },
+    "title": {
+      "text": "Engine"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 3.0,
+    "y_manual": 10.0
+  },
+  "criteria": {
+    "engine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersive_aircraft:engine"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "engine"
+    ]
+  ]
+}

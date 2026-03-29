@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/engine",
+  "display": {
+    "icon": {
+      "id": "immersive_aircraft:nether_engine"
+    },
+    "title": {
+      "text": "Nether Engine"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 4.0,
+    "y_manual": 10.0
+  },
+  "criteria": {
+    "nether_engine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersive_aircraft:nether_engine"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "nether_engine"
+    ]
+  ]
+}

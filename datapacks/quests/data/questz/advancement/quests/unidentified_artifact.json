@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/artifact_shards",
+  "display": {
+    "icon": {
+      "id": "betterarcheology:unidentified_artifact"
+    },
+    "title": {
+      "text": "Unidentified Artifact"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 9.0,
+    "y_manual": 5.0
+  },
+  "criteria": {
+    "unidentified_artifact": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "betterarcheology:unidentified_artifact"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "unidentified_artifact"
+    ]
+  ]
+}

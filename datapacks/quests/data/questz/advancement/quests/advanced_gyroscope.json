@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/gyroscope",
+  "display": {
+    "icon": {
+      "id": "immersive_aircraft:gyroscope_dials"
+    },
+    "title": {
+      "text": "Advanced Gyroscope"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 6.0,
+    "y_manual": 2.0
+  },
+  "criteria": {
+    "gyroscope_dials": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersive_aircraft:gyroscope_dials"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gyroscope_dials"
+    ]
+  ]
+}

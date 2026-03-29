@@ -18,7 +18,7 @@
     "item": "earlystage:steel_ingot",
     "count": 1
   },
-  "min_forge_tier": 1,
+  "min_forge_tier": 4,
   "experience": 2.0,
-  "fuel_per_tick": 200
+  "fuel_per_tick": 120
 }

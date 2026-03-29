@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/copper_sword",
+  "display": {
+    "icon": {
+      "id": "stal-alloys:bronze_dirk"
+    },
+    "title": {
+      "text": "Bronze Dirk"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 3.0,
+    "y_manual": 0.0
+  },
+  "criteria": {
+    "bronze_dirk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stal-alloys:bronze_dirk"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bronze_dirk"
+    ]
+  ]
+}

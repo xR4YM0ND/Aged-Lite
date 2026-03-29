@@ -1,0 +1,43 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+    "SSG",
+		"CAC",
+		"XHX"
+	],
+	"key": {
+		"A": [
+			{
+				"item": "immersive_aircraft:airship"
+			}
+		],
+		"C": [
+			{
+				"item": "storagedrawers:compacting_drawers_3"
+			}
+		],
+    "X": [
+			{
+				"item": "storagedrawers:controller_io"
+			}
+		],
+		"H": [
+			{
+				"item": "immersive_aircraft:hull_reinforcement"
+			}
+		],
+    "S": [
+			{
+				"item": "immersive_aircraft:sail"
+			}
+		],
+    "G": [
+			{
+				"item": "immersive_aircraft:gyroscope"
+			}
+		]
+	},
+	"result": {
+		"id": "immersive_aircraft:cargo_airship"
+	}
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/copper_cooking_pot",
+  "display": {
+    "icon": {
+      "id": "farm_and_charm:cooking_pot"
+    },
+    "title": {
+      "text": "Iron Cooking Pot"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 13.0,
+    "y_manual": 3.0
+  },
+  "criteria": {
+    "iron_cooking_pot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farm_and_charm:cooking_pot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "iron_cooking_pot"
+    ]
+  ]
+}

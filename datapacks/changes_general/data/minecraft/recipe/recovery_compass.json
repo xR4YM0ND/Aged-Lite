@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:compass"
+  },
+  "addition": {
+    "item": "agedaddition:nether_star_piece"
+  },
+  "template": {
+    "item": "minecraft:echo_shard"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:recovery_compass"
+  }
+}

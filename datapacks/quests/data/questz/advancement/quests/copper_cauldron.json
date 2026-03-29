@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/rainwater_collector",
+  "display": {
+    "icon": {
+      "id": "dehydration:copper_cauldron"
+    },
+    "title": {
+      "text": "Copper Cauldron"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 3.0,
+    "y_manual": 4.0
+  },
+  "criteria": {
+    "copper_cauldron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dehydration:copper_cauldron"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "copper_cauldron"
+    ]
+  ]
+}

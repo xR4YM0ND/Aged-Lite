@@ -18,7 +18,7 @@
     "item": "armorandtools:diamond_ingot",
     "count": 1
   },
-  "min_forge_tier": 1,
+  "min_forge_tier": 3,
   "experience": 1.9,
   "fuel_per_tick": 100
 }

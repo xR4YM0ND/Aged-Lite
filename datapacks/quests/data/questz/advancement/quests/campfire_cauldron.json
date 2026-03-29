@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/campfire",
+  "display": {
+    "icon": {
+      "id": "dehydration:campfire_cauldron"
+    },
+    "title": {
+      "text": "Campfire Cauldron"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 5.0,
+    "y_manual": 6.0
+  },
+  "criteria": {
+    "campfire_cauldron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dehydration:campfire_cauldron"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "campfire_cauldron"
+    ]
+  ]
+}

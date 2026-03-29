@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/iron_grappling_hook",
+  "display": {
+    "icon": {
+      "id": "yo_hooks:gold_grappling_hook"
+    },
+    "title": {
+      "text": "Gold Grappling Hook"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 2.0,
+    "y_manual": 3.0
+  },
+  "criteria": {
+    "gold_grappling_hook": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "yo_hooks:gold_grappling_hook"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gold_grappling_hook"
+    ]
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/copper_sword",
+  "display": {
+    "icon": {
+      "id": "rosegoldequipment:rose_golden_sword"
+    },
+    "title": {
+      "text": "Rose Gold Sword"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 2.0,
+    "y_manual": 2.0
+  },
+  "criteria": {
+    "rose_gold_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosegoldequipment:rose_golden_sword"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "rose_gold_sword"
+    ]
+  ]
+}

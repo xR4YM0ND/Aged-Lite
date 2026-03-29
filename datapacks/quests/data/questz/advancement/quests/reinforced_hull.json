@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/hull",
+  "display": {
+    "icon": {
+      "id": "immersive_aircraft:hull_reinforcement"
+    },
+    "title": {
+      "text": "Reinforced Hull"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 2.0,
+    "y_manual": 6.0
+  },
+  "criteria": {
+    "hull_reinforcement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersive_aircraft:hull_reinforcement"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hull_reinforcement"
+    ]
+  ]
+}

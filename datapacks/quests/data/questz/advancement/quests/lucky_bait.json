@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/magnetic_bait",
+  "display": {
+    "icon": {
+      "id": "tide:lucky_bait"
+    },
+    "title": {
+      "text": "Lucky Bait"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 12.0,
+    "y_manual": 15.0
+  },
+  "criteria": {
+    "lucky_bait": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tide:lucky_bait"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "lucky_bait"
+    ]
+  ]
+}

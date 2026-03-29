@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CFC",
+    "CXC"
+  ],
+  "key": {
+    "C": [
+      {
+        "item": "agedaddition:bronze_sheet"
+      }
+    ],
+    "F": [
+      {
+        "item": "minecraft:blast_furnace"
+      }
+    ],
+    "X": [
+      {
+        "item": "stal-alloys:carbon_plate"
+      }
+    ]
+  },
+  "result": {
+    "id": "immersive_aircraft:boiler"
+  }
+}

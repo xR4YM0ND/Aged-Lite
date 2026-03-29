@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/resources",
+  "display": {
+    "icon": {
+      "id": "natures_spirit:chert"
+    },
+    "title": {
+      "text": "Chert"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 1.0,
+    "y_manual": -2.0
+  },
+  "criteria": {
+    "chert": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "natures_spirit:chert"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "chert"
+    ]
+  ]
+}

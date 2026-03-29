@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/rose_gold_nugget",
+  "display": {
+    "icon": {
+      "id": "rosegoldequipment:rose_gold_ingot"
+    },
+    "title": {
+      "text": "Rose Gold Ingot"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 4.0,
+    "y_manual": 7.0
+  },
+  "criteria": {
+    "rose_gold_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosegoldequipment:rose_gold_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "rose_gold_ingot"
+    ]
+  ]
+}

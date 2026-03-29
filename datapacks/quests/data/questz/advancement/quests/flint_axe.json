@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/flint_tools",
+  "display": {
+    "icon": {
+      "id": "earlystage:flint_axe"
+    },
+    "title": {
+      "text": "Flint Axe"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 4.0,
+    "y_manual": 3.0
+  },
+  "criteria": {
+    "flint_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "earlystage:flint_axe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "flint_axe"
+    ]
+  ]
+}

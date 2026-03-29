@@ -1,0 +1,34 @@
+{
+  "parent": "questz:quests/agro_culinary",
+  "display": {
+    "icon": {
+      "id": "minecraft:salmon"
+    },
+    "title": {
+      "text": "Fisher"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 9.0,
+    "y_manual": 13.0,
+    "criterion_overrides": {
+      "fisher": "Any fish"
+    }
+  },
+  "criteria": {
+    "fisher": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "fisher"
+    ]
+  ]
+}

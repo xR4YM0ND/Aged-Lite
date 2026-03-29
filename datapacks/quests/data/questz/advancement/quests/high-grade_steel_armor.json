@@ -1,0 +1,84 @@
+{
+  "parent": "questz:quests/diamond_infused_armor",
+  "display": {
+    "icon": {
+      "id": "earlystage:steel_helmet"
+    },
+    "title": {
+      "text": "High-Grade Steel Armor"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 6.0,
+    "y_manual": -1.0
+  },
+  "criteria": {
+    "hg_steel_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "earlystage:steel_helmet"
+            ]
+          }
+        ]
+      }
+    },
+    "hg_steel_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "earlystage:steel_chestplate"
+            ]
+          }
+        ]
+      }
+    },
+    "hg_steel_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "earlystage:steel_leggings"
+            ]
+          }
+        ]
+      }
+    },
+    "hg_steel_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "earlystage:steel_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hg_steel_helmet"
+    ],
+    [
+      "hg_steel_chestplate"
+    ],
+    [
+      "hg_steel_leggings"
+    ],
+    [
+      "hg_steel_boots"
+    ]
+  ]
+}

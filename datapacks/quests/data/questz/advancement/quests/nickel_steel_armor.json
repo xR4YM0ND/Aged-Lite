@@ -1,0 +1,84 @@
+{
+  "parent": "questz:quests/basic_steel_armor",
+  "display": {
+    "icon": {
+      "id": "agedaddition:nickel_steel_helmet"
+    },
+    "title": {
+      "text": "Nickel Steel Armor"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 5.0,
+    "y_manual": -3.0
+  },
+  "criteria": {
+    "nickel_steel_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "agedaddition:nickel_steel_leggings"
+            ]
+          }
+        ]
+      }
+    },
+    "nickel_steel_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "agedaddition:nickel_steel_helmet"
+            ]
+          }
+        ]
+      }
+    },
+    "nickel_steel_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "agedaddition:nickel_steel_chestplate"
+            ]
+          }
+        ]
+      }
+    },
+    "nickel_steel_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "agedaddition:nickel_steel_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "nickel_steel_leggings"
+    ],
+    [
+      "nickel_steel_helmet"
+    ],
+    [
+      "nickel_steel_chestplate"
+    ],
+    [
+      "nickel_steel_boots"
+    ]
+  ]
+}

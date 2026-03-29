@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/machinist",
+  "display": {
+    "icon": {
+      "id": "immersive_machinery:iron_drill"
+    },
+    "title": {
+      "text": "Iron Drill"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 1.0,
+    "y_manual": 12.0
+  },
+  "criteria": {
+    "iron_drill": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersive_machinery:iron_drill"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "iron_drill"
+    ]
+  ]
+}

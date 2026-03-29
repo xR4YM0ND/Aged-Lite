@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/wooden_silo",
+  "display": {
+    "icon": {
+      "id": "farm_and_charm:silo_copper"
+    },
+    "title": {
+      "text": "Copper Silo"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 11.0,
+    "y_manual": 6.0
+  },
+  "criteria": {
+    "copper_silo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farm_and_charm:silo_copper"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "copper_silo"
+    ]
+  ]
+}

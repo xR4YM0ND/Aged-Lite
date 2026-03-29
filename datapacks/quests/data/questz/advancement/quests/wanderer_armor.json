@@ -1,0 +1,84 @@
+{
+  "parent": "questz:quests/hot",
+  "display": {
+    "icon": {
+      "id": "environmentz:wanderer_helmet"
+    },
+    "title": {
+      "text": "Wanderer Armor"
+    },
+    "description": {
+      "text": "Is more affective than normal armor"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 3.0,
+    "y_manual": -4.0
+  },
+  "criteria": {
+    "wanderer_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "environmentz:wanderer_helmet"
+            ]
+          }
+        ]
+      }
+    },
+    "wanderer_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "environmentz:wanderer_chestplate"
+            ]
+          }
+        ]
+      }
+    },
+    "wanderer_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "environmentz:wanderer_leggings"
+            ]
+          }
+        ]
+      }
+    },
+    "wanderer_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "environmentz:wanderer_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wanderer_helmet"
+    ],
+    [
+      "wanderer_chestplate"
+    ],
+    [
+      "wanderer_leggings"
+    ],
+    [
+      "wanderer_boots"
+    ]
+  ]
+}

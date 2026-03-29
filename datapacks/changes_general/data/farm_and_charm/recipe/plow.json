@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    "abx",
+    "xa "
+  ],
+  "key": {
+    "x": {
+      "tag": "minecraft:planks"
+    },
+    "a": {
+      "item": "agedaddition:basic_steel_sheet"
+    },
+    "b": {
+      "item": "agedaddition:basic_steel_rod"
+    }
+  },
+  "result": {
+    "id": "farm_and_charm:plow",
+    "count": 1
+  }
+}

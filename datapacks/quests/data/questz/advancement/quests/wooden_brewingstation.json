@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/wooden_silo",
+  "display": {
+    "icon": {
+      "id": "brewery:wooden_brewingstation"
+    },
+    "title": {
+      "text": "Wooden Brewingstation"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 11.0,
+    "y_manual": 7.0
+  },
+  "criteria": {
+    "wooden_brewingstation": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "brewery:wooden_brewingstation"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wooden_brewingstation"
+    ]
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "questz:quests/campfire",
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_beef"
+    },
+    "title": {
+      "text": "Cook Food"
+    },
+    "description": {
+      "text": "Get some proteins"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 5.0,
+    "y_manual": 5.0,
+    "criterion_overrides": {
+      "cook_food": "#c:foods/cooked_meat"
+    }
+  },
+  "criteria": {
+    "cook_food": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "c:foods/cooked_meat"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cook_food"
+    ]
+  ]
+}

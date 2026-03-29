@@ -7,7 +7,7 @@
     "item": "dehydration:diamond_leather_flask"
   },
   "addition": {
-    "item": "agedaddition:netherite_sheet"
+    "item": "agedaddition:netherite_steel_sheet"
   },
   "result": {
     "id": "dehydration:netherite_leather_flask"

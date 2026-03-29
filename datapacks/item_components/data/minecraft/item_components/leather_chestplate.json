@@ -4,7 +4,7 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:generic.armor",
-        "amount": 3.0,
+        "amount": 2.0,
         "id": "minecraft:leather_chestplate_armor",
         "operation": "add_value",
         "slot": "chest"

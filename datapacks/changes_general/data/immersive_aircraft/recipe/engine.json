@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "PFP",
+    "CIC"
+  ],
+  "key": {
+    "A": [
+      {
+        "tag": "c:bricks"
+      }
+    ],
+    "F": [
+      {
+        "item": "minecraft:blast_furnace"
+      }
+    ],
+    "C": [
+      {
+        "item": "immersive_machinery:redstone_mechanism"
+      }
+    ],
+    "I": [
+      {
+        "item": "immersive_aircraft:boiler"
+      }
+    ],
+    "P": [
+      {
+        "item": "agedaddition:basic_steel_rod"
+      }
+    ]
+  },
+  "result": {
+    "id": "immersive_aircraft:engine"
+  }
+}

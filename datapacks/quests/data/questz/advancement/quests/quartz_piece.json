@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/resources",
+  "display": {
+    "icon": {
+      "id": "agedaddition:quartz_piece"
+    },
+    "title": {
+      "text": "Quartz Piece"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 2.0,
+    "y_manual": 15.0
+  },
+  "criteria": {
+    "quartz_piece": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "agedaddition:quartz_piece"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "quartz_piece"
+    ]
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/copper_ingot",
+  "display": {
+    "icon": {
+      "id": "agedaddition:copper_sheet"
+    },
+    "title": {
+      "text": "Copper Sheet"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 2.0,
+    "y_manual": 6.0
+  },
+  "criteria": {
+    "copper_sheet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "agedaddition:copper_sheet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "copper_sheet"
+    ]
+  ]
+}

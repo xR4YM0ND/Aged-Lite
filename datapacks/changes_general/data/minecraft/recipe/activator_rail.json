@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:redstone_torch"
+    },
+    "S": {
+      "item": "agedaddition:copper_rod"
+    },
+    "X": {
+      "item": "agedaddition:basic_steel_rod"
+    }
+  },
+  "pattern": [
+    "XSX",
+    "X#X",
+    "XSX"
+  ],
+  "result": {
+    "count": 64,
+    "id": "minecraft:activator_rail"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/propeller",
+  "display": {
+    "icon": {
+      "id": "immersive_aircraft:quadrocopter"
+    },
+    "title": {
+      "text": "Quadrocopter"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 2.0,
+    "y_manual": 9.0
+  },
+  "criteria": {
+    "quadrocopter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersive_aircraft:quadrocopter"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "quadrocopter"
+    ]
+  ]
+}

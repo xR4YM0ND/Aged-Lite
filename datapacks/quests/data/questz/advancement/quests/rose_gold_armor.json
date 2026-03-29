@@ -1,0 +1,84 @@
+{
+  "parent": "questz:quests/copper_armor",
+  "display": {
+    "icon": {
+      "id": "rosegoldequipment:rose_golden_helmet"
+    },
+    "title": {
+      "text": "Rose Gold Armor"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 2.0,
+    "y_manual": -2.0
+  },
+  "criteria": {
+    "rose_golden_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosegoldequipment:rose_golden_leggings"
+            ]
+          }
+        ]
+      }
+    },
+    "rose_golden_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosegoldequipment:rose_golden_helmet"
+            ]
+          }
+        ]
+      }
+    },
+    "rose_golden_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosegoldequipment:rose_golden_chestplate"
+            ]
+          }
+        ]
+      }
+    },
+    "rose_golden_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosegoldequipment:rose_golden_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "rose_golden_leggings"
+    ],
+    [
+      "rose_golden_helmet"
+    ],
+    [
+      "rose_golden_chestplate"
+    ],
+    [
+      "rose_golden_boots"
+    ]
+  ]
+}

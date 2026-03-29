@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/iron_drill",
+  "display": {
+    "icon": {
+      "id": "immersive_machinery:diamond_drill"
+    },
+    "title": {
+      "text": "Diamond Infused Drill"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 2.0,
+    "y_manual": 12.0
+  },
+  "criteria": {
+    "diamond_drill": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersive_machinery:diamond_drill"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "diamond_drill"
+    ]
+  ]
+}

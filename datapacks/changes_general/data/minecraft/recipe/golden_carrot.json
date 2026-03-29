@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:gold_nugget"
+    },
+    "X": {
+      "item": "minecraft:carrot"
+    },
+    "a": {
+      "item": "agedaddition:raw_gold_nugget"
+    }
+  },
+  "pattern": [
+    "a#a",
+    "#X#",
+    "a#a"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:golden_carrot"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/iron_cookpot",
+  "display": {
+    "icon": {
+      "id": "meadow:cooking_frame"
+    },
+    "title": {
+      "text": "Iron Cookpot Frame"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 15.0,
+    "y_manual": 3.0
+  },
+  "criteria": {
+    "cooking_frame": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "meadow:cooking_frame"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cooking_frame"
+    ]
+  ]
+}

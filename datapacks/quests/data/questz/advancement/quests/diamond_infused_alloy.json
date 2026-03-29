@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/basic_steel",
+  "display": {
+    "icon": {
+      "id": "armorandtools:diamond_ingot"
+    },
+    "title": {
+      "text": "Diamond Infused Alloy"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 5.0,
+    "y_manual": 10.0
+  },
+  "criteria": {
+    "diamond_infused_alloy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "armorandtools:diamond_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "diamond_infused_alloy"
+    ]
+  ]
+}

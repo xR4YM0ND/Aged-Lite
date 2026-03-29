@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "xx ",
+    " a ",
+    " xx"
+  ],
+  "key": {
+    "x": {
+      "item": "agedaddition:bronze_sheet"
+    },
+    "a": {
+      "item": "immersive_aircraft:propeller"
+    }
+  },
+  "result": {
+    "id": "immersive_aircraft:enhanced_propeller"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "naturescompass:naturescompass"
+  },
+  "addition": {
+    "tag": "c:totems"
+  },
+  "template": {
+    "item": "earth-and-water:steel_upgrade_smithing_template"
+  },
+  "result": {
+    "id": "explorerscompass:explorerscompass"
+  }
+}

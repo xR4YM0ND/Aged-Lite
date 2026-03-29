@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/copper_ingot",
+  "display": {
+    "icon": {
+      "id": "stal-alloys:bronze_ingot"
+    },
+    "title": {
+      "text": "Bronze Ingot"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 4.0,
+    "y_manual": 5.0
+  },
+  "criteria": {
+    "bronze_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stal-alloys:bronze_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bronze_ingot"
+    ]
+  ]
+}

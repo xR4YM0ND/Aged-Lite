@@ -1,0 +1,36 @@
+{
+  "parent": "questz:quests/crafting_rock",
+  "display": {
+    "icon": {
+      "id": "minecraft:fire_charge"
+    },
+    "title": {
+      "text": "Hot"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 2.0,
+    "y_manual": -3.0,
+    "criterion_overrides": {
+      "hot": "Enter hot biome"
+    }
+  },
+  "criteria": {
+    "hot": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "#c:is_hot/overworld"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hot"
+    ]
+  ]
+}

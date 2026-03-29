@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/withered_backpack",
+  "display": {
+    "icon": {
+      "id": "inmis:endless_backpack"
+    },
+    "title": {
+      "text": "Endless Backpack"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 9.0,
+    "y_manual": 2.0
+  },
+  "criteria": {
+    "endless_backpack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "inmis:endless_backpack"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "endless_backpack"
+    ]
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/engine",
+  "display": {
+    "icon": {
+      "id": "immersive_aircraft:eco_engine"
+    },
+    "title": {
+      "text": "Eco Engine"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 4.0,
+    "y_manual": 9.0
+  },
+  "criteria": {
+    "eco_engine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersive_aircraft:eco_engine"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "eco_engine"
+    ]
+  ]
+}

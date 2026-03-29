@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/wooden_brewingstation",
+  "display": {
+    "icon": {
+      "id": "brewery:copper_brewingstation"
+    },
+    "title": {
+      "text": "Copper Brewingstation"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 12.0,
+    "y_manual": 7.0
+  },
+  "criteria": {
+    "copper_brewingstation": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "brewery:copper_brewingstation"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "copper_brewingstation"
+    ]
+  ]
+}

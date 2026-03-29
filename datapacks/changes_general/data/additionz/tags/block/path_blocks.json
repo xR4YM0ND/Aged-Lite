@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:dirt_path",
+        "hearth_and_timber:splitstone_path",
+        "hearth_and_timber:mossy_splitstone_path",
+        "vinery:dirt_path_slab"
+    ]
+}

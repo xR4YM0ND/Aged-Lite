@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/resources",
+  "display": {
+    "icon": {
+      "id": "agedaddition:nickel_nugget"
+    },
+    "title": {
+      "text": "Nickel Nugget"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 2.0,
+    "y_manual": 3.0
+  },
+  "criteria": {
+    "nickel_nugget": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "agedaddition:nickel_nugget"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "nickel_nugget"
+    ]
+  ]
+}

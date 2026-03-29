@@ -1,0 +1,36 @@
+{
+  "parent": "questz:quests/crafting_rock",
+  "display": {
+    "icon": {
+      "id": "minecraft:snowball"
+    },
+    "title": {
+      "text": "Cold"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 2.0,
+    "y_manual": -1.0,
+    "criterion_overrides": {
+      "cold": "Enter cold biome"
+    }
+  },
+  "criteria": {
+    "cold": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "#c:is_cold/overworld"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cold"
+    ]
+  ]
+}

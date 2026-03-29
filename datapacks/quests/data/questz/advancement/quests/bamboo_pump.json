@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/rainwater_collector",
+  "display": {
+    "icon": {
+      "id": "dehydration:bamboo_pump"
+    },
+    "title": {
+      "text": "Bamboo Pump"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 3.0,
+    "y_manual": 5.0
+  },
+  "criteria": {
+    "bamboo_pump": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dehydration:bamboo_pump"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bamboo_pump"
+    ]
+  ]
+}

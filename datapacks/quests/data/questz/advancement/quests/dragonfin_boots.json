@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/fisher",
+  "display": {
+    "icon": {
+      "id": "tide:dragonfin_boots"
+    },
+    "title": {
+      "text": "Dragonfin Boots"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true,
+    "x_manual": 9.0,
+    "y_manual": 19.0
+  },
+  "criteria": {
+    "dragonfin_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tide:dragonfin_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dragonfin_boots"
+    ]
+  ]
+}

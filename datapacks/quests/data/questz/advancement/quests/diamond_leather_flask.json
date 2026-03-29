@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/golden_leather_flask",
+  "display": {
+    "icon": {
+      "id": "dehydration:diamond_leather_flask"
+    },
+    "title": {
+      "text": "Diamond Leather Flask"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 8.0,
+    "y_manual": 3.0
+  },
+  "criteria": {
+    "diamond_leather_flask": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dehydration:diamond_leather_flask"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "diamond_leather_flask"
+    ]
+  ]
+}

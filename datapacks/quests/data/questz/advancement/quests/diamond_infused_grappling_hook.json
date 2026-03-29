@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/gold_grappling_hook",
+  "display": {
+    "icon": {
+      "id": "yo_hooks:diamond_grappling_hook"
+    },
+    "title": {
+      "text": "Diamond Infused Grappling Hook"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 3.0,
+    "y_manual": 3.0
+  },
+  "criteria": {
+    "diamond_grappling_hook": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "yo_hooks:diamond_grappling_hook"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "diamond_grappling_hook"
+    ]
+  ]
+}

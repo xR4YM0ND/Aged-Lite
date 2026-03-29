@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/mincer",
+  "display": {
+    "icon": {
+      "id": "herbalbrews:copper_tea_kettle"
+    },
+    "title": {
+      "text": "Copper Tea Kettle"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 12.0,
+    "y_manual": 1.0
+  },
+  "criteria": {
+    "copper_tea_kettle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "herbalbrews:copper_tea_kettle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "copper_tea_kettle"
+    ]
+  ]
+}

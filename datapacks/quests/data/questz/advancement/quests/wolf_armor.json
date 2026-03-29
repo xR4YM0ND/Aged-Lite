@@ -1,0 +1,84 @@
+{
+  "parent": "questz:quests/cold",
+  "display": {
+    "icon": {
+      "id": "environmentz:wolf_helmet"
+    },
+    "title": {
+      "text": "Wolf Armor"
+    },
+    "description": {
+      "text": "Is more affective than normal armor"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 3.0,
+    "y_manual": -2.0
+  },
+  "criteria": {
+    "wolf_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "environmentz:wolf_helmet"
+            ]
+          }
+        ]
+      }
+    },
+    "wolf_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "environmentz:wolf_chestplate"
+            ]
+          }
+        ]
+      }
+    },
+    "wolf_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "environmentz:wolf_leggings"
+            ]
+          }
+        ]
+      }
+    },
+    "wolf_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "environmentz:wolf_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wolf_helmet"
+    ],
+    [
+      "wolf_chestplate"
+    ],
+    [
+      "wolf_leggings"
+    ],
+    [
+      "wolf_boots"
+    ]
+  ]
+}

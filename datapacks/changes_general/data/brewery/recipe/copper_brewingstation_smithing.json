@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "immersive_aircraft:boiler"
+    },
+    "C": {
+      "item": "dehydration:copper_cauldron"
+    },
+    "U": {
+      "item": "minecraft:copper_ingot"
+    },
+    "A": [
+      {
+        "tag": "stal-alloys:zinc_block"
+      },
+      {
+        "tag": "stal-alloys:nickel_block"
+      },
+      {
+        "tag": "minecraft:gold_block"
+      },
+      {
+        "tag": "agedaddition:bronze_block"
+      }
+    ]
+  },
+  "pattern": [
+    "  U",
+    "BCC",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "brewery:copper_brewingstation"
+  }
+}

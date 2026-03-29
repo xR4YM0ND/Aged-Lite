@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/farmer",
+  "display": {
+    "icon": {
+      "id": "farmz:sprinkler"
+    },
+    "title": {
+      "text": "Sprinkler"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 10.0,
+    "y_manual": 10.0
+  },
+  "criteria": {
+    "sprinkler": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmz:sprinkler"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sprinkler"
+    ]
+  ]
+}

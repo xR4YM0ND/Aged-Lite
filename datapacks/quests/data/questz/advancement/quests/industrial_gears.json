@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/machinist",
+  "display": {
+    "icon": {
+      "id": "immersive_aircraft:industrial_gears"
+    },
+    "title": {
+      "text": "Industrial Gears"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 1.0,
+    "y_manual": 10.0
+  },
+  "criteria": {
+    "industrial_gears": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersive_aircraft:industrial_gears"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "industrial_gears"
+    ]
+  ]
+}

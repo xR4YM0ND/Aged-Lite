@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/resources",
+  "display": {
+    "icon": {
+      "id": "agedaddition:nether_star_piece"
+    },
+    "title": {
+      "text": "Nether Star Piece"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true,
+    "x_manual": 6.0,
+    "y_manual": 15.0
+  },
+  "criteria": {
+    "nether_star_piece": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "agedaddition:nether_star_piece"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "nether_star_piece"
+    ]
+  ]
+}

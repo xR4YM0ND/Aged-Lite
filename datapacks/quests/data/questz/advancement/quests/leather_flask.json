@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/campfire",
+  "display": {
+    "icon": {
+      "id": "dehydration:leather_flask"
+    },
+    "title": {
+      "text": "Leather Flask"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 5.0,
+    "y_manual": 3.0
+  },
+  "criteria": {
+    "leather_flask": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dehydration:leather_flask"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "leather_flask"
+    ]
+  ]
+}

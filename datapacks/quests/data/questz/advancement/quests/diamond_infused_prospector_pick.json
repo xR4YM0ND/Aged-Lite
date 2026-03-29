@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/golden_prospector_pick",
+  "display": {
+    "icon": {
+      "id": "miningz:diamond_prospector_pick"
+    },
+    "title": {
+      "text": "Diamond Infused Prospector Pick"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 4.0,
+    "y_manual": 0.0
+  },
+  "criteria": {
+    "diamond_prospector_pick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "miningz:diamond_prospector_pick"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "diamond_prospector_pick"
+    ]
+  ]
+}

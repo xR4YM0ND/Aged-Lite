@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "earlystage:steel_sword"
+    },
+    "title": {
+      "text": "Equipment"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "meadow:textures/block/chambray_wool.png",
+    "x_manual": 0.0,
+    "y_manual": 0.0,
+    "tab_order": 3
+  },
+  "criteria": {
+    "equipment": {
+      "trigger": "minecraft:tick",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "equipment"
+    ]
+  ]
+}

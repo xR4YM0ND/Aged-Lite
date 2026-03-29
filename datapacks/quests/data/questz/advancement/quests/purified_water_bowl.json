@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/campfire",
+  "display": {
+    "icon": {
+      "id": "dehydration:purified_water_bowl"
+    },
+    "title": {
+      "text": "Purified Water Bowl"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 5.0,
+    "y_manual": 4.0
+  },
+  "criteria": {
+    "purified_water_bowl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dehydration:purified_water_bowl"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "purified_water_bowl"
+    ]
+  ]
+}

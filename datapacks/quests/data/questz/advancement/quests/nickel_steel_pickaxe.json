@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/basic_steel_pickaxe",
+  "display": {
+    "icon": {
+      "id": "agedaddition:nickel_steel_pickaxe"
+    },
+    "title": {
+      "text": "Nickel Steel Pickaxe"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 5.0,
+    "y_manual": 1.0
+  },
+  "criteria": {
+    "nickel_steel_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "agedaddition:nickel_steel_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "nickel_steel_pickaxe"
+    ]
+  ]
+}

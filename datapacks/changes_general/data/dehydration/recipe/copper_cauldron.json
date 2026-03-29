@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "agedaddition:copper_sheet"
+    },
+    "X": {
+      "item": "agedaddition:copper_rod"
+    }
+  },
+  "pattern": [
+    "# #",
+    "# #",
+    "X#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "dehydration:copper_cauldron"
+  }
+}

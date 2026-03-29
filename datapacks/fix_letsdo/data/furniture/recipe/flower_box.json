@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xax",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:brick"
+    },
+    "a": {
+      "tag": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "id": "furniture:flower_box"
+  }
+}

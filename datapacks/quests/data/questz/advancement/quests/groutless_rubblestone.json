@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/tuff",
+  "display": {
+    "icon": {
+      "id": "hearth_and_timber:groutless_rubblestone"
+    },
+    "title": {
+      "text": "Groutless Rubblestone"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 8.0,
+    "y_manual": -2.0
+  },
+  "criteria": {
+    "groutless_rubblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "hearth_and_timber:groutless_rubblestone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "groutless_rubblestone"
+    ]
+  ]
+}

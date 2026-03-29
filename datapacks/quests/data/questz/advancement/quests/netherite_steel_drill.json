@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/diamond_infused_drill",
+  "display": {
+    "icon": {
+      "id": "immersive_machinery:netherite_drill"
+    },
+    "title": {
+      "text": "Netherite Steel Drill"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 3.0,
+    "y_manual": 12.0
+  },
+  "criteria": {
+    "netherite_drill": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersive_machinery:netherite_drill"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "netherite_drill"
+    ]
+  ]
+}

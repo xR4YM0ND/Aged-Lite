@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/mincer",
+  "display": {
+    "icon": {
+      "id": "beachparty:mini_fridge"
+    },
+    "title": {
+      "text": "Mini Fridge"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 12.0,
+    "y_manual": 4.0
+  },
+  "criteria": {
+    "mini_fridge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "beachparty:mini_fridge"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mini_fridge"
+    ]
+  ]
+}

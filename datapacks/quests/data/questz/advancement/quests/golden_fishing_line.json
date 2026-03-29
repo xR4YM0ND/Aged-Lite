@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/fishing_line",
+  "display": {
+    "icon": {
+      "id": "tide:golden_line"
+    },
+    "title": {
+      "text": "Golden Fishing Line"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 11.0,
+    "y_manual": 18.0
+  },
+  "criteria": {
+    "golden_line": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tide:golden_line"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "golden_line"
+    ]
+  ]
+}

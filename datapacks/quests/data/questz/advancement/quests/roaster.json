@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/copper_cooking_pan",
+  "display": {
+    "icon": {
+      "id": "farm_and_charm:roaster"
+    },
+    "title": {
+      "text": "Roaster"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 13.0,
+    "y_manual": 2.0
+  },
+  "criteria": {
+    "roaster": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farm_and_charm:roaster"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "roaster"
+    ]
+  ]
+}

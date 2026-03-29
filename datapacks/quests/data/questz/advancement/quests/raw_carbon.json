@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/coal",
+  "display": {
+    "icon": {
+      "id": "stal-alloys:raw_carbon"
+    },
+    "title": {
+      "text": "Raw Carbon"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 3.0,
+    "y_manual": 8.0
+  },
+  "criteria": {
+    "raw_carbon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stal-alloys:raw_carbon"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "raw_carbon"
+    ]
+  ]
+}

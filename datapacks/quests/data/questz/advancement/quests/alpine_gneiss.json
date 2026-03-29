@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/limestone",
+  "display": {
+    "icon": {
+      "id": "alpinewhispers:alpine_gneiss"
+    },
+    "title": {
+      "text": "Alpine Gneiss"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 5.0,
+    "y_manual": -2.0
+  },
+  "criteria": {
+    "alpine_gneiss": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alpinewhispers:alpine_gneiss"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "alpine_gneiss"
+    ]
+  ]
+}

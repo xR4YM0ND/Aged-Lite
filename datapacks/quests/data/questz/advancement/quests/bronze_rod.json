@@ -1,0 +1,39 @@
+{
+  "parent": "questz:quests/bronze_ingot",
+  "display": {
+    "icon": {
+      "id": "agedaddition:bronze_rod"
+    },
+    "title": {
+      "text": "Bronze Rod"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 3.0,
+    "y_manual": 6.0
+  },
+  "criteria": {
+    "bronze_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "agedaddition:bronze_rod"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bronze_rod"
+    ]
+  ]
+}

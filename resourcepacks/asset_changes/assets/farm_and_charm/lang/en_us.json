@@ -1,0 +1,7 @@
+{
+  "entity.farm_and_charm.plow": "Hand Plow",
+  "item.farm_and_charm.plow": "Hand Plow",
+  "tooltip.farm_and_charm.plow_cart.title": "Hand Plow",
+  "tooltip.farm_and_charm.plow_cart.action_toggle": "Sneak and Right-Click to toggle the Hand Plow.",
+  "block.farm_and_charm.water_sprinkler": "Advanced Sprinkler"
+}

@@ -18,7 +18,7 @@
     "item": "armorandtools:aurium_ingot",
     "count": 1
   },
-  "min_forge_tier": 1,
+  "min_forge_tier": 2,
   "experience": 1.4,
   "fuel_per_tick": 60
 }

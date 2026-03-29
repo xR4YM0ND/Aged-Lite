@@ -1,0 +1,84 @@
+{
+  "parent": "questz:quests/iron_armor",
+  "display": {
+    "icon": {
+      "id": "armorandtools:aurium_helmet"
+    },
+    "title": {
+      "text": "Aurium Armor"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 4.0,
+    "y_manual": -2.0
+  },
+  "criteria": {
+    "aurium_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "armorandtools:aurium_leggings"
+            ]
+          }
+        ]
+      }
+    },
+    "aurium_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "armorandtools:aurium_boots"
+            ]
+          }
+        ]
+      }
+    },
+    "aurium_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "armorandtools:aurium_helmet"
+            ]
+          }
+        ]
+      }
+    },
+    "aurium_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "armorandtools:aurium_chestplate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "aurium_leggings"
+    ],
+    [
+      "aurium_boots"
+    ],
+    [
+      "aurium_helmet"
+    ],
+    [
+      "aurium_chestplate"
+    ]
+  ]
+}

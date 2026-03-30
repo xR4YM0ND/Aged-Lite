@@ -389,13 +389,17 @@
     "wildernature:cooked_turkey",
     "wildernature:cooked_turkey_meat",
     "wildernature:cooked_venison",
-    "beachparty:cooked_mussel_meat"
+    "beachparty:cooked_mussel_meat",
+    "tide:fish_satchel",
+    "adventurez:handbook"
   ],
   "advancementList": [],
   "itemList": [
     "meadow:watering_can",
     "stal-alloys:alloy_smelter",
     "earth-and-water:spiked_shield",
-    "tide:fish_satchel"
+    "tide:fish_satchel",
+    "adventurez:handbook",
+    "dehydration:handbook"
   ]
 }

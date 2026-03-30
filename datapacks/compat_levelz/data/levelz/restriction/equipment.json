@@ -9,17 +9,6 @@
       "minecraft:fishing_rod"
     ]
   },
-  "fish_satchel": {
-    "replace": false,
-    "skills": {
-      "seafaring": 3,
-      "provisioning": 3,
-      "masonry": 3
-    },
-    "crafting": [
-      "tide:fish_satchel"
-    ]
-  },
   "copper_armor": {
     "replace": false,
     "skills": {

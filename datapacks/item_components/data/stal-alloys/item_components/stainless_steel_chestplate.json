@@ -15,6 +15,13 @@
         "id": "minecraft:stainless_steel_chestplate_armor_toughness",
         "operation": "add_value",
         "slot": "chest"
+      },
+      {
+        "type": "minecraft:generic.knockback_resistance",
+        "amount": 0.4,
+        "id": "minecraft:stainless_steel_chestplate_knockback_resistance",
+        "operation": "add_value",
+        "slot": "chest"
       }
     ],
     "minecraft:max_damage": 2000

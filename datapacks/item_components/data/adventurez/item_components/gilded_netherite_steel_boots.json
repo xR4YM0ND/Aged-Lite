@@ -5,14 +5,21 @@
       {
         "type": "minecraft:generic.armor",
         "amount": 7.0,
-        "id": "minecraft:basic_steel_boots_armor",
+        "id": "minecraft:gilded_netherite_steel_boots_armor",
         "operation": "add_value",
         "slot": "feet"
       },
       {
         "type": "minecraft:generic.armor_toughness",
         "amount": 3.0,
-        "id": "minecraft:basic_steel_boots_armor_toughness",
+        "id": "minecraft:gilded_netherite_steel_boots_armor_toughness",
+        "operation": "add_value",
+        "slot": "feet"
+      },
+      {
+        "type": "minecraft:generic.knockback_resistance",
+        "amount": 0.8,
+        "id": "minecraft:gilded_netherite_steel_boots_knockback_resistance",
         "operation": "add_value",
         "slot": "feet"
       }

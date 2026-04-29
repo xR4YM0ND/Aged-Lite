@@ -15,6 +15,13 @@
         "id": "minecraft:stainless_steel_leggings_armor_toughness",
         "operation": "add_value",
         "slot": "legs"
+      },
+      {
+        "type": "minecraft:generic.knockback_resistance",
+        "amount": 0.4,
+        "id": "minecraft:stainless_steel_leggings_knockback_resistance",
+        "operation": "add_value",
+        "slot": "legs"
       }
     ],
     "minecraft:max_damage": 1900

@@ -1,21 +1,21 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "fleshz:hide"
-        },
-        {
-            "item": "minecraft:sugar"
-        },
-        {
-            "item": "meadow:alpine_salt"
-        },
-        {
-            "tag": "c:shards"
-        }
-    ],
-    "result": {
-        "id": "fleshz:prepared_hide",
-        "count": 1
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fleshz:hide"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "meadow:alpine_salt"
+    },
+    {
+      "item": "minecraft:string"
     }
+  ],
+  "result": {
+    "id": "fleshz:prepared_hide",
+    "count": 1
+  }
 }

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:fletching",
+    "top": {
+        "tag": "aged:ivory_arrow_ingredient"
+    },
+    "middle": {
+        "item": "minecraft:stick"
+    },
+    "bottom": {
+        "item": "minecraft:feather"
+    },
+    "addition": {
+        "id": "meadow:alpine_salt"
+    },
+    "result": {
+        "id": "adventurez:ivory_arrow",
+        "count": 6
+    }
+}

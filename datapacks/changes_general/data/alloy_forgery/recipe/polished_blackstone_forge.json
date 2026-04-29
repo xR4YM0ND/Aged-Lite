@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xlx",
+    "xfx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:polished_blackstone"
+    },
+    "l": [
+      {
+        "item": "minecraft:lava_bucket"
+      },
+      {
+        "item": "earlystage:lava_brick_bucket"
+      }
+    ],
+    "f": {
+      "item": "minecraft:blast_furnace"
+    }
+  },
+  "result": {
+    "id": "alloy_forgery:polished_blackstone_forge_controller",
+    "count": 1
+  }
+}

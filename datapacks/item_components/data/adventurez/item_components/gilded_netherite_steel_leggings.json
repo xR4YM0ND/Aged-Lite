@@ -7,14 +7,21 @@
         "amount": 7.0,
         "id": "minecraft:basic_steel_boots_armor",
         "operation": "add_value",
-        "slot": "feet"
+        "slot": "legs"
       },
       {
         "type": "minecraft:generic.armor_toughness",
         "amount": 4.0,
         "id": "minecraft:basic_steel_boots_armor_toughness",
         "operation": "add_value",
-        "slot": "feet"
+        "slot": "legs"
+      },
+      {
+        "type": "minecraft:generic.knockback_resistance",
+        "amount": 0.8,
+        "id": "minecraft:gilded_netherite_steel_boots_knockback_resistance",
+        "operation": "add_value",
+        "slot": "legs"
       }
     ],
     "minecraft:max_damage": 2200

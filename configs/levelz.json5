@@ -1,10 +1,10 @@
 {
 	// Maximum level: 0 = disabled
-	"overallMaxLevel": 140,
+	"overallMaxLevel": 70,
 	// In combination with overallMaxLevel, only when all skills maxed
-	"allowHigherSkillLevel": true,
+	"allowHigherSkillLevel": false,
 	"startPoints": 0,
-	"pointsPerLevel": 1,
+	"pointsPerLevel": 2,
 	/* If true will reset stats on death 
 	   !!!deprecated, not in use!!!
 	*/
@@ -23,61 +23,61 @@
 	// Bonus id: bowDamage
 	"bowDamageBonus": 0.5,
 	// Bonus id: bowDoubleDamageChance
-	"bowDoubleDamageChanceBonus": 0.10000000149011612,
+	"bowDoubleDamageChanceBonus": 0.1,
 	// Bonus id: crossbowDamage
 	"crossbowDamageBonus": 0.5,
 	// Bonus id: crossbowDoubleDamageChance
-	"crossbowDoubleDamageChanceBonus": 0.10000000149011612,
+	"crossbowDoubleDamageChanceBonus": 0.1,
 	// Bonus id: itemDamageChance
-	"itemDamageChanceBonus": 0.009999999776482582,
+	"itemDamageChanceBonus": 0.01,
 	// Bonus id: potionEffectChance
-	"potionEffectChanceBonus": 0.20000000298023224,
+	"potionEffectChanceBonus": 0.2,
 	// Bonus id: twinBreedChance
-	"twinBreedChanceBonus": 0.20000000298023224,
+	"twinBreedChanceBonus": 0.2,
 	// Bonus id: fallDamageReduction
-	"fallDamageReductionBonus": 0.20000000298023224,
+	"fallDamageReductionBonus": 0.2,
 	// Bonus id: deathGraceChance
-	"deathGraceChanceBonus": 0.20000000298023224,
+	"deathGraceChanceBonus": 0.2,
 	// Bonus id: tntStrength
 	"tntStrengthBonus": 1.0,
 	// Bonus id: priceDiscount
-	"priceDiscountBonus": 0.009999999776482582,
+	"priceDiscountBonus": 0.01,
 	// Bonus id: tradeXp
-	"tradeXpBonus": 0.019999999552965164,
+	"tradeXpBonus": 0.02,
 	// Bonus id: miningDropChance
-	"miningDropChanceBonus": 0.009999999776482582,
+	"miningDropChanceBonus": 0.01,
 	// Bonus id: plantDropChance
-	"plantDropChanceBonus": 0.009999999776482582,
+	"plantDropChanceBonus": 0.01,
 	// Bonus id: anvilXpCap
 	"anvilXpCap": 30,
 	// Bonus id: anvilXpDiscount
-	"anvilXpDiscountBonus": 0.009999999776482582,
+	"anvilXpDiscountBonus": 0.01,
 	// Bonus id: anvilXpChance
-	"anvilXpChanceBonus": 0.009999999776482582,
+	"anvilXpChanceBonus": 0.01,
 	// Bonus id: healthRegen
-	"healthRegenBonus": 0.02500000037252903,
+	"healthRegenBonus": 0.025,
 	// Bonus id: healthAbsorption
 	"healthAbsorptionBonus": 4.0,
 	// Bonus id: exhaustionReduction
-	"exhaustionReductionBonus": 0.019999999552965164,
+	"exhaustionReductionBonus": 0.02,
 	// Bonus id: knockbackAttackChance
-	"meleeKnockbackAttackChanceBonus": 0.009999999776482582,
+	"meleeKnockbackAttackChanceBonus": 0.01,
 	// Bonus id: criticalAttackChance
-	"meleeCriticalAttackChanceBonus": 0.009999999776482582,
+	"meleeCriticalAttackChanceBonus": 0.01,
 	// Bonus id: meleeCriticalAttackDamage
-	"meleeCriticalAttackDamageBonus": 0.30000001192092896,
+	"meleeCriticalAttackDamageBonus": 0.3,
 	// Bonus id: meleeDoubleAttackDamageChance
-	"meleeDoubleAttackDamageChanceBonus": 0.20000000298023224,
+	"meleeDoubleAttackDamageChanceBonus": 0.2,
 	// Bonus id: foodIncreasion
-	"foodIncreasionBonus": 0.019999999552965164,
+	"foodIncreasionBonus": 0.02,
 	// Bonus id: damageReflection
-	"damageReflectionBonus": 0.019999999552965164,
+	"damageReflectionBonus": 0.02,
 	// Bonus id: damageReflectionChance
-	"damageReflectionChanceBonus": 0.004999999888241291,
+	"damageReflectionChanceBonus": 0.005,
 	// Bonus id: evadingDamageChance
-	"evadingDamageChanceBonus": 0.10000000149011612,
+	"evadingDamageChanceBonus": 0.1,
 	// XP equation: lvl^exponent * multiplicator + base
-	"xpCostMultiplicator": 0.10000000149011612,
+	"xpCostMultiplicator": 0.1,
 	"xpExponent": 2,
 	"xpBaseCost": 50,
 	// 0 = no experience cap
@@ -85,14 +85,14 @@
 	"resetCurrentXp": true,
 	"dropXPbasedOnLvl": false,
 	// 0.01 = 1% more xp per lvl
-	"basedOnMultiplier": 0.009999999776482582,
+	"basedOnMultiplier": 0.01,
 	"breedingXPMultiplier": 1.0,
 	"bottleXPMultiplier": 1.0,
 	"dragonXPMultiplier": 0.5,
-	"fishingXPMultiplier": 0.800000011920929,
-	"furnaceXPMultiplier": 0.10000000149011612,
+	"fishingXPMultiplier": 0.8,
+	"furnaceXPMultiplier": 0.1,
 	"oreXPMultiplier": 1.0,
-	"tradingXPMultiplier": 0.30000001192092896,
+	"tradingXPMultiplier": 0.3,
 	"mobXPMultiplier": 1.0,
 	"spawnerMobXP": false,
 	// Highlight locked blocks in red., client only

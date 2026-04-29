@@ -24,11 +24,11 @@
   "disable_elytra_on_damage_time": 40,
   "disable_elytra_underwater": true,
   "husk_drops_sand": true,
-  "trident_buried_treasure": true,
+  "trident_buried_treasure": false,
   "villager_sleeping_eyes": true,
-  "villager_gender": false,
+  "villager_gender": true,
   "villager_needs_space": true,
-  "max_iron_golem_villager_spawn": 0,
+  "max_iron_golem_villager_spawn": 3,
   "path_block_under_gates": true,
   "shovel_undo_farmland": true,
   "beacon_shield_pattern": true,
@@ -46,7 +46,7 @@
   "show_jukebox_disc": true,
   "snow_under_trees": true,
   "spawn_not_on_leaves": true,
-  "campfire_rain_extinguish": 80,
+  "campfire_rain_extinguish": 160,
   "strays_affected_by_daylight": false,
   "start_riding_fall_damage": true,
   "boat_fall_damage_nerf": true,
@@ -64,8 +64,8 @@
   ],
   "passive_entity_modifications": true,
   "passiveEntityConfig": {
-    "baby_to_adult_time": -72000,
-    "passive_age_calculation": 1440000,
-    "passive_max_age": 10
+    "baby_to_adult_time": -24000,
+    "passive_age_calculation": 360000,
+    "passive_max_age": 12
   }
 }

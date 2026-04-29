@@ -13,10 +13,10 @@
     },
     "A": [
       {
-        "item": "minecraft:lava_bucket"
+        "item": "minecraft:coal"
       },
       {
-        "item": "earlystage:lava_brick_bucket"
+        "item": "minecraft:charcoal"
       }
     ]
   },

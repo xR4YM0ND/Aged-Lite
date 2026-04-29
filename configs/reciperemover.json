@@ -391,7 +391,12 @@
     "wildernature:cooked_venison",
     "beachparty:cooked_mussel_meat",
     "tide:fish_satchel",
-    "adventurez:handbook"
+    "adventurez:handbook",
+    "minecraft:arrow",
+    "minecraft:spectral_arrow",
+    "natures_spirit:cheese_arrow",
+    "adventurez:ivory_arrow",
+    "minecraft:tipped_arrow"
   ],
   "advancementList": [],
   "itemList": [

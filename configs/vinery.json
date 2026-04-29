@@ -1,0 +1,219 @@
+{
+  "blocks": {
+    "totalFermentationTime": 6000,
+    "maxFluidLevel": 100,
+    "maxFluidIncrease": 25,
+    "applePressMashingTime": 600,
+    "applePressFermentationTime": 800,
+    "cherryGrowthChance": 0.4,
+    "appleGrowthChance": 0.4,
+    "grapeGrowthChance": 0.5,
+    "grapeGrowthMultiplier": 1.0
+  },
+  "items": {
+    "wine": {
+      "startDuration": 1800,
+      "maxDuration": 15000,
+      "maxLevel": 5,
+      "durationPerYear": 200,
+      "daysPerYear": 60,
+      "yearsPerEffectLevel": 1
+    },
+    "banner": {
+      "giveEffect": true,
+      "showTooltip": true
+    }
+  },
+  "villager": {
+    "level1": {
+      "level": 1,
+      "trades": [
+        {
+          "item": "vinery:red_grape",
+          "type": "BUY",
+          "price": 15,
+          "count": 1,
+          "maxUses": 4,
+          "experience": 5
+        },
+        {
+          "item": "vinery:white_grape",
+          "type": "BUY",
+          "price": 15,
+          "count": 1,
+          "maxUses": 4,
+          "experience": 5
+        },
+        {
+          "item": "vinery:red_grape_seeds",
+          "type": "SELL",
+          "price": 2,
+          "count": 1,
+          "maxUses": 1,
+          "experience": 5
+        },
+        {
+          "item": "vinery:white_grape_seeds",
+          "type": "SELL",
+          "price": 2,
+          "count": 1,
+          "maxUses": 1,
+          "experience": 5
+        }
+      ]
+    },
+    "level2": {
+      "level": 2,
+      "trades": [
+        {
+          "item": "vinery:wine_bottle",
+          "type": "SELL",
+          "price": 1,
+          "count": 1,
+          "maxUses": 4,
+          "experience": 7
+        },
+        {
+          "item": "vinery:cherry",
+          "type": "BUY",
+          "price": 12,
+          "count": 1,
+          "maxUses": 4,
+          "experience": 6
+        },
+        {
+          "item": "vinery:apple_mash",
+          "type": "SELL",
+          "price": 1,
+          "count": 1,
+          "maxUses": 4,
+          "experience": 6
+        }
+      ]
+    },
+    "level3": {
+      "level": 3,
+      "trades": [
+        {
+          "item": "vinery:white_grape_bag",
+          "type": "SELL",
+          "price": 7,
+          "count": 1,
+          "maxUses": 2,
+          "experience": 10
+        },
+        {
+          "item": "vinery:red_grape_bag",
+          "type": "SELL",
+          "price": 7,
+          "count": 1,
+          "maxUses": 2,
+          "experience": 10
+        },
+        {
+          "item": "vinery:cherry_bag",
+          "type": "SELL",
+          "price": 7,
+          "count": 1,
+          "maxUses": 2,
+          "experience": 10
+        },
+        {
+          "item": "vinery:apple_bag",
+          "type": "SELL",
+          "price": 7,
+          "count": 1,
+          "maxUses": 2,
+          "experience": 10
+        }
+      ]
+    },
+    "level4": {
+      "level": 4,
+      "trades": [
+        {
+          "item": "vinery:window",
+          "type": "SELL",
+          "price": 12,
+          "count": 1,
+          "maxUses": 2,
+          "experience": 10
+        },
+        {
+          "item": "vinery:dark_cherry_beam",
+          "type": "SELL",
+          "price": 6,
+          "count": 4,
+          "maxUses": 2,
+          "experience": 10
+        },
+        {
+          "item": "vinery:grapevine_pot",
+          "type": "SELL",
+          "price": 6,
+          "count": 1,
+          "maxUses": 2,
+          "experience": 10
+        },
+        {
+          "item": "vinery:taiga_red_grape_seeds",
+          "type": "SELL",
+          "price": 2,
+          "count": 1,
+          "maxUses": 2,
+          "experience": 5
+        },
+        {
+          "item": "vinery:taiga_white_grape_seeds",
+          "type": "SELL",
+          "price": 2,
+          "count": 1,
+          "maxUses": 2,
+          "experience": 5
+        }
+      ]
+    },
+    "level5": {
+      "level": 5,
+      "trades": [
+        {
+          "item": "vinery:wine_box",
+          "type": "SELL",
+          "price": 10,
+          "count": 1,
+          "maxUses": 2,
+          "experience": 10
+        },
+        {
+          "item": "vinery:lilitu_wine",
+          "type": "SELL",
+          "price": 4,
+          "count": 1,
+          "maxUses": 2,
+          "experience": 10
+        },
+        {
+          "item": "vinery:winemaker_apron",
+          "type": "SELL",
+          "price": 18,
+          "count": 1,
+          "maxUses": 1,
+          "experience": 15
+        },
+        {
+          "item": "vinery:straw_hat",
+          "type": "SELL",
+          "price": 12,
+          "count": 1,
+          "maxUses": 1,
+          "experience": 12
+        }
+      ]
+    }
+  },
+  "trader": {
+    "spawnChance": 0.2,
+    "spawnWithMules": true,
+    "spawnDelay": 48000
+  }
+}

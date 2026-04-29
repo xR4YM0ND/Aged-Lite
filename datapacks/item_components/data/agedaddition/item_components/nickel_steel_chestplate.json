@@ -15,6 +15,13 @@
         "id": "minecraft:nickel_steel_chestplate_armor_toughness",
         "operation": "add_value",
         "slot": "chest"
+      },
+      {
+        "type": "minecraft:generic.knockback_resistance",
+        "amount": 0.2,
+        "id": "minecraft:nickel_steel_chestplate_knockback_resistance",
+        "operation": "add_value",
+        "slot": "chest"
       }
     ],
     "minecraft:max_damage": 1400

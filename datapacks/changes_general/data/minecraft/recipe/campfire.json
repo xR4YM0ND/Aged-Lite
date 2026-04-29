@@ -2,9 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "C": {
-      "tag": "earlystage:bark_items"
-    },
+    "C": [
+      {
+        "tag": "minecraft:coals"
+      },
+      {
+        "tag": "earlystage:bark_items"
+      }
+    ],
     "L": {
       "tag": "minecraft:logs"
     },

@@ -396,7 +396,8 @@
     "minecraft:spectral_arrow",
     "natures_spirit:cheese_arrow",
     "adventurez:ivory_arrow",
-    "minecraft:tipped_arrow"
+    "minecraft:tipped_arrow",
+    "minecraft:golden_carrot"
   ],
   "advancementList": [],
   "itemList": [

@@ -1,0 +1,9 @@
+version:3955
+fullscreen:true
+realmsNotifications:false
+darkMojangStudiosBackground:true
+hideSplashTexts:true
+resourcePacks:["vanilla","fabric","earlystage:natures_spirit_earlystage_compat","earlystage:dehydration_earlystage_compat","earlystage:meadow_earlystage_compat","scholar:colored_books","earlystage:beachparty_earlystage_compat","scholar:chiseled_bookshelf_colored_books","spoiledz:adventurez_spoiledz_compat","asset_changes","compat_levelz","fixes","moonlight:merged_pack","natures_spirit_ores","file/Antique_Atlas_4_Compat_v1.3.zip","accessorify:1_21_1/rp"]
+incompatibleResourcePacks:["appleskin","badoptimizations","distraction_free_recipes","emiffect","emiprofessions","entity_model_features","entity_sound_features","entity_texture_features","jade","kiwi","modernfix","passablefoliage","sereneseasons","terrablender","txnilib","yet_another_config_lib_v3"]
+lang:en_us
+skipMultiplayerWarning:true

@@ -2,7 +2,7 @@
   "parent": "questz:quests/agro_culinary",
   "display": {
     "icon": {
-      "id": "minecraft:salmon"
+      "id": "minecraft:fishing_rod"
     },
     "title": {
       "text": "Fisher"
@@ -11,19 +11,24 @@
       "text": ""
     },
     "frame": "task",
-    "show_toast": false,
+    "show_toast": true,
     "announce_to_chat": false,
     "hidden": false,
     "x_manual": 9.0,
-    "y_manual": 13.0,
-    "criterion_overrides": {
-      "fisher": "Any fish"
-    }
+    "y_manual": 13.0
   },
   "criteria": {
     "fisher": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {}
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:fishing_rod"
+            ]
+          }
+        ]
+      }
     }
   },
   "requirements": [

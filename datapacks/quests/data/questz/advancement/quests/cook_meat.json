@@ -1,0 +1,309 @@
+{
+  "parent": "questz:quests/campfire",
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_beef"
+    },
+    "title": {
+      "text": "Cook Meat"
+    },
+    "description": {
+      "text": "Get some proteins"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "x_manual": 5.0,
+    "y_manual": 5.0
+  },
+  "criteria": {
+    "cook_meat_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cooked_beef"
+            ]
+          }
+        ]
+      }
+    },
+    "cook_meat_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cooked_porkchop"
+            ]
+          }
+        ]
+      }
+    },
+    "cook_meat_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cooked_mutton"
+            ]
+          }
+        ]
+      }
+    },
+    "cook_meat_4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cooked_chicken"
+            ]
+          }
+        ]
+      }
+    },
+    "cook_meat_5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cooked_rabbit"
+            ]
+          }
+        ]
+      }
+    },
+    "cook_meat_6": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "adventurez:cooked_mammoth_meat"
+            ]
+          }
+        ]
+      }
+    },
+    "cook_meat_7": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "adventurez:cooked_iguana_meat"
+            ]
+          }
+        ]
+      }
+    },
+    "cook_meat_8": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "adventurez:cooked_ender_whale_meat"
+            ]
+          }
+        ]
+      }
+    },
+    "cook_meat_9": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "adventurez:cooked_rhino_meat"
+            ]
+          }
+        ]
+      }
+    },
+    "cook_meat_10": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "adventurez:cooked_venison"
+            ]
+          }
+        ]
+      }
+    },
+    "cook_meat_11": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "adventurez:cooked_warthog_meat"
+            ]
+          }
+        ]
+      }
+    },
+    "cook_meat_12": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "adventurez:cooked_skunk_meat"
+            ]
+          }
+        ]
+      }
+    },
+    "cook_meat_13": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alpinewhispers:cooked_reindeer"
+            ]
+          }
+        ]
+      }
+    },
+    "cook_meat_14": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "meadow:cooked_buffalo_meat"
+            ]
+          }
+        ]
+      }
+    },
+    "cook_meat_15": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wildernature:cooked_bison_meat"
+            ]
+          }
+        ]
+      }
+    },
+    "cook_meat_16": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wildernature:cooked_venison"
+            ]
+          }
+        ]
+      }
+    },
+    "cook_meat_17": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wildernature:cooked_cassowary_meat"
+            ]
+          }
+        ]
+      }
+    },
+    "cook_meat_18": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wildernature:cooked_turkey_meat"
+            ]
+          }
+        ]
+      }
+    },
+    "cook_meat_19": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wildernature:cooked_pelican_meat"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cook_meat_1"
+    ],
+    [
+      "cook_meat_2"
+    ],
+    [
+      "cook_meat_3"
+    ],
+    [
+      "cook_meat_4"
+    ],
+    [
+      "cook_meat_5"
+    ],
+    [
+      "cook_meat_6"
+    ],
+    [
+      "cook_meat_7"
+    ],
+    [
+      "cook_meat_8"
+    ],
+    [
+      "cook_meat_9"
+    ],
+    [
+      "cook_meat_10"
+    ],
+    [
+      "cook_meat_11"
+    ],
+    [
+      "cook_meat_12"
+    ],
+    [
+      "cook_meat_13"
+    ],
+    [
+      "cook_meat_14"
+    ],
+    [
+      "cook_meat_15"
+    ],
+    [
+      "cook_meat_16"
+    ],
+    [
+      "cook_meat_17"
+    ],
+    [
+      "cook_meat_18"
+    ],
+    [
+      "cook_meat_19"
+    ]
+  ]
+}

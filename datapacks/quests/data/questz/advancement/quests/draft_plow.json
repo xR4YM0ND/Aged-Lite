@@ -11,24 +11,179 @@
       "text": ""
     },
     "frame": "task",
-    "show_toast": false,
+    "show_toast": true,
     "announce_to_chat": false,
     "hidden": false,
     "x_manual": 11.0,
-    "y_manual": 9.0,
-    "criterion_overrides": {
-      "draft_plows": "#c:draft_plows"
-    }
+    "y_manual": 9.0
   },
   "criteria": {
-    "draft_plows": {
+    "draft_plows_1": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {}
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "niftycarts:oak_plow"
+            ]
+          }
+        ]
+      }
+    },
+    "draft_plows_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "niftycarts:spruce_plow"
+            ]
+          }
+        ]
+      }
+    },
+    "draft_plows_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "niftycarts:birch_plow"
+            ]
+          }
+        ]
+      }
+    },
+    "draft_plows_4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "niftycarts:acacia_plow"
+            ]
+          }
+        ]
+      }
+    },
+    "draft_plows_5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "niftycarts:cherry_plow"
+            ]
+          }
+        ]
+      }
+    },
+    "draft_plows_6": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "niftycarts:jungle_plow"
+            ]
+          }
+        ]
+      }
+    },
+    "draft_plows_7": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "niftycarts:dark_oak_plow"
+            ]
+          }
+        ]
+      }
+    },
+    "draft_plows_8": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "niftycarts:crimson_plow"
+            ]
+          }
+        ]
+      }
+    },
+    "draft_plows_9": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "niftycarts:warped_plow"
+            ]
+          }
+        ]
+      }
+    },
+    "draft_plows_10": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "niftycarts:mangrove_plow"
+            ]
+          }
+        ]
+      }
+    },
+    "draft_plows_11": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "niftycarts:bamboo_plow"
+            ]
+          }
+        ]
+      }
     }
   },
   "requirements": [
     [
-      "draft_plows"
+      "draft_plows_1"
+    ],
+    [
+      "draft_plows_2"
+    ],
+    [
+      "draft_plows_3"
+    ],
+    [
+      "draft_plows_4"
+    ],
+    [
+      "draft_plows_5"
+    ],
+    [
+      "draft_plows_6"
+    ],
+    [
+      "draft_plows_7"
+    ],
+    [
+      "draft_plows_8"
+    ],
+    [
+      "draft_plows_9"
+    ],
+    [
+      "draft_plows_10"
+    ],
+    [
+      "draft_plows_11"
     ]
   ]
 }

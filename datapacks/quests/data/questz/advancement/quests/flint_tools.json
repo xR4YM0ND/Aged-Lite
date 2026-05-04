@@ -15,20 +15,85 @@
     "announce_to_chat": false,
     "hidden": false,
     "x_manual": 3.0,
-    "y_manual": 3.0,
-    "criterion_overrides": {
-      "flint_tools": "#earlystage:flint_tools"
-    }
+    "y_manual": 3.0
   },
   "criteria": {
-    "flint_tools": {
+    "flint_tools_1": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {}
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "earlystage:flint_sword"
+            ]
+          }
+        ]
+      }
+    },
+    "flint_tools_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "earlystage:flint_axe"
+            ]
+          }
+        ]
+      }
+    },
+    "flint_tools_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "earlystage:flint_pickaxe"
+            ]
+          }
+        ]
+      }
+    },
+    "flint_tools_4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "earlystage:flint_shovel"
+            ]
+          }
+        ]
+      }
+    },
+    "flint_tools_5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "earlystage:flint_hoe"
+            ]
+          }
+        ]
+      }
     }
   },
   "requirements": [
     [
-      "flint_tools"
+      "flint_tools_1"
+    ],
+    [
+      "flint_tools_2"
+    ],
+    [
+      "flint_tools_3"
+    ],
+    [
+      "flint_tools_4"
+    ],
+    [
+      "flint_tools_5"
     ]
   ]
 }

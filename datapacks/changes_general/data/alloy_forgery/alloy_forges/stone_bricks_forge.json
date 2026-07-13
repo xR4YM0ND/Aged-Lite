@@ -1,9 +1,0 @@
-{
-  "material": "minecraft:stone_bricks",
-  "additional_materials": [
-    "minecraft:chiseled_stone_bricks",
-    "minecraft:cracked_stone_bricks",
-    "minecraft:mossy_stone_bricks"
-  ],
-  "tier": 1
-}

@@ -1,10 +1,13 @@
 {
-  "inventoryRecipeBookX": 0,
+  "inventoryRecipeBookX": 40,
   "inventoryRecipeBookY": 0,
   "printErrorMessage": false,
   "printRecipesAndAdvancements": false,
   "removeAllVanillaAdvancements": false,
   "removeAllAdvancements": false,
+  "removeAllAdvancementsExcept": [
+    "questz"
+  ],
   "recipeList": [
     "alloy_forgery:copper_block",
     "alloy_forgery:copper_from_ores",
@@ -117,7 +120,7 @@
     "minecraft:iron_ingot_from_smelting_iron_ore",
     "minecraft:iron_ingot_from_smelting_raw_iron",
     "minecraft:iron_nugget_from_blasting",
-    "minecraft.iron_nugget_from_smelting",
+    "minecraft:iron_nugget_from_smelting",
     "minecraft:gold_ingot_from_blasting_deepslate_gold_ore",
     "minecraft:gold_ingot_from_blasting_gold_ore",
     "minecraft:gold_ingot_from_blasting_nether_gold_ore",
@@ -397,7 +400,8 @@
     "natures_spirit:cheese_arrow",
     "adventurez:ivory_arrow",
     "minecraft:tipped_arrow",
-    "minecraft:golden_carrot"
+    "minecraft:golden_carrot",
+    "minecraft:bread"
   ],
   "advancementList": [],
   "itemList": [

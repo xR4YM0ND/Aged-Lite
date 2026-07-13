@@ -1,0 +1,40 @@
+{
+  "id": "cupellation:high-grade_steel",
+  "name": "metal.cupellation.high-grade_steel",
+  "required_temp": 1000,
+  "color": "FF8A80",
+  "cooled_color": "4A5568",
+  "texture": "cupellation:fluid/molten_netherite",
+  "ingot": "earlystage:steel_ingot",
+  "block": "earlystage:steel_block",
+  "flux_item": "cupellation:calcite_powder",
+  "density": 190,
+  "alloy_from": [
+    {
+      "metal": "cupellation:diamond_infused",
+      "parts": 1
+    },
+    {
+      "metal": "cupellation:nickel_steel",
+      "parts": 1
+    },
+    {
+      "metal": "cupellation:chrome_steel",
+      "parts": 1
+    }
+  ],
+  "grades": {
+    "low": {
+      "min": 1000,
+      "max": 1150
+    },
+    "mid": {
+      "min": 1150,
+      "max": 1300
+    },
+    "high": {
+      "min": 1300,
+      "max": 1400
+    }
+  }
+}

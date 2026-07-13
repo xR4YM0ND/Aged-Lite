@@ -1,0 +1,25 @@
+{
+  "id": "cupellation:forgotten_steel",
+  "name": "metal.cupellation.forgotten_steel",
+  "required_temp": 1500,
+  "color": "C3E0E0",
+  "cooled_color": "AFC9C9",
+  "texture": "cupellation:fluid/molten_iron",
+  "ingot": "earth-and-water:steel_ingot",
+  "flux_item": "cupellation:calcite_powder",
+  "density": 280,
+  "grades": {
+    "low": {
+      "min": 1500,
+      "max": 1600
+    },
+    "mid": {
+      "min": 1600,
+      "max": 1700
+    },
+    "high": {
+      "min": 1700,
+      "max": 1800
+    }
+  }
+}

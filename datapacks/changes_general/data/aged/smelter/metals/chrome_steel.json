@@ -1,0 +1,36 @@
+{
+  "id": "cupellation:chrome_steel",
+  "name": "metal.cupellation.chrome_steel",
+  "required_temp": 800,
+  "color": "#B862FF",
+  "cooled_color": "6A4C93",
+  "texture": "cupellation:fluid/molten_iron",
+  "ingot": "agedaddition:chrome_steel_ingot",
+  "block": "agedaddition:chrome_steel_block",
+  "flux_item": "cupellation:calcite_powder",
+  "density": 135,
+  "alloy_from": [
+    {
+      "metal": "cupellation:chromium",
+      "parts": 9
+    },
+    {
+      "metal": "cupellation:basic_steel",
+      "parts": 3
+    }
+  ],
+  "grades": {
+    "low": {
+      "min": 800,
+      "max": 950
+    },
+    "mid": {
+      "min": 950,
+      "max": 1100
+    },
+    "high": {
+      "min": 1100,
+      "max": 1200
+    }
+  }
+}

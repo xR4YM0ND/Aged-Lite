@@ -1,0 +1,36 @@
+{
+  "id": "cupellation:nickel_steel",
+  "name": "metal.cupellation.nickel_steel",
+  "required_temp": 850,
+  "color": "#FF7F50",
+  "cooled_color": "A0A9AF",
+  "texture": "cupellation:fluid/molten_iron",
+  "ingot": "agedaddition:nickel_steel_ingot",
+  "block": "agedaddition:nickel_steel_block",
+  "flux_item": "cupellation:calcite_powder",
+  "density": 140,
+  "alloy_from": [
+    {
+      "metal": "cupellation:nickel",
+      "parts": 9
+    },
+    {
+      "metal": "cupellation:basic_steel",
+      "parts": 3
+    }
+  ],
+  "grades": {
+    "low": {
+      "min": 850,
+      "max": 950
+    },
+    "mid": {
+      "min": 950,
+      "max": 1100
+    },
+    "high": {
+      "min": 1100,
+      "max": 1200
+    }
+  }
+}

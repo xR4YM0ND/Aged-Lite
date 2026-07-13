@@ -1,0 +1,6 @@
+{
+  "item": "stal-alloys:tin_ingot",
+  "metal_type": "cupellation:tin",
+  "smelt_time": 200,
+  "yield": 144
+}

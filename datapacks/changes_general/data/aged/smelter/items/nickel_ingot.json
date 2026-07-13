@@ -1,0 +1,6 @@
+{
+  "item": "stal-alloys:nickel_ingot",
+  "metal_type": "cupellation:nickel",
+  "smelt_time": 200,
+  "yield": 144
+}

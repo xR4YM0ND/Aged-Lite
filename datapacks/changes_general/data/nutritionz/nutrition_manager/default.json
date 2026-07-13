@@ -1,6 +1,6 @@
 {
   "carbohydrates": {
-    "replace": false,
+    "replace": true,
     "positive": {
       "generic.attack_speed": {
         "operation": "ADD_VALUE",
@@ -23,7 +23,7 @@
     }
   },
   "protein": {
-    "replace": false,
+    "replace": true,
     "positive": {
       "generic.attack_damage": {
         "operation": "ADD_VALUE",
@@ -46,7 +46,7 @@
     }
   },
   "fat": {
-    "replace": false,
+    "replace": true,
     "positive": {
       "generic.armor": {
         "operation": "ADD_VALUE",
@@ -71,7 +71,7 @@
     }
   },
   "vitamins": {
-    "replace": false,
+    "replace": true,
     "positive": {
       "generic.max_health": {
         "operation": "ADD_VALUE",

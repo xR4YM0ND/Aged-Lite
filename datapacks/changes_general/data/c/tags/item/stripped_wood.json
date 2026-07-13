@@ -1,0 +1,33 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:stripped_oak_wood",
+    "minecraft:stripped_spruce_wood",
+    "minecraft:stripped_birch_wood",
+    "minecraft:stripped_jungle_wood",
+    "minecraft:stripped_acacia_wood",
+    "minecraft:stripped_dark_oak_wood",
+    "minecraft:stripped_mangrove_wood",
+    "minecraft:stripped_cherry_wood",
+    "natures_spirit:stripped_redwood_wood",
+    "natures_spirit:stripped_sugi_wood",
+    "natures_spirit:stripped_wisteria_wood",
+    "natures_spirit:stripped_fir_wood",
+    "natures_spirit:stripped_willow_wood",
+    "natures_spirit:stripped_aspen_wood",
+    "natures_spirit:stripped_maple_wood",
+    "natures_spirit:stripped_cypress_wood",
+    "natures_spirit:stripped_olive_wood",
+    "natures_spirit:stripped_ghaf_wood",
+    "natures_spirit:stripped_palo_verde_wood",
+    "natures_spirit:stripped_coconut_wood",
+    "natures_spirit:stripped_cedar_wood",
+    "natures_spirit:stripped_larch_wood",
+    "natures_spirit:stripped_mahogany_wood",
+    "natures_spirit:stripped_saxaul_wood",
+    "alpinewhispers:stripped_arolla_pine_wood",
+    "beachparty:stripped_palm_wood",
+    "meadow:stripped_pine_wood",
+    "vinery:stripped_dark_cherry_wood"
+  ]
+}

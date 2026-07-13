@@ -1,0 +1,36 @@
+{
+  "id": "cupellation:stainless_steel",
+  "name": "metal.cupellation.stainless_steel",
+  "required_temp": 1300,
+  "color": "FFB6C1",
+  "cooled_color": "C0C0C0",
+  "texture": "cupellation:fluid/molten_copper",
+  "ingot": "stal-alloys:stainless_steel_ingot",
+  "block": "agedaddition:stainless_steel_block",
+  "flux_item": "cupellation:calcite_powder",
+  "density": 210,
+  "alloy_from": [
+    {
+      "metal": "cupellation:high-grade_steel",
+      "parts": 2
+    },
+    {
+      "metal": "cupellation:aurium",
+      "parts": 6
+    }
+  ],
+  "grades": {
+    "low": {
+      "min": 1300,
+      "max": 1400
+    },
+    "mid": {
+      "min": 1400,
+      "max": 1500
+    },
+    "high": {
+      "min": 1500,
+      "max": 1600
+    }
+  }
+}

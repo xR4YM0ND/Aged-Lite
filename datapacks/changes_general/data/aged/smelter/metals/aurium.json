@@ -1,0 +1,36 @@
+{
+  "id": "cupellation:aurium",
+  "name": "metal.cupellation.aurium",
+  "required_temp": 600,
+  "color": "FFED4E",
+  "cooled_color": "FFC700",
+  "texture": "cupellation:fluid/molten_gold",
+  "ingot": "armorandtools:aurium_ingot",
+  "block": "armorandtools:aurium_block",
+  "flux_item": "cupellation:calcite_powder",
+  "density": 100,
+  "alloy_from": [
+    {
+      "metal": "cupellation:iron",
+      "parts": 2
+    },
+    {
+      "metal": "cupellation:gold",
+      "parts": 1
+    }
+  ],
+  "grades": {
+    "low": {
+      "min": 600,
+      "max": 800
+    },
+    "mid": {
+      "min": 800,
+      "max": 1000
+    },
+    "high": {
+      "min": 1000,
+      "max": 1100
+    }
+  }
+}

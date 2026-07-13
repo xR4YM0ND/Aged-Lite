@@ -1,0 +1,25 @@
+{
+  "id": "cupellation:tin",
+  "name": "metal.cupellation.tin",
+  "required_temp": 200,
+  "color": "#FF6B35",
+  "cooled_color": "C0C0C0",
+  "texture": "cupellation:fluid/molten_iron",
+  "ingot": "stal-alloys:tin_ingot",
+  "flux_item": "cupellation:calcite_powder",
+  "density": 70,
+  "grades": {
+    "low": {
+      "min": 200,
+      "max": 400
+    },
+    "mid": {
+      "min": 400,
+      "max": 600
+    },
+    "high": {
+      "min": 600,
+      "max": 700
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "replace": true,
+  "id": "cupellation:nether_smelter",
+  "max_temperature": 1500,
+  "blocks": [
+    "minecraft:red_nether_bricks",
+    "cupellation:red_nether_brick_smelter",
+    "cupellation:red_nether_brick_glass",
+    "cupellation:red_nether_brick_drain"
+  ],
+  "allowed_metals": [
+    "cupellation:tin",
+    "cupellation:copper",
+    "cupellation:bronze",
+    "cupellation:gold",
+    "cupellation:iron",
+    "cupellation:rose_gold",
+    "cupellation:zinc",
+    "cupellation:nickel",
+    "cupellation:basic_steel",
+    "cupellation:aurium",
+    "cupellation:chromium",
+    "cupellation:diamond",
+    "cupellation:nickel_steel",
+    "cupellation:chrome_steel",
+    "cupellation:diamond_infused",
+    "cupellation:high-grade_steel",
+    "cupellation:debris",
+    "cupellation:netherite",
+    "cupellation:stainless_steel"
+  ]
+}

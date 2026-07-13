@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "AOA",
+    "LBL"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:feather"
+    },
+    "O": {
+      "item": "immersive_aircraft:gyroscope_dials"
+    },
+    "A": {
+      "item": "immersive_aircraft:gyroscope"
+    },
+    "B": {
+      "item": "immersive_aircraft:gyroscope_hud"
+    },
+    "L": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "result": {
+    "id": "sereneseasons:calendar",
+    "count": 1
+  }
+}

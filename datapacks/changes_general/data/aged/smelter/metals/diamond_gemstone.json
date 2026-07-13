@@ -1,0 +1,25 @@
+{
+  "id": "cupellation:diamond_gemstone",
+  "name": "metal.cupellation.diamond",
+  "required_temp": 900,
+  "color": "E0FFFF",
+  "cooled_color": "00CED1",
+  "texture": "cupellation:fluid/molten_netherite",
+  "block": "minecraft:diamond_block",
+  "flux_item": "cupellation:calcite_powder",
+  "density": 155,
+  "grades": {
+    "low": {
+      "min": 900,
+      "max": 1050
+    },
+    "mid": {
+      "min": 1050,
+      "max": 1200
+    },
+    "high": {
+      "min": 1200,
+      "max": 1300
+    }
+  }
+}

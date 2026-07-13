@@ -1,0 +1,6 @@
+{
+  "item": "stal-alloys:steel_ingot",
+  "metal_type": "cupellation:basic_steel",
+  "smelt_time": 200,
+  "yield": 144
+}

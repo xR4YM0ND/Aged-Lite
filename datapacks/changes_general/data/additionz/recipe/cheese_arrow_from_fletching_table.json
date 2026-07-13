@@ -1,16 +1,13 @@
 {
     "type": "minecraft:fletching",
     "top": {
-        "item": "minecraft:flint"
+        "tag": "aged:cheese_arrow_ingredient"
     },
     "middle": {
         "item": "minecraft:stick"
     },
     "bottom": {
         "item": "minecraft:feather"
-    },
-    "addition": {
-        "id": "aged:cheese_arrow_ingredient"
     },
     "result": {
         "id": "natures_spirit:cheese_arrow",

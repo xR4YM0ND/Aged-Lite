@@ -1,0 +1,6 @@
+{
+  "item": "stal-alloys:steel_block",
+  "metal_type": "cupellation:basic_steel",
+  "smelt_time": 1800,
+  "yield": 1296
+}

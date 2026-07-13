@@ -1,0 +1,6 @@
+{
+  "replace": true,
+  "item": "minecraft:charcoal",
+  "max_temperature": 500,
+  "burn_time": 1600
+}

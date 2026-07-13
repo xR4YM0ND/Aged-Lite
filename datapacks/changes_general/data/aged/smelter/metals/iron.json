@@ -1,0 +1,26 @@
+{
+  "id": "cupellation:iron",
+  "name": "metal.cupellation.iron",
+  "required_temp": 500,
+  "color": "FF4500",
+  "cooled_color": "36454F",
+  "texture": "cupellation:fluid/molten_iron",
+  "ingot": "minecraft:iron_ingot",
+  "block": "minecraft:iron_block",
+  "flux_item": "cupellation:calcite_powder",
+  "density": 105,
+  "grades": {
+    "low": {
+      "min": 500,
+      "max": 700
+    },
+    "mid": {
+      "min": 700,
+      "max": 800
+    },
+    "high": {
+      "min": 800,
+      "max": 900
+    }
+  }
+}

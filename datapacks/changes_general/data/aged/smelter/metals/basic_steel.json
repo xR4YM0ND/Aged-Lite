@@ -1,0 +1,36 @@
+{
+  "id": "cupellation:basic_steel",
+  "name": "metal.cupellation.basic_steel",
+  "required_temp": 600,
+  "color": "FF6347",
+  "cooled_color": "70798C",
+  "texture": "cupellation:fluid/molten_iron",
+  "ingot": "stal-alloys:steel_ingot",
+  "block": "stal-alloys:steel_block",
+  "flux_item": "cupellation:calcite_powder",
+  "density": 125,
+  "alloy_from": [
+    {
+      "metal": "cupellation:iron",
+      "parts": 9
+    },
+    {
+      "metal": "cupellation:zinc",
+      "parts": 1
+    }
+  ],
+  "grades": {
+    "low": {
+      "min": 600,
+      "max": 800
+    },
+    "mid": {
+      "min": 800,
+      "max": 1000
+    },
+    "high": {
+      "min": 1000,
+      "max": 1100
+    }
+  }
+}

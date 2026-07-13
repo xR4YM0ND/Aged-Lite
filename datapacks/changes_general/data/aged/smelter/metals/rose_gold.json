@@ -1,0 +1,36 @@
+{
+  "id": "cupellation:rose_gold",
+  "name": "metal.cupellation.rose_gold",
+  "required_temp": 450,
+  "color": "FF69B4",
+  "cooled_color": "B76E79",
+  "texture": "cupellation:fluid/molten_gold",
+  "ingot": "rosegoldequipment:rose_gold_ingot",
+  "block": "rosegoldequipment:rose_gold_block",
+  "flux_item": "cupellation:calcite_powder",
+  "density": 125,
+  "alloy_from": [
+    {
+      "metal": "cupellation:gold",
+      "parts": 1
+    },
+    {
+      "metal": "cupellation:copper",
+      "parts": 2
+    }
+  ],
+  "grades": {
+    "low": {
+      "min": 450,
+      "max": 650
+    },
+    "mid": {
+      "min": 650,
+      "max": 850
+    },
+    "high": {
+      "min": 850,
+      "max": 950
+    }
+  }
+}

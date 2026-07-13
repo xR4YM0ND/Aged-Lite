@@ -1,0 +1,26 @@
+{
+  "id": "cupellation:zinc",
+  "name": "metal.cupellation.zinc",
+  "required_temp": 500,
+  "color": "#FFE4B5",
+  "cooled_color": "A8A9AD",
+  "texture": "cupellation:fluid/molten_iron",
+  "ingot": "stal-alloys:zinc_ingot",
+  "block": "stal-alloys:zinc_block",
+  "flux_item": "cupellation:calcite_powder",
+  "density": 75,
+  "grades": {
+    "low": {
+      "min": 500,
+      "max": 700
+    },
+    "mid": {
+      "min": 700,
+      "max": 900
+    },
+    "high": {
+      "min": 900,
+      "max": 1000
+    }
+  }
+}

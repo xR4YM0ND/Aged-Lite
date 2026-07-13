@@ -1,5 +1,11 @@
 # Aged Light 4.x Changelog
 
+## Aged Light 4.x alpha v3
+- Fixed recipe book location
+- Default Accessories screen
+- Changed some recipes
+- Tweaked Crafting Rock recipes
+
 ## Aged Light 4.x alpha v2
 Hey guys, after numerous rewrites, here is finally a public alpha version of Aged Light 1.21.1.
 

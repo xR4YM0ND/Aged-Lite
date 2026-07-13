@@ -1,0 +1,32 @@
+{
+  "replace": true,
+  "id": "cupellation:deepslate_smelter",
+  "max_temperature": 1200,
+  "blocks": [
+    "minecraft:deepslate_bricks",
+    "minecraft:deepslate_tiles",
+    "minecraft:polished_deepslate",
+    "cupellation:deepslate_brick_smelter",
+    "cupellation:deepslate_brick_glass",
+    "cupellation:deepslate_brick_drain"
+  ],
+  "block_tag": "minecraft:deepslate_bricks",
+  "allowed_metals": [
+    "cupellation:tin",
+    "cupellation:copper",
+    "cupellation:bronze",
+    "cupellation:gold",
+    "cupellation:iron",
+    "cupellation:rose_gold",
+    "cupellation:zinc",
+    "cupellation:nickel",
+    "cupellation:basic_steel",
+    "cupellation:aurium",
+    "cupellation:chromium",
+    "cupellation:diamond",
+    "cupellation:nickel_steel",
+    "cupellation:chrome_steel",
+    "cupellation:diamond_infused",
+    "cupellation:high-grade_steel"
+  ]
+}

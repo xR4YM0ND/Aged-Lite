@@ -1,0 +1,6 @@
+{
+  "item": "stal-alloys:zinc_ingot",
+  "metal_type": "cupellation:zinc",
+  "smelt_time": 200,
+  "yield": 144
+}

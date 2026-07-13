@@ -1,0 +1,36 @@
+{
+  "logbegone": {
+    "phrases": [
+      "Disconnecting VANILLA connection attempt",
+      "Channels ",
+      "Here at Wisp Forest© we employ Wisp Tech Support™ magic, which solves your problem when you ask",
+      "No data fixer registered for",
+      "[McQoy]",
+      "Empty or non-existent pool: minecraft:south",
+      "Empty or non-existent pool: crazy_chambers:melee_spawner",
+      "Block-attached entity at invalid position:",
+      "Empty or non-existent pool: minecraft:south",
+      "Empty or non-existent pool: minecraft:north",
+      "Empty or non-existent pool: minecraft:east",
+      "Empty or non-existent pool: minecraft:west",
+      "Skipping Entity with id",
+      "Detected setBlock in a far chunk"
+    ],
+    "regex": [
+      "Disconnecting VANILLA connection attempt",
+      "Channels ",
+      "Here at Wisp Forest© we employ Wisp Tech Support™ magic, which solves your problem when you ask",
+      "No data fixer registered for",
+      "[McQoy]",
+      "Empty or non-existent pool: minecraft:south",
+      "Empty or non-existent pool: crazy_chambers:melee_spawner",
+      "Block-attached entity at invalid position:",
+      "Empty or non-existent pool: minecraft:south",
+      "Empty or non-existent pool: minecraft:north",
+      "Empty or non-existent pool: minecraft:east",
+      "Empty or non-existent pool: minecraft:west",
+      "Skipping Entity with id",
+      "Detected setBlock in a far chunk"
+    ]
+  }
+}

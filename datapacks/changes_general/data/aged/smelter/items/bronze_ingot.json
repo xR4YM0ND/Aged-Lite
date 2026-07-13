@@ -1,0 +1,6 @@
+{
+  "item": "stal-alloys:bronze_ingot",
+  "metal_type": "cupellation:bronze",
+  "smelt_time": 200,
+  "yield": 144
+}

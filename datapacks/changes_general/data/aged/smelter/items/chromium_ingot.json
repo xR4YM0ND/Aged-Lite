@@ -1,0 +1,6 @@
+{
+  "item": "stal-alloys:chromium_ingot",
+  "metal_type": "cupellation:chromium",
+  "smelt_time": 200,
+  "yield": 144
+}

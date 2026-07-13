@@ -1,0 +1,35 @@
+{
+  "id": "cupellation:diamond_infused",
+  "name": "metal.cupellation.diamond_infused",
+  "required_temp": 950,
+  "color": "87CEEB",
+  "cooled_color": "4A90E2",
+  "texture": "cupellation:fluid/molten_netherite",
+  "ingot": "armorandtools:diamond_ingot",
+  "flux_item": "cupellation:calcite_powder",
+  "density": 160,
+  "alloy_from": [
+    {
+      "metal": "cupellation:diamond",
+      "parts": 9
+    },
+    {
+      "metal": "cupellation:basic_steel",
+      "parts": 3
+    }
+  ],
+  "grades": {
+    "low": {
+      "min": 950,
+      "max": 1100
+    },
+    "mid": {
+      "min": 1100,
+      "max": 1250
+    },
+    "high": {
+      "min": 1250,
+      "max": 1350
+    }
+  }
+}

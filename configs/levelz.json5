@@ -88,13 +88,13 @@
 	"basedOnMultiplier": 0.01,
 	"breedingXPMultiplier": 1.0,
 	"bottleXPMultiplier": 1.0,
-	"dragonXPMultiplier": 0.5,
-	"fishingXPMultiplier": 0.8,
-	"furnaceXPMultiplier": 0.1,
+	"dragonXPMultiplier": 1.0,
+	"fishingXPMultiplier": 0.0,
+	"furnaceXPMultiplier": 1.0,
 	"oreXPMultiplier": 1.0,
-	"tradingXPMultiplier": 0.3,
+	"tradingXPMultiplier": 1.0,
 	"mobXPMultiplier": 1.0,
-	"spawnerMobXP": false,
+	"spawnerMobXP": true,
 	// Highlight locked blocks in red., client only
 	"highlightLocked": false,
 	// client only

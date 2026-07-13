@@ -1,0 +1,26 @@
+{
+  "id": "cupellation:chromium",
+  "name": "metal.cupellation.chromium",
+  "required_temp": 750,
+  "color": "#9D4EDD",
+  "cooled_color": "5A189A",
+  "texture": "cupellation:fluid/molten_iron",
+  "ingot": "stal-alloys:chromium_ingot",
+  "block": "stal-alloys:chromium_block",
+  "flux_item": "cupellation:calcite_powder",
+  "density": 65,
+  "grades": {
+    "low": {
+      "min": 750,
+      "max": 900
+    },
+    "mid": {
+      "min": 900,
+      "max": 1050
+    },
+    "high": {
+      "min": 1050,
+      "max": 1150
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "cupellation:bronze",
+  "name": "metal.cupellation.bronze",
+  "required_temp": 400,
+  "color": "FF9F43",
+  "cooled_color": "CD7F32",
+  "texture": "cupellation:fluid/molten_copper",
+  "ingot": "stal-alloys:bronze_ingot",
+  "block": "agedaddition:bronze_block",
+  "flux_item": "cupellation:calcite_powder",
+  "density": 100,
+  "alloy_from": [
+    {
+      "metal": "cupellation:tin",
+      "parts": 1
+    },
+    {
+      "metal": "cupellation:copper",
+      "parts": 3
+    }
+  ],
+  "grades": {
+    "low": {
+      "min": 400,
+      "max": 600
+    },
+    "mid": {
+      "min": 600,
+      "max": 800
+    },
+    "high": {
+      "min": 800,
+      "max": 900
+    }
+  }
+}

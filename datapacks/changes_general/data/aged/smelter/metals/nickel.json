@@ -1,0 +1,26 @@
+{
+  "id": "cupellation:nickel",
+  "name": "metal.cupellation.nickel",
+  "required_temp": 600,
+  "color": "#FFD1DC",
+  "cooled_color": "C0C0C0",
+  "texture": "cupellation:fluid/molten_iron",
+  "ingot": "stal-alloys:nickel_ingot",
+  "block": "stal-alloys:nickel_block",
+  "flux_item": "cupellation:calcite_powder",
+  "density": 80,
+  "grades": {
+    "low": {
+      "min": 600,
+      "max": 800
+    },
+    "mid": {
+      "min": 800,
+      "max": 1000
+    },
+    "high": {
+      "min": 1000,
+      "max": 1100
+    }
+  }
+}

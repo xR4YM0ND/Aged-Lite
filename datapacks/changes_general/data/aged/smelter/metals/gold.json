@@ -1,0 +1,26 @@
+{
+  "id": "cupellation:gold",
+  "name": "metal.cupellation.gold",
+  "required_temp": 450,
+  "color": "FFD700",
+  "cooled_color": "FFD700",
+  "texture": "cupellation:fluid/molten_gold",
+  "ingot": "minecraft:gold_ingot",
+  "block": "minecraft:gold_block",
+  "flux_item": "cupellation:calcite_powder",
+  "density": 193,
+  "grades": {
+    "low": {
+      "min": 450,
+      "max": 650
+    },
+    "mid": {
+      "min": 650,
+      "max": 850
+    },
+    "high": {
+      "min": 850,
+      "max": 950
+    }
+  }
+}
